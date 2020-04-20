@@ -1,6 +1,6 @@
 <template>
   <div class="journal-list">
-    <div v-for="post in journal" :key="post.title" class="post">
+    <div v-for="post in blog" :key="post.title" class="post">
       <router-link tag="h2" :to="post.path" class="title">{{ post.frontmatter.title }}</router-link>
       <p>{{ post.frontmatter.excerpt }}</p>
     </div>
@@ -10,9 +10,9 @@
 <script>
   export default {
     computed: {
-      journal() {
+      blog() {
         return this.$site.pages
-          .filter(x => x.path.startsWith('/journal/') && !x.frontmatter.journal_index)
+          .filter(x => x.path.startsWith('/blog/') && !x.frontmatter.journal_index)
           .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date))
       }
     }
