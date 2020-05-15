@@ -21,8 +21,8 @@ about_list:
     clientes en inglés o francés.
 main_image: "/upload/portfolio.vuepress/public/upload/scott-graham-oqmzwnd3thu-unsplash.jpg"
 banner:
-  banner_text: ''
-  banner_image: ''
+  banner_text: "Visite nuestro despacho, \Lestaremos encantados de atenderle"
+  banner_image: "/upload/portfolio.vuepress/public/upload/scott-graham-oqmzwnd3thu-unsplash.jpg"
 
 ---
 <AboutList 
