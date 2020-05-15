@@ -1,11 +1,18 @@
 <template>
-  <h1 v-if="text" class="title" v-html="text" />
+  <div>
+    <h1 v-if="pretitle" class="pretitle" v-html="pretitle" />
+    <h2 v-if="title" class="title" v-html="title" />
+  </div>
 </template>
 
 <script>
 export default {
   props: {
-    text: {
+    title: {
+      type: String,
+      required: false
+    },
+    pretitle: {
       type: String,
       required: false
     }
