@@ -65,6 +65,59 @@ fields:
   - name: city
     label: Ciudad
     type: text
+- name: transports
+  type: field_group_list
+  fields:
+  - name: transport_label
+    type: text
+    config:
+      required: false
+    label: Tipo de transporte
+  - name: transport_text
+    type: text
+    config:
+      required: false
+    label: Descripción
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Cómo Llegar
+- name: schedule
+  type: field_group
+  config: {}
+  fields:
+  - name: schedule_long
+    type: field_group_list
+    fields:
+    - name: item
+      type: text
+      config:
+        required: false
+      label: Elemento
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Horarios versión larga
+    description: Lista de horarios en los que escribimos los días con su texto completo
+      (Lunes, Martes...)
+  - name: schedule_short
+    type: field_group_list
+    fields:
+    - name: item
+      type: text
+      config:
+        required: false
+      label: Elemento
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Horarios Versión Abreviada
+    description: Versión abreviada de los horarios (pe. L-V 12-14h)
+  label: Horarios
+  description: Horarios del negocio
 - name: navigation
   label: Navigation
   type: field_group_list
@@ -95,23 +148,5 @@ fields:
     default: ''
   hidden: false
   default: ''
-- name: transports
-  type: field_group_list
-  fields:
-  - name: transport_label
-    type: text
-    config:
-      required: false
-    label: Tipo de transporte
-  - name: transport_text
-    type: text
-    config:
-      required: false
-    label: Descripción
-  config:
-    min: 
-    max: 
-    labelField: 
-  label: Cómo Llegar
 pages:
 - portfolio/config.json
