@@ -4,20 +4,12 @@
     <h1 v-if="pretitle" class="pretitle" v-html="pretitle" />
     <h2 v-if="title" class="title" v-html="title" />
 
-    <router-link
-      :to="post.path"
-      tag="div"
-      v-for="post in posts"
-      :key="post.title"
-      class="post"
-    >
-
-      <div class="info">
-        <h2>{{ post.frontmatter.title }}</h2>
-        <span v-if="post.frontmatter.description">{{ post.frontmatter.description }}</span>
-      </div>
-
-    </router-link>
+    <ul>
+      <li v-for="item in list">
+        <h2>{{ item.about_list_title }}</h2>
+        <div>{{ item.about_list_text }}</div>
+      </li>
+    </ul>
 
   </div>
 </template>
@@ -31,6 +23,10 @@
       },
       pretitle: {
         type: String,
+        required: false
+      },
+      list: {
+        type: Array,
         required: false
       }
     },
