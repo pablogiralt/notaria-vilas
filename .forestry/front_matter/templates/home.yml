@@ -9,7 +9,6 @@ fields:
 - type: text
   name: about_pre_title
   label: Pre Título de Sobre Nosotros
-  hidden: true
 - type: textarea
   name: about_title
   label: Título Sobre Nosotros
