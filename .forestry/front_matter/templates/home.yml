@@ -43,5 +43,20 @@ fields:
     max: 
     labelField: 
   label: Sobre La Notaría
+- name: banner
+  type: field_group
+  config: {}
+  fields:
+  - name: banner_text
+    type: text
+    config:
+      required: false
+    label: Texto
+  - name: banner_image
+    type: file
+    config:
+      maxSize: 64
+    label: Imagen
+  label: Imagen Con Texto
 pages:
 - portfolio/index.md
