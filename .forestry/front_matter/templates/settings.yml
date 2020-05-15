@@ -68,12 +68,12 @@ fields:
 - name: transports
   label: Cómo llegar
   type: field_group_list
-  - name: label
+  - name: transport_label
     label: Tipo de transporte
     type: text
     hidden: false
     default: ''
-  - name: text
+  - name: transport_text
     label: Transporte
     type: text
     hidden: false

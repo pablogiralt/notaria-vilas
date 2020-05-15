@@ -24,16 +24,16 @@
   },
   "transports": [
     {
-      "label": "parking",
-      "text": "Avenida del Mediterráneo, 28"
+      "transport_label": "parking",
+      "transport_text": "Avenida del Mediterráneo, 28"
     },
     {
-      "label": "metro",
-      "text": "Conde de Casal"
+      "transport_label": "metro",
+      "transport_text": "Conde de Casal"
     },
     {
-      "label": "bus",
-      "text": "Lineas 12, 34 y 29"
+      "transport_label": "bus",
+      "transport_text": "Lineas 12, 34 y 29"
     }
   ],
   "schedule": {
