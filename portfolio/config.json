@@ -44,6 +44,14 @@
     "short": [
       "L-V 9-14h",
       "L,M,X,J 16:30-19h"
+    ],
+    "schedule_long": [
+      {
+        "item": "De lunes a viernes de 9:00 a 14:00h."
+      }
+    ],
+    "schedule_short": [
+
     ]
   },
   "socialMedia": {
