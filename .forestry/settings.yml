@@ -10,11 +10,6 @@ sections:
   templates:
   - settings
 - type: directory
-  path: portfolio/about
-  label: Sobre Nosotros
-  create: all
-  match: "**/*"
-- type: directory
   path: portfolio/works
   label: Works
   create: all
