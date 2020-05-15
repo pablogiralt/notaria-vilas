@@ -37,14 +37,6 @@
     }
   ],
   "schedule": {
-    "long": [
-      "De lunes a viernes de 9:00 a 14:00h.",
-      "Por las tardes: lunes, martes, miércoles y jueves de 16:30 a 19:00h"
-    ],
-    "short": [
-      "L-V 9-14h",
-      "L,M,X,J 16:30-19h"
-    ],
     "schedule_long": [
       {
         "item": "De lunes a viernes de 9:00 a 14:00h."
@@ -62,7 +54,7 @@
       }
     ]
   },
-  "socialMedia": {
+  "social_media": {
     "facebook": "https://www.facebook.com/Notar%C3%ADa-Vilas-801786883239459/",
     "twitter": "https://twitter.com/notariavilasmad"
   },

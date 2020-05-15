@@ -16,15 +16,15 @@
       <p>
         <ul v-if="transports">
           <li v-for="transport in transports">
-            {{ transport.label }} | {{ transport.text }}
+            {{ transport.transport_label }} | {{ transport.transport_text }}
           </li>
         </ul>
       </p>
 
       <p>
         <strong>Horario de atención</strong>
-        <ul v-if="horarios">
-          <li v-for="horario in horarios">{{ horario }}</li>
+        <ul v-if="schedules">
+          <li v-for="schedule in schedules">{{ schedule.item }}</li>
         </ul>
       </p>
     </div>
@@ -40,8 +40,8 @@
       }
     },
     computed: {
-      horarios() {
-        return this.$site.themeConfig.schedule.long
+      schedules() {
+        return this.$site.themeConfig.schedule.schedule_long
       },
       transports() {
         return this.$site.themeConfig.transports
