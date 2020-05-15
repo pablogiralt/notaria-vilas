@@ -7,6 +7,10 @@ module.exports = {
     logo: config.logo,
     footer: config.footer,
     nav: config.navigation,
+    phones: config.phones,
+    nav: config.navigation,
+    email: config.email,
+    socialMedia: config.socialMedia,
   },
   head: [
     ['link', { rel: "icon", href: config.favicon }]

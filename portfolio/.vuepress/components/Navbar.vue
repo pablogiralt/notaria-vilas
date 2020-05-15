@@ -9,6 +9,13 @@
     }"
   >
 
+    <div>
+      <ul v-if="contact.phones" v-for="phone in contact.phones">
+        <a v-bind:href="'tel:' + phone.link">{{ phone.visible }}</a>
+      </ul>
+    </div>
+
+
     <nav v-if="navLinks" class="navigation left desktop-nav">
       <ul>
         <router-link
@@ -102,6 +109,13 @@
     computed: {
       navLinks() {
         return this.$site.themeConfig.nav
+      },
+      contact() {
+        return {
+          "phones": this.$site.themeConfig.phones,
+          "email": this.$site.themeConfig.email,
+          "socialMedia": this.$site.themeConfig.socialMedia
+        }
       },
     },
     methods: {

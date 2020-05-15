@@ -4,6 +4,23 @@
     "logo": "/upload/logo.svg",
     "footer": "Ⓒ Acme",
     "favicon": "favicon-32x32.png",
+    "phones": [
+      {
+        "visible": "915014100",
+        "link": "+34915014100"
+      },
+      {
+        "visible": "915015265",
+        "link": "+34915015265"
+      }
+    ],
+    "email": "notariavilas@notariavilas.com",
+    "socialMedia": [
+      {
+        "facebook": "https://www.facebook.com/Notar%C3%ADa-Vilas-801786883239459/",
+        "twitter": "https://twitter.com/notariavilasmad"
+      }
+    ],
     "navigation": [
       {
         "text": "Contacto",
