@@ -148,5 +148,25 @@ fields:
     default: ''
   hidden: false
   default: ''
+- name: social_media
+  type: field_group
+  config: {}
+  fields:
+  - name: facebook
+    type: text
+    config:
+      required: false
+    label: Facebook
+  - name: twitter
+    type: text
+    config:
+      required: false
+    label: Twitter
+  - name: instagram
+    type: text
+    config:
+      required: false
+    label: Instagram
+  label: Redes Sociales
 pages:
 - portfolio/config.json
