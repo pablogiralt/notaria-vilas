@@ -6,9 +6,13 @@ fields:
   name: title
   label: title
   hidden: true
+- type: text
+  name: about_pre_title
+  label: Pre Título de Sobre Nosotros
+  hidden: true
 - type: textarea
-  name: hero_text
-  label: Hero text
+  name: about_title
+  label: Título Sobre Nosotros
   config:
     wysiwyg: true
     schema:

@@ -14,9 +14,11 @@
       </p>
 
       <p>
-        Parking | {{ transporte.parking }}<br>
-        Metro | {{ transporte.metro }}<br>
-        Bus | {{ transporte.bus }}
+        <ul v-if="transports">
+          <li v-for="transport in transports">
+            {{ transport.label }} | {{ transport.text }}
+          </li>
+        </ul>
       </p>
 
       <p>
@@ -25,7 +27,6 @@
           <li v-for="horario in horarios">{{ horario }}</li>
         </ul>
       </p>
-
     </div>
   </div>
 </template>
@@ -40,18 +41,16 @@
     },
     computed: {
       horarios() {
-        return this.$site.themeConfig.horarios.largo
+        return this.$site.themeConfig.schedule.long
       },
-      transporte() {
-        return this.$site.themeConfig.transporte
+      transports() {
+        return this.$site.themeConfig.transports
       },
       contact() {
-
         let phoneLinks = [];
         this.$site.themeConfig.phones.forEach(function(phone) {
           phoneLinks.push('<a href="tel:' + phone.link + '">' + phone.visible + '</a>');
         });
-
         return {
           "phones": phoneLinks.join(' – '),
           "fax": this.$site.themeConfig.fax,

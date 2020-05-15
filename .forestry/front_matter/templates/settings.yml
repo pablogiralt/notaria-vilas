@@ -65,6 +65,19 @@ fields:
   - name: city
     label: Ciudad
     type: text
+- name: transports
+  label: Cómo llegar
+  type: field_group_list
+  - name: label
+    label: Tipo de transporte
+    type: text
+    hidden: false
+    default: ''
+  - name: text
+    label: Transporte
+    type: text
+    hidden: false
+    default: ''
 - name: navigation
   label: Navigation
   type: field_group_list

@@ -22,17 +22,26 @@
     "postalCode": "28007",
     "city": "Madrid"
   },
-  "transporte": {
-    "parking": "Avenida del Mediterráneo, 28",
-    "metro": "Conde de Casal",
-    "bus": "Lineas 12, 34 y 29"
-  },
-  "horarios": {
-    "largo": [
+  "transports": [
+    {
+      "label": "parking",
+      "text": "Avenida del Mediterráneo, 28"
+    },
+    {
+      "label": "metro",
+      "text": "Conde de Casal"
+    },
+    {
+      "label": "bus",
+      "text": "Lineas 12, 34 y 29"
+    }
+  ],
+  "schedule": {
+    "long": [
       "De lunes a viernes de 9:00 a 14:00h.",
       "Por las tardes: lunes, martes, miércoles y jueves de 16:30 a 19:00h"
     ],
-    "abreviado": [
+    "short": [
       "L-V 9-14h",
       "L,M,X,J 16:30-19h"
     ]
