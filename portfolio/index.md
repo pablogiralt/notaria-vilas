@@ -10,8 +10,11 @@ about_list:
     despacho notarial se encuentra bajo la dirección de Don Ricardo Vilas de Escauriaza,
     quien junto a un equipo conformado por nueve profesionales jóvenes y eficaces,
     se encarga de atender las necesidades de nuestros clientes.
-- about_list_title: ''
-  about_list_text: ''
+- about_list_title: El Despacho
+  about_list_text: Nuestro despacho notarial no posee barreras arquitectónicas, ya
+    que estamos situados en Conde Cartagena, una de las calles más funcionales y accesibles
+    de todo Madrid; por otro lado, en nuestras instalaciones no hay escalones que
+    puedan dificultar la circulación de las personas que nos visitan en silla de ruedas.
 - about_list_title: ''
   about_list_text: ''
 
