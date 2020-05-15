@@ -7,4 +7,5 @@ titulo: "Somos un despacho notarial con amplia experiencia en el sector y trabaj
 
 <Hero :title="$page.frontmatter.titulo" :pretitle="$page.frontmatter.pre_titulo" />
 <AboutList />
+<Contact />
 <!--<WorksList />-->

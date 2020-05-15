@@ -6,21 +6,41 @@
     "favicon": "favicon-32x32.png",
     "phones": [
       {
-        "visible": "915014100",
+        "visible": "915 014 100",
         "link": "+34915014100"
       },
       {
-        "visible": "915015265",
+        "visible": "915 015 265",
         "link": "+34915015265"
       }
     ],
+    "fax": "915017296",
     "email": "notariavilas@notariavilas.com",
-    "socialMedia": [
-      {
+    "address": {
+      "street": "Calle del Conde de Cartagena, 43",
+      "street2": "Esquina avenida Mediterráneo 35",
+      "postalCode": "28007",
+      "city": "Madrid"
+    },
+    "transporte": {
+      "parking": "Avenida del Mediterráneo, 28",
+      "metro": "Conde de Casal",
+      "bus": "Lineas 12, 34 y 29"
+    },
+    "horarios": {
+      "largo": [
+        "De lunes a viernes de 9:00 a 14:00h.",
+        "Por las tardes: lunes, martes, miércoles y jueves de 16:30 a 19:00h"
+      ],
+      "abreviado": [
+        "L-V 9-14h",
+        "L,M,X,J 16:30-19h"
+      ]
+    },
+    "socialMedia": {
         "facebook": "https://www.facebook.com/Notar%C3%ADa-Vilas-801786883239459/",
         "twitter": "https://twitter.com/notariavilasmad"
-      }
-    ],
+    },
     "navigation": [
       {
         "text": "Contacto",

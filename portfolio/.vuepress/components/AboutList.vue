@@ -23,9 +23,6 @@
   export default {
     computed: {
       posts() {
-        console.log(this.$site.pages
-          .filter(x => x.path.startsWith('/about/'))
-          .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date)));
         return this.$site.pages
           .filter(x => x.path.startsWith('/about/') && !x.frontmatter.about_index)
           .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date))
