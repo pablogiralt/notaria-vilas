@@ -48,6 +48,9 @@
     "schedule_long": [
       {
         "item": "De lunes a viernes de 9:00 a 14:00h."
+      },
+      {
+        "item": "Por las tardes: lunes, martes, miércoles y jueves de 16:30 a 19:00h"
       }
     ],
     "schedule_short": [
