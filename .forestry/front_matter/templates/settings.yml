@@ -65,6 +65,7 @@ fields:
   - name: city
     label: Ciudad
     type: text
+<<<<<<< HEAD
 - name: transports
   label: Cómo llegar
   type: field_group_list
@@ -78,6 +79,8 @@ fields:
     type: text
     hidden: false
     default: ''
+=======
+>>>>>>> fe1854a2627a96a2644ba69cfa390ac9e5dfabce
 - name: navigation
   label: Navigation
   type: field_group_list
