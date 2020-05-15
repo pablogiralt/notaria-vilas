@@ -95,5 +95,23 @@ fields:
     default: ''
   hidden: false
   default: ''
+- name: transports
+  type: field_group_list
+  fields:
+  - name: transport_label
+    type: text
+    config:
+      required: false
+    label: Tipo de transporte
+  - name: transport_text
+    type: text
+    config:
+      required: false
+    label: Descripción
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Cómo Llegar
 pages:
 - portfolio/config.json
