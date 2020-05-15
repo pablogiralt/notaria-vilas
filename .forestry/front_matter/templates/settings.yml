@@ -3,12 +3,12 @@ label: Site Config
 hide_body: false
 fields:
 - name: title
-  label: Title
+  label: Nombre del negocio
   type: text
   hidden: false
   default: ''
 - name: description
-  label: Description
+  label: Descripción del negocio
   type: text
   hidden: false
   default: ''
@@ -39,6 +39,43 @@ fields:
     type: text
     hidden: false
     default: ''
+- name: fax
+  label: Fax
+  type: text
+  hidden: false
+  default: ''
+- name: email
+  label: Email
+  type: text
+  hidden: false
+  default: ''
+- name: address
+  type: field_group
+  label: Dirección
+  description: Dirección del negocio
+  hidden: false
+  fields:
+  - type: text
+    name: street
+    label: Dirección (linea 1)
+    config:
+      required: true
+  - type: text
+    name: street2
+    label: Dirección (linea 2)
+      config:
+      required: false
+  - type: text
+    name: postalCode
+    label: Código Postal
+      config:
+      required: false
+  - type: text
+    name: city
+    label: Ciudad
+      config:
+      required: false
+
 - name: navigation
   label: Navigation
   type: field_group_list
