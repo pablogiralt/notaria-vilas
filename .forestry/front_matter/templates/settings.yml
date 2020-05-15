@@ -50,32 +50,21 @@ fields:
   hidden: false
   default: ''
 - name: address
-  type: field_group
   label: Dirección
-  description: Dirección del negocio
-  hidden: false
+  type: field_group
   fields:
-  - type: text
-    name: street
+  - name: street
     label: Dirección (linea 1)
-    config:
-      required: true
-  - type: text
-    name: street2
+    type: text
+  - name: street2
     label: Dirección (linea 2)
-      config:
-      required: false
-  - type: text
-    name: postalCode
+    type: text
+  - name: postalCode
     label: Código Postal
-      config:
-      required: false
-  - type: text
-    name: city
+    type: text
+  - name: city
     label: Ciudad
-      config:
-      required: false
-
+    type: text
 - name: navigation
   label: Navigation
   type: field_group_list
