@@ -16,5 +16,27 @@ fields:
     wysiwyg: true
     schema:
       format: html
+- name: about_list
+  type: field_group_list
+  fields:
+  - name: about_list_title
+    type: text
+    config:
+      required: false
+    label: Título
+  - name: about_list_text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Texto
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Sobre La Notaría
 pages:
 - portfolio/index.md
