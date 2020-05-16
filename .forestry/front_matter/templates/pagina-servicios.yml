@@ -1,5 +1,5 @@
 ---
-label: Homepage
+label: Página Servicios
 hide_body: true
 fields:
 - type: text
@@ -12,37 +12,15 @@ fields:
     maxSize: 64
   label: Imagen de portada
 - type: text
-  name: about_pre_title
-  label: Pre Título de Sobre Nosotros
+  name: services_pre_title
+  label: Pre Título de Servicios
 - type: textarea
-  name: about_title
-  label: Título Sobre Nosotros
+  name: services_title
+  label: Título Servicios
   config:
     wysiwyg: true
     schema:
       format: html
-- name: about_list
-  type: field_group_list
-  fields:
-  - name: about_list_title
-    type: text
-    config:
-      required: false
-    label: Título
-  - name: about_list_text
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: true
-      schema:
-        format: html
-    label: Texto
-  config:
-    min: 
-    max: 
-    labelField: 
-  label: Sobre La Notaría
 - name: banner
   type: field_group
   config: {}
