@@ -19,10 +19,10 @@ about_list:
   about_list_text: Finalmente, tenemos que recalcar que el idioma no es ningún inconveniente
     para nosotros, ya que además de hablar en castellano, podemos atender a nuestros
     clientes en inglés o francés.
-main_image: "/upload/portfolio.vuepress/public/upload/scott-graham-oqmzwnd3thu-unsplash.jpg"
+main_image: "portfolio/.vuepress/public/upload/scott-graham-oqmzwnd3thu-unsplash.jpg"
 banner:
   banner_text: "Visite nuestro despacho, \Lestaremos encantados de atenderle"
-  banner_image: "/upload/portfolio.vuepress/public/upload/scott-graham-oqmzwnd3thu-unsplash.jpg"
+  banner_image: "portfolio/.vuepress/public/upload/scott-graham-oqmzwnd3thu-unsplash.jpg"
 
 ---
 <AboutList 
