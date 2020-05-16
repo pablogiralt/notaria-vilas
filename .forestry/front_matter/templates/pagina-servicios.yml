@@ -1,9 +1,62 @@
 ---
-label: Página Servicios
-hide_body: false
+label: Homepage
+hide_body: true
 fields:
-- name: test
-  type: text
+- type: text
+  name: title
+  label: title
+  hidden: true
+- name: main_image
+  type: file
   config:
-    required: false
-  label: test
+    maxSize: 64
+  label: Imagen de portada
+- type: text
+  name: about_pre_title
+  label: Pre Título de Sobre Nosotros
+- type: textarea
+  name: about_title
+  label: Título Sobre Nosotros
+  config:
+    wysiwyg: true
+    schema:
+      format: html
+- name: about_list
+  type: field_group_list
+  fields:
+  - name: about_list_title
+    type: text
+    config:
+      required: false
+    label: Título
+  - name: about_list_text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html
+    label: Texto
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Sobre La Notaría
+- name: banner
+  type: field_group
+  config: {}
+  fields:
+  - name: banner_text
+    type: text
+    config:
+      required: false
+    label: Texto
+  - name: banner_image
+    type: file
+    config:
+      maxSize: 64
+    label: Imagen
+  label: Imagen Con Texto
+pages:
+- portfolio/servicios/index.md
