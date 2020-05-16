@@ -4,6 +4,13 @@ auto_deploy: true
 admin_path: "/admin"
 webhook_url: 
 sections:
+- type: directory
+  path: portfolio/servicios
+  label: Servicios
+  create: all
+  match: "**/*"
+  templates:
+  - servicios
 - type: document
   path: portfolio/index.md
   label: Homepage
@@ -12,14 +19,6 @@ sections:
 - type: document
   path: portfolio/servicios.md
   label: Página Servicios
-  match: "**/*"
-- type: directory
-  path: portfolio/servicios
-  label: Servicios
-  create: all
-  match: "**/*"
-  templates:
-  - servicios
 - type: directory
   path: portfolio/works
   label: Works
