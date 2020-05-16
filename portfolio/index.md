@@ -22,7 +22,7 @@ about_list:
 main_image: "/upload/scott-graham-oqmzwnd3thu-unsplash.jpg"
 banner:
   banner_text: "Visite nuestro despacho, \Lestaremos encantados de atenderle"
-  banner_image: "/upload/portfolio.vuepress/public/upload/scott-graham-oqmzwnd3thu-unsplash.jpg"
+  banner_image: "/upload/scott-graham-oqmzwnd3thu-unsplash.jpg"
 
 ---
 <AboutList 
