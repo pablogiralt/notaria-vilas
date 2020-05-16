@@ -10,7 +10,7 @@ sections:
   templates:
   - settings
 - type: document
-  path: portfolio/servicios.md
+  path: portfolio/servicios/index.md
   label: Página Servicios
 - type: directory
   path: portfolio/servicios
