@@ -9,6 +9,17 @@ sections:
   label: Homepage
   templates:
   - settings
+- type: document
+  path: portfolio/servicios.md
+  label: Página Servicios
+  match: "**/*"
+- type: directory
+  path: portfolio/servicios
+  label: Servicios
+  create: all
+  match: "**/*"
+  templates:
+  - servicios
 - type: directory
   path: portfolio/works
   label: Works
