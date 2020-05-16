@@ -10,6 +10,11 @@ sections:
   templates:
   - settings
 - type: directory
+  path: portfolio/servicios
+  label: Servicios
+  create: all
+  match: "**/*"
+- type: directory
   path: portfolio/works
   label: Works
   create: all
