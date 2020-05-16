@@ -17,6 +17,7 @@ sections:
   label: Servicios
   create: all
   match: "**/*"
+  exclude: index.md
   templates:
   - servicios
 - type: directory
