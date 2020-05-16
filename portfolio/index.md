@@ -25,8 +25,18 @@ banner:
   banner_image: "/upload/scott-graham-oqmzwnd3thu-unsplash.jpg"
 
 ---
-<AboutList 
+<Banner 
+    :image="$page.frontmatter.main_image" />
+    
+<Title 
     :title="$page.frontmatter.about_title" 
-    :pretitle="$page.frontmatter.about_pre_title"
+    :pretitle="$page.frontmatter.about_pre_title" />
+
+<AboutList 
     :list="$page.frontmatter.about_list" />
+
+<Banner 
+    :text="$page.frontmatter.banner.banner_text"
+    :image="$page.frontmatter.banner.banner_image" />
+
 <Contact />

@@ -1,11 +1,7 @@
 <template>
-  <div class="about-list">
-
-    <h1 v-if="pretitle" class="pretitle" v-html="pretitle" />
-    <h2 v-if="title" class="title" v-html="title" />
-
-    <ul>
-      <li v-for="item in list">
+  <div class="about">
+    <ul class="about__list">
+      <li class="about__list-item" v-for="item in list">
         <h2>{{ item.about_list_title }}</h2>
         <div>{{ item.about_list_text }}</div>
       </li>
@@ -17,14 +13,6 @@
 <script>
   export default {
     props: {
-      title: {
-        type: String,
-        required: false
-      },
-      pretitle: {
-        type: String,
-        required: false
-      },
       list: {
         type: Array,
         required: false
@@ -41,13 +29,4 @@
 </script>
 
 <style scoped>
-
-  .post {}
-
-  .info {}
-
-  .info h2 {}
-
-  .info span {}
-
 </style>
