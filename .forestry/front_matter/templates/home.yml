@@ -48,7 +48,7 @@ fields:
   config: {}
   fields:
   - name: banner_text
-    type: text
+    type: textarea
     config:
       required: false
     label: Texto
