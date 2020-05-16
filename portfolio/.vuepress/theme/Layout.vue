@@ -2,21 +2,16 @@
   <div class="wrapper">
 
     <Navbar :logo="$site.themeConfig.logo" :sticky="$route.path === '/'" />
-
-    <div class="container">
-
-      <!-- Works list -->
-      <div>
-        <div v-if="isSingleProject">
-          <SingleProjectHeader
-            :title="$page.frontmatter.title"
-            :year="$page.frontmatter.year.toString()"
-            :categories="$page.frontmatter.categories"
-          />
-        </div>
-        <Content/>
+    
+    <div>
+      <div v-if="isSingleProject">
+        <SingleProjectHeader
+          :title="$page.frontmatter.title"
+          :year="$page.frontmatter.year.toString()"
+          :categories="$page.frontmatter.categories"
+        />
       </div>
-
+      <Content/>
     </div>
 
     <Footer />
@@ -59,6 +54,8 @@
 
   :root {
     --color-black: #1c1c1c;
+    --color-blue: #1B0A47;
+    --headings-font-family: 'EB Garamond', serif;
     --color-highlight: rgba(249, 233, 172, 0.99);
   }
 
@@ -84,7 +81,7 @@
   }
 
   body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Noto Sans", "Ubuntu", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Ubuntu", "Droid Sans", "Helvetica Neue", sans-serif;
     font-size: 16px;
     background: #fff;
     color: var(--color-black);
@@ -97,8 +94,14 @@
     margin: 2rem 0;
   }
 
+  .wrapper {
+    max-width: 2000px;
+    margin: auto;
+  }
+
   .container {
-    padding: 0 5vw;
+    max-width: 1300px;
+    margin: auto;
   }
 
   .journal-list, .single-journal {
@@ -107,9 +110,15 @@
     margin: 0 auto;
   }
 
-  h1,h2,h3,h4,h5,h6,p {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     width: 100%;
-    max-width: 800px;
+    font-family: var(--headings-font-family);
+    color: var(--color-blue);
   }
 
   h1 {

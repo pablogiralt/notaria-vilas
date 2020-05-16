@@ -9,57 +9,32 @@
     }"
   >
 
-    <div>
-      <ul v-if="contact.phones" v-for="phone in contact.phones">
-        <a v-bind:href="'tel:' + phone.link">{{ phone.visible }}</a>
-      </ul>
+    <div class="top-bar">
+        <span class="top-bar__phone" v-html="contact.phones"></span>
+        <span class="top-bar__email" v-html="contact.email"></span>
     </div>
-
-
-    <nav v-if="navLinks" class="navigation left desktop-nav">
-      <ul>
-        <router-link
-          v-for="nav in navLinks"
-          :key="nav.text"
-          v-if="nav.position === 'left' && !nav.external"
-          tag="li"
-          :to="nav.link"
-          active-class="active"
-          v-text="nav.text"
-          exact
-        />
-        <li v-for="nav in navLinks" v-if="nav.position === 'left' && nav.external">
-          <a :href="nav.link" target="_blank">{{ nav.text }}</a>
-        </li>
-      </ul>
-    </nav>
 
     <div class="brand">
       <router-link to="/">
-        <div
-          v-if="logo"
-          class="logo"
-          :style="{ backgroundImage: `url(${logo})`}"
-          :title="$site.title"
-        />
-        <span v-else>{{ $site.title }}</span>
+        <img 
+          class="logo" 
+          v-if="logo" 
+          v-bind:src="logo" 
+          v-bind:alt="$site.title">
+        <span v-else class="site-name">{{ $site.title }}</span>
       </router-link>
     </div>
 
     <nav v-if="navLinks" class="navigation right desktop-nav">
       <ul>
-        <router-link
-          v-for="nav in navLinks"
-          :key="nav.text"
-          v-if="nav.position === 'right' && !nav.external"
-          tag="li"
-          :to="nav.link"
-          active-class="active"
-          v-text="nav.text"
-          exact
-        />
-        <li v-for="nav in navLinks" v-if="nav.position === 'right' && nav.external">
-          <a :href="nav.link" target="_blank">{{ nav.text }}</a>
+        <li v-for="nav in navLinks">
+          <router-link
+            :key="nav.text"
+            :to="nav.link"
+            active-class="active"
+            v-text="nav.text"
+            exact
+          />
         </li>
       </ul>
     </nav>
@@ -68,18 +43,14 @@
     <div class="mobile-nav" :class="{'mobile-nav--active': mobileNavActive}">
       <nav>
         <ul @click="toggleMobileNav">
-          <router-link
-            v-for="nav in navLinks"
-            :key="nav.text"
-            v-if="!nav.external"
-            tag="li"
-            :to="nav.link"
-            active-class="active"
-            v-text="nav.text"
-            exact
-          />
-          <li v-for="nav in navLinks" v-if="nav.external" @click="toggleMobileNav">
-            <a :href="nav.link" target="_blank">{{ nav.text }}</a>
+          <li v-for="nav in navLinks">
+            <router-link
+              :key="nav.text"
+              :to="nav.link"
+              active-class="active"
+              v-text="nav.text"
+              exact
+            />
           </li>
         </ul>
         <div class="mobile-nav-close" @click="toggleMobileNav" />
@@ -111,9 +82,13 @@
         return this.$site.themeConfig.nav
       },
       contact() {
+        let phoneLinks = [];
+        this.$site.themeConfig.phones.forEach(function(phone) {
+          phoneLinks.push('<a href="tel:' + phone.link + '">' + phone.visible + '</a>');
+        });
         return {
-          "phones": this.$site.themeConfig.phones,
-          "email": this.$site.themeConfig.email,
+          "phones": phoneLinks.join(' – '),
+          "email": '<a href="mailto:'+ this.$site.themeConfig.email +'">' + this.$site.themeConfig.email + '</a>',
           "socialMedia": this.$site.themeConfig.socialMedia
         }
       },
@@ -130,26 +105,28 @@
 
   .header {
     display: flex;
+    flex-wrap: wrap;
     position: relative;
-    align-items: center;
     justify-content: space-between;
-    height: 6rem;
-    padding: 5vw;
     font-size: 0.8rem;
     font-weight: 600;
     z-index: 10;
+    background-color: white;
+  }
+
+  .top-bar {
+    width: 100%;
+    background: var(--color-blue);
+    color: white;
   }
 
   .logo {
-    position: absolute;
-    width: 3rem;
-    height: 3rem;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
+  }
+
+  .site-name {
+    font-size: 40px;
+    font-family: var(--headings-font-family);
+    color: var(--color-blue);
   }
 
   .navigation li {

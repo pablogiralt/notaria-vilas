@@ -1,5 +1,5 @@
 <template>
-  <div class="contact">
+  <div id="como-llegar" class="contact">
     <h2>Dirección y contacto</h2>
     <div>
       <p>

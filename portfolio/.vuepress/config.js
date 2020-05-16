@@ -17,7 +17,12 @@ module.exports = {
     socialMedia: config.socialMedia,
   },
   head: [
-    ['link', { rel: "icon", href: config.favicon }]
+    [
+      'link', { rel: "icon", href: config.favicon },
+    ],
+    [
+      'link', { rel: "stylesheet", href: config.headings_font_url }
+    ]
   ],
   markdown: {
     anchor: {
