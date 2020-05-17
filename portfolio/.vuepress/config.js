@@ -22,6 +22,9 @@ module.exports = {
     ],
     [
       'link', { rel: "stylesheet", href: config.headings_font_url }
+    ],
+    [
+      'link', { rel: "stylesheet", href: config.default_font_url }
     ]
   ],
   markdown: {

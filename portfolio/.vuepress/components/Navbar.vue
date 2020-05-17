@@ -8,53 +8,68 @@
       width: '100%',
     }"
   >
-
+    
     <div class="top-bar">
-        <span class="top-bar__phone" v-html="contact.phones"></span>
-        <span class="top-bar__email" v-html="contact.email"></span>
+        <span class="top-bar__item">
+          <span v-for="(phone, index) in contact.phones">
+            <a class="top-bar__link" v-bind:href="'tel:' + phone.link">{{ phone.visible }}</a>
+            <span v-if="index + 1 < contact.phones.length"> | </span>
+          </span>
+        </span>
+        <span class="top-bar__item" v-html="contact.email">
+          <a class="top-bar__link" v-bind:href="'mailto:' + contact.email">
+            {{ contact.email }}
+          </a>
+        </span>
     </div>
 
-    <div class="brand">
-      <router-link to="/">
-        <img 
-          class="logo" 
-          v-if="logo" 
-          v-bind:src="logo" 
-          v-bind:alt="$site.title">
-        <span v-else class="site-name">{{ $site.title }}</span>
-      </router-link>
-    </div>
+    <div class="header__inner">
 
-    <nav v-if="navLinks" class="navigation right desktop-nav">
-      <ul>
-        <li v-for="nav in navLinks">
-          <router-link
-            :key="nav.text"
-            :to="nav.link"
-            active-class="active"
-            v-text="nav.text"
-            exact
-          />
-        </li>
-      </ul>
-    </nav>
+      <div class="brand">
+        <router-link to="/">
+          <img 
+            class="logo" 
+            v-if="logo" 
+            v-bind:src="logo" 
+            v-bind:alt="$site.title">
+          <span v-else class="site-name">{{ $site.title }}</span>
+        </router-link>
+      </div>
 
-    <div class="mobile-nav-toggle" @click="toggleMobileNav" />
-    <div class="mobile-nav" :class="{'mobile-nav--active': mobileNavActive}">
-      <nav>
-        <ul @click="toggleMobileNav">
-          <li v-for="nav in navLinks">
+      <nav v-if="navLinks" class="nav desktop-nav">
+        <ul>
+          <li class="nav__item" v-for="nav in navLinks">
             <router-link
+              class="nav__item-link"
               :key="nav.text"
               :to="nav.link"
-              active-class="active"
+              exact-active-class="nav__item-link-exact-active"
+              active-class="nav__item-link-active"
               v-text="nav.text"
               exact
             />
           </li>
         </ul>
-        <div class="mobile-nav-close" @click="toggleMobileNav" />
       </nav>
+
+      <div class="mobile-nav-toggle" @click="toggleMobileNav" />
+      <div class="mobile-nav" :class="{'mobile-nav--active': mobileNavActive}">
+        <nav>
+          <ul @click="toggleMobileNav">
+            <li v-for="nav in navLinks">
+              <router-link
+                :key="nav.text"
+                :to="nav.link"
+                active-class="active"
+                v-text="nav.text"
+                exact
+              />
+            </li>
+          </ul>
+          <div class="mobile-nav-close" @click="toggleMobileNav" />
+        </nav>
+      </div>
+
     </div>
 
   </header>
@@ -82,13 +97,9 @@
         return this.$site.themeConfig.nav
       },
       contact() {
-        let phoneLinks = [];
-        this.$site.themeConfig.phones.forEach(function(phone) {
-          phoneLinks.push('<a href="tel:' + phone.link + '">' + phone.visible + '</a>');
-        });
         return {
-          "phones": phoneLinks.join(' – '),
-          "email": '<a href="mailto:'+ this.$site.themeConfig.email +'">' + this.$site.themeConfig.email + '</a>',
+          "phones": this.$site.themeConfig.phones,
+          "email": this.$site.themeConfig.email,
           "socialMedia": this.$site.themeConfig.socialMedia
         }
       },
@@ -104,50 +115,56 @@
 <style scoped>
 
   .header {
-    display: flex;
-    flex-wrap: wrap;
     position: relative;
-    justify-content: space-between;
-    font-size: 0.8rem;
-    font-weight: 600;
     z-index: 10;
     background-color: white;
   }
 
+  .header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 23px 29px 14px;
+  }
+
   .top-bar {
     width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
     background: var(--color-blue);
+    color: white;
+    font-weight: 300;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+
+  .top-bar__item {
+    padding: 0 16px;
+  }
+
+  .top-bar__link {
     color: white;
   }
 
-  .logo {
-  }
-
   .site-name {
-    font-size: 40px;
+    font-size: 42px;
     font-family: var(--headings-font-family);
     color: var(--color-blue);
+    line-height: 0.95;
   }
 
-  .navigation li {
+  .nav__item {
     display: inline-block;
     list-style: none;
-    margin-right: 1rem;
+    padding: 0 10px;
+    text-transform: uppercase;
     user-select: none;
     cursor: pointer;
     border-bottom: 1px solid transparent;
-  }
-
-  .navigation li:last-of-type {
-    margin: 0;
-  }
-
-  .navigation li:hover {
-    border-bottom: 1px solid #000;
-  }
-
-  .active {
-    border-bottom: 1px solid #000;
+    font-size: 15px;
+    color: var(--color-blue);
   }
 
   a {
@@ -155,8 +172,10 @@
     color: inherit;
   }
 
-  a:active { color: inherit; }
-  a:visited { color: inherit; }
+  .nav__item-link:hover,
+  .nav__item-link-active {
+    color: var(--color-grey-light);
+  }
 
   .desktop-nav {
     display: none;

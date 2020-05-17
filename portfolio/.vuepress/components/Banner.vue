@@ -23,4 +23,26 @@
 </script>
 
 <style scoped>
+  .banner {
+    position: relative;
+  }
+  .banner__text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0 18px;
+    text-align: center;
+    font-family: var(--headings-font-family);
+    font-size: 32px;
+    letter-spacing: 0.38px;
+    color: white;
+    line-height: 1;
+  }
+
+  @media screen and (min-width: 768px) {
+    .banner__text {
+      padding: 0 28px;
+    }
+  }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
 
-    <Navbar :logo="$site.themeConfig.logo" :sticky="$route.path === '/'" />
+    <Navbar :logo="$site.themeConfig.logo" :sticky="true" />
     
     <div>
       <div v-if="isSingleProject">
@@ -53,8 +53,9 @@
 <style>
 
   :root {
-    --color-black: #1c1c1c;
+    --color-black: #4A4A4A;
     --color-blue: #1B0A47;
+    --color-grey-light: #9B9B9B;
     --headings-font-family: 'EB Garamond', serif;
     --color-highlight: rgba(249, 233, 172, 0.99);
   }
@@ -85,6 +86,8 @@
     font-size: 16px;
     background: #fff;
     color: var(--color-black);
+    text-rendering: optimizeLegibility!important;
+    -webkit-font-smoothing: antialiased!important;
   }
 
   img {
@@ -101,6 +104,7 @@
 
   .container {
     max-width: 1300px;
+    padding: 0 16px;
     margin: auto;
   }
 
@@ -117,47 +121,47 @@
   h5,
   h6 {
     width: 100%;
-    font-family: var(--headings-font-family);
     color: var(--color-blue);
+    font-weight: 400;
+    margin: 0 auto 1rem auto;
   }
 
   h1 {
     font-size: 3rem;
     line-height: 1.15;
-    font-weight: 300;
-    margin: 0 auto 3rem auto;
   }
 
   h2 {
     font-size: 2rem;
-    font-weight: 300;
-    margin: 2rem auto 2rem auto;
   }
 
   h3 {
     font-size: 1rem;
-    font-weight: 700;
-    margin: 2rem auto 1rem auto;
   }
 
   p {
     font-size: 1rem;
     line-height: 1.5;
-    margin: 1rem auto 2rem auto;
+    margin: 0 auto 1rem auto;
   }
 
-  pre {
-    background: var(--color-black);
-    padding: 1rem;
-    margin: 1rem 0;
+  .subtitle {
+    font-size: 16px;
+    letter-spacing: 0.18px;
+    line-height: 19px;
   }
 
-  code {
-    color: white;
-    background: var(--color-black);
-    font-size: 0.8rem;
-    padding: 0.05rem 0.25rem;
-    font-weight: 400;
+  .subtitle-strong {
+    font-size: 16px;
+    letter-spacing: 0.18px;
+    line-height: 19px;
+    font-weight: 900;
   }
 
+  @media screen and (min-width: 768px) {
+    .container {
+      padding: 0 28px;
+    }
+  }
+  
 </style>

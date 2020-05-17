@@ -1,32 +1,42 @@
 <template>
   <div id="como-llegar" class="contact">
-    <h2>Dirección y contacto</h2>
+    <h2 class="contact__title">
+      Dirección y contacto
+    </h2>
     <div>
-      <p>
-        {{ address.street }}<br>
-        {{ address.line2 }}
-      </p>
+      <ul class="contact__block">
+        <li class="contact__item">{{ address.street }}</li>
+        <li class="contact__item" v-if="address.line2">
+          {{ address.line2 }}
+        </li>
+      </ul>
 
-      <p>
-        Email | {{ contact.email }}<br>
-        Teléfono | <span v-html="contact.phones"></span><br>
-        Fax | {{ contact.fax }}
-      </p>
+      <ul class="contact__block">
+        <li class="contact__item">Email | {{ contact.email }}</li>
+        <li class="contact__item">
+          Teléfono | 
+          <span v-for="(phone, index) in contact.phones">
+            <a class="contact__link" v-bind:href="'tel:' + phone.link">{{ phone.visible }}</a>
+            <span v-if="index + 1 < contact.phones.length"> | </span>
+          </span>
+        </li>
+        <li class="contact__item">Fax | {{ contact.fax }}</li>
+      </ul>
 
-      <p>
-        <ul v-if="transports">
-          <li v-for="transport in transports">
-            {{ transport.transport_label }} | {{ transport.transport_text }}
-          </li>
-        </ul>
-      </p>
+      <ul v-if="transports" class="contact__block">
+        <li class="contact__item"v-for="transport in transports">
+          {{ transport.transport_label }} | {{ transport.transport_text }}
+        </li>
+      </ul>
 
-      <p>
-        <strong>Horario de atención</strong>
-        <ul v-if="schedules">
-          <li v-for="schedule in schedules">{{ schedule.item }}</li>
-        </ul>
-      </p>
+      <ul v-if="schedules" class="contact__block">
+        <li class="contact__item">
+          <strong>Horario de atención</strong>
+        </li>
+        <li class="contact__item" v-for="schedule in schedules">
+          {{ schedule.item }}
+        </li>
+      </ul>
     </div>
   </div>
 </template>
@@ -47,12 +57,8 @@
         return this.$site.themeConfig.transports
       },
       contact() {
-        let phoneLinks = [];
-        this.$site.themeConfig.phones.forEach(function(phone) {
-          phoneLinks.push('<a href="tel:' + phone.link + '">' + phone.visible + '</a>');
-        });
         return {
-          "phones": phoneLinks.join(' – '),
+          "phones": this.$site.themeConfig.phones,
           "fax": this.$site.themeConfig.fax,
           "email": this.$site.themeConfig.email,
           "socialMedia": this.$site.themeConfig.socialMedia
@@ -84,5 +90,24 @@
 </script>
 
 <style scoped>
+  .contact {
+    text-align: center;
+  }
 
+  .contact__title {
+    font-size: 23px;
+    line-height: 1;
+    font-family: var(--headings-font-family);
+    letter-spacing: 0.27px;
+    margin-bottom: 31px;
+  }
+
+  .contact__block {
+    margin-bottom: 21px;
+  }
+
+  .contact__item {
+    margin-bottom: 1px;
+    font-weight: 300;
+  }
 </style>

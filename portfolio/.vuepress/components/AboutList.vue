@@ -1,12 +1,15 @@
 <template>
-  <div class="about">
+  <div class="about container">
     <ul class="about__list">
-      <li class="about__list-item" v-for="item in list">
-        <h2>{{ item.about_list_title }}</h2>
-        <div>{{ item.about_list_text }}</div>
+      <li class="about__item" v-for="item in list">
+        <h2 class="about__title subtitle-strong">
+          {{ item.about_list_title }}
+        </h2>
+        <div class="about__text">
+          {{ item.about_list_text }}
+        </div>
       </li>
     </ul>
-
   </div>
 </template>
 
@@ -29,4 +32,39 @@
 </script>
 
 <style scoped>
+  .about__list {
+    list-style: none;
+  }
+
+  .about__item {
+    margin-bottom: 60px;
+  }
+
+  .about__title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .about__text {
+    line-height: 23px;
+    letter-spacing: 0.19px;
+  }
+
+  @media screen and (min-width: 768px) {
+
+    .about {
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .about__item {
+      display: flex;
+    }
+
+    .about__title {
+      width: 164px;
+      min-width: 164px;
+      text-align: left;
+    }
+  }
 </style>
