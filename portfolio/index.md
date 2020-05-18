@@ -15,7 +15,7 @@ about_list:
     que estamos situados en Conde Cartagena, una de las calles más funcionales y accesibles
     de todo Madrid; por otro lado, en nuestras instalaciones no hay escalones que
     puedan dificultar la circulación de las personas que nos visitan en silla de ruedas.
-- about_list_title: El Notario
+- about_list_title: El edificio
   about_list_text: Finalmente, tenemos que recalcar que el idioma no es ningún inconveniente
     para nosotros, ya que además de hablar en castellano, podemos atender a nuestros
     clientes en inglés o francés.
