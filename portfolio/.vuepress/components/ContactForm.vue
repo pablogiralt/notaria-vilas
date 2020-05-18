@@ -10,6 +10,10 @@
 
     <input type="hidden" name="form-name" value="contacto" />
 
+    <p class="hidden">
+        <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+    </p>
+
     <p class="contact-form__field-group">
         <label for="name">Nombre *</label>
         <input 
