@@ -15,7 +15,7 @@
     </p>
 
     <p class="hidden">
-        <label for="name">Subject *</label>
+        <label for="subject">Subject *</label>
         <input 
             type="text" 
             name="subject"
@@ -24,26 +24,26 @@
     </p>
 
     <p class="contact-form__field-group">
-        <label for="name">Nombre *</label>
+        <label for="nombre">Nombre *</label>
         <input 
             type="text" 
-            name="name"
+            name="nombre"
             @input="processName($event.target.value)"
             required />
     </p>
     <p class="contact-form__field-group">
-        <label for="company">Empresa</label>
+        <label for="empresa">Empresa</label>
         <input 
             type="text" 
-            name="company"
-            @input="ev => form.company = ev.target.value" />
+            name="empresa"
+            @input="ev => form.empresa = ev.target.value" />
     </p>
     <p class="contact-form__field-group">
-        <label for="phone">Teléfono *</label>
+        <label for="telefono">Teléfono *</label>
         <input 
             type="text" 
-            name="phone" 
-            @input="ev => form.phone = ev.target.value"
+            name="telefono" 
+            @input="ev => form.telefono = ev.target.value"
             required />  
     </p>
     <p class="contact-form__field-group">
@@ -55,10 +55,10 @@
             required />
     </p>
     <p class="contact-form__field-group">
-        <label for="message">Mensaje *</label>
+        <label for="mensaje">Mensaje *</label>
         <textarea 
-            name="message" 
-            @input="ev => form.message = ev.target.value"
+            name="mensaje" 
+            @input="ev => form.mensaje = ev.target.value"
             required>
         </textarea>
     </p>
@@ -78,11 +78,11 @@
         data () {
             return {
                 form: {
-                    name: "",
-                    company: "",
-                    phone: "",
+                    nombre: "",
+                    empresa: "",
+                    telefono: "",
                     email: "",
-                    message: "",
+                    mensaje: "",
                     subject: ""
                 }
             }
@@ -95,9 +95,9 @@
                 )
                 .join("&");
             },
-            processName (name) {
-                this.form.name = name;
-                this.form.subject = "[Notaria Vilas] Envío de formulario de contacto de " + name;
+            processName (nombre) {
+                this.form.nombre = nombre;
+                this.form.subject = "[Notaria Vilas] Envío de formulario de contacto de " + nombre;
             },
             handleSubmit () {
                 const axiosConfig = {
