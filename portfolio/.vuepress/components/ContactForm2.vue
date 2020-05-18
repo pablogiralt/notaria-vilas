@@ -1,12 +1,12 @@
 <template>
   <form
-    name="ask-question"
+    name="contact"
     method="post"
     data-netlify="true"
     data-netlify-honeypot="bot-field"
     @submit.prevent="handleSubmit"
     >
-    <input type="hidden" name="form-name" value="ask-question" />
+    <input type="hidden" name="form-name" value="contact" />
 
     <p class="contact-form__field-group">
         <label for="name">Nombre *</label>
@@ -28,17 +28,6 @@
         <label for="message">Mensaje *</label>
         <textarea name="message" required></textarea>
     </p>
-
-    <label v-for="(panelist, index) in panelists" :key="index">
-      <input
-        type="radio"
-        name="panelist"
-        @input="ev => form.askPerson = ev.target.value"
-        :value="panelist"
-        :checked="form.askPerson === panelist"
-      />
-      <span>{{ panelist }}</span>
-    </label>
 
     <p class="contact-form__field-group">
         <button>Enviar Formulario</button>
@@ -66,6 +55,12 @@ export default {
       const axiosConfig = {
         header: { "Content-Type": "application/x-www-form-urlencoded" }
       };
+      console.log("/",
+        this.encode({
+          "form-name": "ask-question",
+          ...this.form
+        }),
+        axiosConfig);
       axios.post(
         "/",
         this.encode({
@@ -78,9 +73,7 @@ export default {
   },
   data () {
     return {
-      form: {
-        askPerson: ""
-      },
+      form: {},
       panelists: ['Evan You', 'Chris Fritz'],
       currentPanelist: 'Evan You'
     }

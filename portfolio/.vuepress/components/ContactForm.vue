@@ -31,7 +31,7 @@
         <textarea name="message" required></textarea>
     </p>
     <p class="contact-form__field-group">
-        <button type="submit">Enviar Formulario</button>
+        <button>Enviar Formulario</button>
     </p>
   </form>
 </template>
