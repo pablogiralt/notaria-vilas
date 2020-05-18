@@ -7,6 +7,28 @@
     @submit.prevent="handleSubmit"
     >
     <input type="hidden" name="form-name" value="ask-question" />
+
+    <p class="contact-form__field-group">
+        <label for="name">Nombre *</label>
+        <input type="text" name="name" required />
+    </p>
+    <p class="contact-form__field-group">
+        <label for="company">Empresa</label>
+        <input type="text" name="company" />
+    </p>
+    <p class="contact-form__field-group">
+        <label for="phone">Teléfono *</label>
+        <input type="text" name="phone" required />  
+    </p>
+    <p class="contact-form__field-group">
+        <label for="email">Email *</label>
+        <input type="email" name="email" required />
+    </p>
+    <p class="contact-form__field-group">
+        <label for="message">Mensaje *</label>
+        <textarea name="message" required></textarea>
+    </p>
+
     <label v-for="(panelist, index) in panelists" :key="index">
       <input
         type="radio"
@@ -18,8 +40,9 @@
       <span>{{ panelist }}</span>
     </label>
 
-    ...
-    <button>Submit</button>
+    <p class="contact-form__field-group">
+        <button>Enviar Formulario</button>
+    </p>
   </form>
 </template>
 <script>
