@@ -74,7 +74,7 @@
                     phone: "",
                     email: "",
                     message: "",
-                    subject: "esto es un asunte de email muy cool"
+                    subject: "Esto es un asunte de email muy cool"
                 }
             }
         },
@@ -90,6 +90,7 @@
                 const axiosConfig = {
                     header: { "Content-Type": "application/x-www-form-urlencoded" }
                 };
+                console.log(this.form);
                 axios.post(
                     "/",
                     this.encode({
