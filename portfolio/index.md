@@ -23,6 +23,8 @@ main_image: "/upload/scott-graham-oqmzwnd3thu-unsplash.jpg"
 banner:
   banner_text: "Visite nuestro despacho, \Lestaremos encantados de atenderle"
   banner_image: "/upload/scott-graham-oqmzwnd3thu-unsplash.jpg"
+map_image: "/upload/scott-graham-oqmzwnd3thu-unsplash.jpg"
+map_link: "https://www.google.com/maps?q=notaria+vilas&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiT-q_L273pAhXFSxUIHd8TBxwQ_AUoAXoECBMQAw"
 
 ---
 <Banner 
@@ -40,3 +42,10 @@ banner:
     :image="$page.frontmatter.banner.banner_image" />
 
 <Contact />
+
+<Banner 
+    :image="$page.frontmatter.map_image"
+    :link="$page.frontmatter.map_link"
+    :target="'_blank'" />
+
+<ContactForm />

@@ -1,8 +1,14 @@
 <template>
-  <div class="banner">
-    <img v-if="image" v-bind:src="image" class="banner__image">
-    <h2 v-if="text" class="banner__text" v-html="text"></h2>
-  </div>
+    <div class="banner">
+      <a v-if="link" v-bind:href="link" :target="target?target:'_self'">
+        <img v-if="image" v-bind:src="image" class="banner__image">
+        <h2 v-if="text" class="banner__text" v-html="text"></h2>   
+      </a>
+      <div v-else>
+        <img v-if="image" v-bind:src="image" class="banner__image">
+        <h2 v-if="text" class="banner__text" v-html="text"></h2>  
+      </div>
+    </div>
 </template>
 
 <script>
@@ -13,6 +19,14 @@
         required: false
       },
       text: {
+        type: String,
+        required: false
+      },
+      link: {
+        type: String,
+        required: false
+      },
+      target: {
         type: String,
         required: false
       }
