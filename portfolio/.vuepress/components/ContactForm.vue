@@ -4,10 +4,15 @@
     method="post"
     data-netlify="true"
     @submit.prevent="handleSubmit"
+    netlify-honeypot="surname"
     class="contact-form"
     >
 
     <input type="hidden" name="form-name" value="contacto-notaria" />
+
+    <p class="hidden">
+        <label>Don’t fill this out if you're human: <input name="surname" /></label>
+    </p>
 
     <p class="contact-form__field-group">
         <label for="name">Nombre *</label>
