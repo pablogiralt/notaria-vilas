@@ -15,6 +15,16 @@
     </p>
 
     <p class="contact-form__field-group">
+        <label for="name">Subject *</label>
+        <input 
+            type="text" 
+            name="subject"
+            value="Esto es un asunte de email muy cool"
+            @input="ev => form.subject = ev.target.value"
+            required />
+    </p>
+
+    <p class="contact-form__field-group">
         <label for="name">Nombre *</label>
         <input 
             type="text" 
