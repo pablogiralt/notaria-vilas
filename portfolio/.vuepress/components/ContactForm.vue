@@ -12,27 +12,44 @@
 
     <p class="contact-form__field-group">
         <label for="name">Nombre *</label>
-        <input type="text" name="name" required />
+        <input 
+            type="text" 
+            name="name"
+            @input="ev => form.name = ev.target.value"
+            required />
     </p>
     <p class="contact-form__field-group">
         <label for="company">Empresa</label>
-        <input type="text" name="company" />
+        <input 
+            type="text" 
+            name="company"
+            @input="ev => form.company = ev.target.value" />
     </p>
     <p class="contact-form__field-group">
         <label for="phone">Teléfono *</label>
-        <input type="text" name="phone" required />  
+        <input 
+            type="text" 
+            name="phone" 
+            @input="ev => form.phone = ev.target.value"
+            required />  
     </p>
     <p class="contact-form__field-group">
         <label for="email">Email *</label>
-        <input type="email" name="email" required />
+        <input 
+            type="email" 
+            name="email" 
+            @input="ev => form.email = ev.target.value"
+            required />
     </p>
     <p class="contact-form__field-group">
         <label for="message">Mensaje *</label>
-        <textarea name="message" required></textarea>
+        <textarea 
+            name="message" 
+            @input="ev => form.message = ev.target.value"
+            required>
+        </textarea>
     </p>
-    <p class="contact-form__field-group">
-        <button>Enviar Formulario</button>
-    </p>
+    
   </form>
 </template>
 
