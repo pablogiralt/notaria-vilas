@@ -50,6 +50,9 @@
         </textarea>
     </p>
     
+    <p class="contact-form__field-group">
+        <button>Enviar Formulario</button>
+    </p>
   </form>
 </template>
 
