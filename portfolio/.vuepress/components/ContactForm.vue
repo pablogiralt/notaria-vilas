@@ -44,6 +44,13 @@
         name: "contacto",
         data () {
             return {
+                form: {
+                    name: "aaa",
+                    company: "bbb",
+                    phone: "cccc",
+                    email: "pablogiralt@gmail.com",
+                    message: "eeee"
+                }
             }
         },
         methods: {
