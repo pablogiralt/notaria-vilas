@@ -88,7 +88,7 @@
                 axios.post(
                     "/",
                     this.encode({
-                        "form-name": "contact",
+                        "form-name": "contacto",
                         ...this.form
                     }),
                     axiosConfig
