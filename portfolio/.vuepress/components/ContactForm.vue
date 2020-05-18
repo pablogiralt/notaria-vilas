@@ -14,13 +14,12 @@
         <label>Don’t fill this out if you're human: <input name="surname" /></label>
     </p>
 
-    <p class="contact-form__field-group">
+    <p class="hidden">
         <label for="name">Subject *</label>
         <input 
             type="text" 
             name="subject"
             value="[Notaria Vilas] Envío de formulario de contacto"
-            @input="ev => form.subject = ev.target.value + ' de ' + form.name"
             required />
     </p>
 
@@ -29,7 +28,7 @@
         <input 
             type="text" 
             name="name"
-            @input="ev => form.name = ev.target.value"
+            @input="processName($event.target.value)"
             required />
     </p>
     <p class="contact-form__field-group">
@@ -90,17 +89,20 @@
         },
         methods: {
             encode (data) {
-            return Object.keys(data)
+                return Object.keys(data)
                 .map(
                     key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`
                 )
                 .join("&");
             },
+            processName (name) {
+                this.form.name = name;
+                this.form.subject = "[Notaria Vilas] Envío de formulario de contacto de " + name;
+            },
             handleSubmit () {
                 const axiosConfig = {
                     header: { "Content-Type": "application/x-www-form-urlencoded" }
                 };
-                console.log(this.form);
                 axios.post(
                     "/",
                     this.encode({
