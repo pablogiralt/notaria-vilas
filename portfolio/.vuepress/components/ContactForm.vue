@@ -49,7 +49,7 @@
             required>
         </textarea>
     </p>
-    
+
     <p class="contact-form__field-group">
         <button>Enviar Formulario</button>
     </p>
@@ -65,11 +65,11 @@
         data () {
             return {
                 form: {
-                    name: "aaa",
-                    company: "bbb",
-                    phone: "cccc",
-                    email: "pablogiralt@gmail.com",
-                    message: "eeee"
+                    name: "",
+                    company: "",
+                    phone: "",
+                    email: "",
+                    message: ""
                 }
             }
         },
