@@ -19,8 +19,8 @@
         <input 
             type="text" 
             name="subject"
-            value="Esto es un asunte de email muy cool"
-            @input="ev => form.subject = ev.target.value"
+            value="[Notaria Vilas] Envío de formulario de contacto"
+            @input="ev => form.subject = ev.target.value + ' de ' + form.name"
             required />
     </p>
 
@@ -84,7 +84,7 @@
                     phone: "",
                     email: "",
                     message: "",
-                    subject: "Esto es un asunte de email muy cool"
+                    subject: ""
                 }
             }
         },
