@@ -1,13 +1,13 @@
 <template>
   <form
-    name="contacto"
+    name="contacto-notaria"
     method="post"
     data-netlify="true"
     @submit.prevent="handleSubmit"
     class="contact-form"
     >
 
-    <input type="hidden" name="form-name" value="contacto" />
+    <input type="hidden" name="form-name" value="contacto-notaria" />
 
     <p class="contact-form__field-group">
         <label for="name">Nombre *</label>
@@ -87,7 +87,7 @@
                 axios.post(
                     "/",
                     this.encode({
-                        "form-name": "contacto",
+                        "form-name": "contacto-notaria",
                         ...this.form
                     }),
                     axiosConfig
