@@ -50,4 +50,3 @@ map_link: "https://www.google.com/maps?q=notaria+vilas&um=1&ie=UTF-8&sa=X&ved=2a
 
 <ContactForm />
 
-<ContactForm2 />
