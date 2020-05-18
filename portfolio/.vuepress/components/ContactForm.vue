@@ -73,7 +73,8 @@
                     company: "",
                     phone: "",
                     email: "",
-                    message: ""
+                    message: "",
+                    subject: "esto es un asunte de email muy cool"
                 }
             }
         },
