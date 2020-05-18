@@ -10,23 +10,42 @@
 
     <p class="contact-form__field-group">
         <label for="name">Nombre *</label>
-        <input type="text" name="name" required />
+        <input 
+            type="text" 
+            name="name"
+            @input="ev => form.name = ev.target.value"
+            required />
     </p>
     <p class="contact-form__field-group">
         <label for="company">Empresa</label>
-        <input type="text" name="company" />
+        <input 
+            type="text" 
+            name="company"
+            @input="ev => form.company = ev.target.value" />
     </p>
     <p class="contact-form__field-group">
         <label for="phone">Teléfono *</label>
-        <input type="text" name="phone" required />  
+        <input 
+            type="text" 
+            name="phone" 
+            @input="ev => form.phone = ev.target.value"
+            required />  
     </p>
     <p class="contact-form__field-group">
         <label for="email">Email *</label>
-        <input type="email" name="email" required />
+        <input 
+            type="email" 
+            name="email" 
+            @input="ev => form.email = ev.target.value"
+            required />
     </p>
     <p class="contact-form__field-group">
         <label for="message">Mensaje *</label>
-        <textarea name="message" required></textarea>
+        <textarea 
+            name="message" 
+            @input="ev => form.message = ev.target.value"
+            required>
+        </textarea>
     </p>
 
     <p class="contact-form__field-group">
@@ -39,7 +58,7 @@
 import axios from "axios";
 
 export default {
-  name: "QAForm",
+  name: "contact",
   methods: {
     updatePanelist (ev) {
       this.currentPanelist = ev.target.value
@@ -55,16 +74,13 @@ export default {
       const axiosConfig = {
         header: { "Content-Type": "application/x-www-form-urlencoded" }
       };
-      console.log("/",
-        this.encode({
-          "form-name": "ask-question",
-          ...this.form
-        }),
-        axiosConfig);
+
+        // console.log(this.form);
+
       axios.post(
         "/",
         this.encode({
-          "form-name": "ask-question",
+          "form-name": "contact",
           ...this.form
         }),
         axiosConfig
@@ -73,9 +89,13 @@ export default {
   },
   data () {
     return {
-      form: {},
-      panelists: ['Evan You', 'Chris Fritz'],
-      currentPanelist: 'Evan You'
+      form: {
+          name: "",
+          company: "",
+          phone: "",
+          email: "",
+          message: ""
+      }
     }
   }
 }
