@@ -57,7 +57,32 @@ fields:
     config:
       maxSize: 64
     label: Imagen
+  - name: banner_image_mobile
+    type: file
+    config:
+      maxSize: 64
+    label: Imagen
   label: Imagen Con Texto
+- name: map
+  type: field_group
+  config: {}
+  fields:
+  - name: map_link
+    type: text
+    config:
+      required: false
+    label: Link
+  - name: map_image
+    type: file
+    config:
+      maxSize: 64
+    label: Imagen
+  - name: map_image_mobile
+    type: file
+    config:
+      maxSize: 64
+    label: Imagen Móvil
+  label: Mapa
 - type: textarea
   name: contact_form_title
   label: Título Formulario de Contacto

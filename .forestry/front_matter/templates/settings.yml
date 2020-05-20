@@ -15,8 +15,13 @@ fields:
 - type: file
   name: logo
   label: Logo
-- name: footer
-  label: Footer
+- name: copy
+  label: Texto Copywright
+  type: text
+  hidden: false
+  default: ''
+- name: footer_frase
+  label: Frase Footer
   type: text
   hidden: false
   default: ''
@@ -152,15 +157,27 @@ fields:
     type: text
     hidden: false
     default: ''
-  - type: select
-    config:
-      source:
-        type: simple
-      options:
-      - left
-      - right
-    label: Position
-    name: position
+  - name: external
+    label: External
+    type: boolean
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: footer_navigation
+  label: Footer Navigation
+  type: field_group_list
+  fields:
+  - name: text
+    label: Text
+    type: text
+    hidden: false
+    default: ''
+  - name: link
+    label: Link
+    type: text
+    hidden: false
+    default: ''
   - name: external
     label: External
     type: boolean
