@@ -45,7 +45,7 @@
       </span>
 
       <span class="top-bar__item">
-        <a href="/#contacto">contactar</a>
+        <a href="/#contacto" scrollbehavior="smooth">contactar</a>
       </span>
     </div>
 
@@ -69,6 +69,7 @@
               class="nav__item-link"
               :key="nav.text"
               :to="nav.link"
+              v-on:click.native="removeHash()"
               exact-active-class="nav__item-link-exact-active"
               active-class="nav__item-link-active"
               v-text="nav.text"

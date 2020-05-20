@@ -47,6 +47,8 @@
     position: relative;
     z-index: 2;
     line-height: 0;
+    height: 0;
+    padding-bottom: 50%;
   }
   .banner__text {
     position: absolute;
