@@ -39,6 +39,7 @@
 <style scoped>
   .banner {
     position: relative;
+    line-height: 0;
   }
   .banner__text {
     position: absolute;

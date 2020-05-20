@@ -180,9 +180,22 @@
     display: none;
   }
 
+  .hidden-mobile {
+    display: none;
+  }
+  
+
   @media screen and (min-width: 768px) {
     .container {
       padding: 0 28px;
+    }
+
+    .hidden-mobile {
+      display: initial;
+    }
+
+    .hidden-desktop {
+      display: none;
     }
   }
 

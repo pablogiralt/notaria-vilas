@@ -42,7 +42,7 @@ contact_form_title: Envíenos sus dudas y consultas. las atenderemos a la menor 
     :text="$page.frontmatter.banner.banner_text"
     :image="$page.frontmatter.banner.banner_image" />
 
-<Contact />
+<Address />
 
 <Banner 
     :image="$page.frontmatter.map_image"

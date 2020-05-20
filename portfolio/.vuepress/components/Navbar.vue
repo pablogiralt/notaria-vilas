@@ -9,18 +9,43 @@
     }"
   >
     
-    <div class="top-bar">
+    <div class="top-bar top-bar--desktop">
+        
+      <span class="top-bar__item">
+        <span v-for="(schedule, index) in schedules">
+          <span class="top-bar__subitem">{{ schedule.item }}</span>
+          <span v-if="index + 1 < schedules.length"> — </span>
+        </span>
+      </span>
+
+      <span>
         <span class="top-bar__item">
           <span v-for="(phone, index) in contact.phones">
             <a class="top-bar__link" v-bind:href="'tel:' + phone.link">{{ phone.visible }}</a>
             <span v-if="index + 1 < contact.phones.length"> | </span>
           </span>
         </span>
-        <span class="top-bar__item" v-html="contact.email">
+        <span class="top-bar__item">
           <a class="top-bar__link" v-bind:href="'mailto:' + contact.email">
             {{ contact.email }}
           </a>
         </span>
+      </span>
+
+    </div>
+
+    <div class="top-bar top-bar--mobile">
+      
+      <span class="top-bar__item">
+        contactar
+      </span>
+
+      <span class="top-bar__item">
+        <span v-for="(schedule, index) in schedules">
+          <span class="top-bar__subitem">{{ schedule.item }}</span>
+          <span v-if="index + 1 < schedules.length"> — </span>
+        </span>
+      </span>
     </div>
 
     <div class="header__inner">
@@ -56,8 +81,9 @@
       <div class="mobile-nav" :class="{'mobile-nav--active': mobileNavActive}">
         <nav>
           <ul @click="toggleMobileNav">
-            <li v-for="nav in navLinks">
+            <li class="mobile-nav__item" v-for="nav in navLinks">
               <router-link
+                class="mobile-nav__link"
                 :key="nav.text"
                 :to="nav.link"
                 active-class="active"
@@ -96,6 +122,9 @@
       navLinks() {
         return this.$site.themeConfig.nav
       },
+      schedules() {
+        return this.$site.themeConfig.schedule.schedule_short
+      },
       contact() {
         return {
           "phones": this.$site.themeConfig.phones,
@@ -123,25 +152,31 @@
   .header__inner {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
-    padding: 23px 29px 14px;
+    align-items: center;
+    padding: 0px 29px;
   }
-
+   
   .top-bar {
     width: 100%;
     height: 25px;
     display: flex;
     justify-content: center;
+    padding: 0px 20px;
     background: var(--color-blue);
     color: white;
     font-weight: 300;
     align-items: center;
     text-transform: uppercase;
     font-size: 13px;
+    justify-content: space-between;
+  }
+
+  .top-bar--desktop {
+    display: none;
   }
 
   .top-bar__item {
-    padding: 0 16px;
+    padding: 0 10px;
   }
 
   .top-bar__link {
@@ -149,10 +184,11 @@
   }
 
   .site-name {
-    font-size: 42px;
+    font-size: 32px;
     font-family: var(--headings-font-family);
     color: var(--color-blue);
     line-height: 0.95;
+    padding: 0 10px;
   }
 
   .nav__item {
@@ -193,17 +229,22 @@
     transform: translateY(-100%);
     transition: transform 0.35s ease-in-out;
     text-align: center;
-    font-size: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    line-height: 2;
+    line-height: 50px;
   }
 
-  .mobile-nav li {
+  .mobile-nav__item {
     list-style: none;
     cursor: pointer;
     transition: opacity 0.15s;
+  }
+
+  .mobile-nav__link {
+    font-family: var(--headings-font-family);
+    color: var(--color-blue);
+    font-size: 32px;
   }
 
   .mobile-nav li:hover {
@@ -247,16 +288,37 @@
     opacity: 0.6;
   }
 
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 768px) {
+
+    .header__inner {
+      align-items: flex-end;
+      padding: 23px 29px 14px;
+    }
+
+    .top-bar--mobile {
+      display: none;
+    }
+
+    .top-bar--desktop {
+      display: flex;
+    }
+
+    .site-name {
+      font-size: 42px;
+    }
+
     .desktop-nav {
       display: block;
     }
+
     .mobile-nav-toggle {
       display: none;
     }
+
     .mobile-nav {
       display: none;
     }
+
   }
 
 </style>

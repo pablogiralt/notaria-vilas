@@ -1,5 +1,5 @@
 <template>
-    <div class="contact-form">
+    <div class="contact-form" id="contacto">
 
         <div 
             class="contact-form__backdrop"
@@ -20,6 +20,38 @@
                 >
                 
                 <div class="contact-form__row">
+
+                    <div class="contact-form__col-left contact-form__subtitle">
+                        Datos de contacto
+                    </div>
+
+                    <div class="contact-form__col-right">
+                    
+                        <ul class="contact-form__contacts">
+                            <li class="contact-form__contact">
+                                <span class="contact-form__contact-label">Email<span class="hidden-mobile">:</span></span><span class="hidden-desktop"> | </span><a class="contact-form__contact-link" v-bind:href="contact.email">{{ contact.email }}</a>
+                            </li>
+                            <li class="contact-form__contact">
+                                <span class="contact-form__contact-label">Teléfono<span class="hidden-mobile">:</span></span><span class="hidden-desktop"> | </span>
+                                <span>
+                                    <span v-for="(phone, index) in contact.phones">
+                                        <a class="contact-form__contact-link" v-bind:href="'tel:' + phone.link">{{ phone.visible }}</a>
+                                        <span v-if="index + 1 < contact.phones.length"> | </span>
+                                    </span>
+                                </span>
+                            </li>
+                            <li class="contact-form__contact">
+                                <span class="contact-form__contact-label">Fax<span class="hidden-mobile">:</span></span><span class="hidden-desktop"> | </span>{{ contact.fax }}
+                            </li>
+                        </ul>
+                   
+                    </div>
+
+                </div>
+
+
+                <div class="contact-form__row">
+
                     <div class="contact-form__col-left contact-form__subtitle">
                         Formulario de contacto
                     </div>
@@ -39,9 +71,7 @@
                                 id="contact-subject"
                                 value="[Notaria Vilas] Envío de formulario de contacto"
                                 required />
-                            <label for="contact-subject">
-                                Subject *
-                            </label>
+                            <label for="contact-subject">Subject *</label>
                         </p>
 
                         <label class="has-float-label" for="contact-name">           
@@ -173,9 +203,14 @@
             }
         },
         computed: {
-            email() {
-                return this.$site.themeConfig.email;
-            }
+            contact() {
+                return {
+                    "phones": this.$site.themeConfig.phones,
+                    "fax": this.$site.themeConfig.fax,
+                    "email": this.$site.themeConfig.email,
+                    "socialMedia": this.$site.themeConfig.socialMedia
+                }
+            },
         },
         methods: {
             encode (data) {
@@ -184,10 +219,6 @@
                     key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`
                 )
                 .join("&");
-            },
-            test (event) {
-                console.log(this.form);
-                // console.log(event);
             },
             processName (nombre) {
                 this.form.nombre = nombre;
@@ -232,7 +263,7 @@
                             console.log('Error', error.message);
                         }
 
-                        _.message = '<p class="contact-form__message-title contact-form__message-title--error">Error al enviar</p><p class="contact-form__message-body">Hubo un problema con el envío de tu formulario.  Puedes volver a intentarlo pasados unos minutos o escribir a:<br> <a href="' + _.email + '">' + _.email + '</a></p>';
+                        _.message = '<p class="contact-form__message-title contact-form__message-title--error">Error al enviar</p><p class="contact-form__message-body">Hubo un problema con el envío de tu formulario.  Puedes volver a intentarlo pasados unos minutos o escribir a:<br> <a href="' + _.form.email + '">' + _.form.email + '</a></p>';
                         _.isActive = 1;
                     });
                 
@@ -251,7 +282,7 @@
     .contact-form {
         position: relative;
         background-color: var(--color-grey-lighter);
-        padding-top: 40px;
+        padding-top: 60px;
         padding-bottom: 40px;
     }
 
@@ -304,6 +335,7 @@
         font-size: 23px;
         text-align: center;
         margin-bottom: 34px;
+        line-height: 25px;
     }
 
     .contact-form__subtitle {
@@ -318,11 +350,31 @@
         margin-bottom: 20px;
     }
 
+    .contact-form__contacts {
+        list-style: none;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    .contact-form__contact-link {
+        color: var(--color-black);
+    }
+
+    .contact-form__contact {
+        margin-bottom: 8px;
+        font-size: 14px;
+    }
+
+
     @media screen and (min-width: 768px) {
 
         .contact-form__row {
             display: flex;
             justify-content: center;
+        }
+
+        .contact-form__title {
+            margin-bottom: 50px;
         }
 
         .contact-form__col-left {
@@ -350,6 +402,19 @@
 
         .contact-form__privacy {
             margin-bottom: 0;
+        }
+
+        .contact-form__contacts {
+            text-align: left;
+        }
+
+        .contact-form__contact {
+            display: flex;
+        }
+
+        .contact-form__contact-label {
+            min-width: 78px;
+            display: inline-block;
         }
     }
 

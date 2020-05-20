@@ -29,6 +29,7 @@
     padding: 0 16px;
     max-width: 774px;
     margin: 0 auto 60px;
+    padding-top: 40px;
   }
 
   .title-block__pretitle {

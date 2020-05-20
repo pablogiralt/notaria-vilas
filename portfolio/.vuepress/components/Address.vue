@@ -1,39 +1,27 @@
 <template>
-  <div id="como-llegar" class="contact">
-    <h2 class="contact__title">
-      Dirección y contacto
+  <div id="como-llegar" class="address">
+    <h2 class="address__title">
+      Cómo llegar
     </h2>
     <div>
-      <ul class="contact__block">
-        <li class="contact__item">{{ address.street }}</li>
-        <li class="contact__item" v-if="address.line2">
+      <ul class="address__block">
+        <li class="address__item">{{ address.street }}</li>
+        <li class="address__item" v-if="address.line2">
           {{ address.line2 }}
         </li>
       </ul>
 
-      <ul class="contact__block">
-        <li class="contact__item">Email | {{ contact.email }}</li>
-        <li class="contact__item">
-          Teléfono | 
-          <span v-for="(phone, index) in contact.phones">
-            <a class="contact__link" v-bind:href="'tel:' + phone.link">{{ phone.visible }}</a>
-            <span v-if="index + 1 < contact.phones.length"> | </span>
-          </span>
-        </li>
-        <li class="contact__item">Fax | {{ contact.fax }}</li>
-      </ul>
-
-      <ul v-if="transports" class="contact__block">
-        <li class="contact__item"v-for="transport in transports">
+      <ul v-if="transports" class="address__block">
+        <li class="address__item"v-for="transport in transports">
           {{ transport.transport_label }} | {{ transport.transport_text }}
         </li>
       </ul>
 
-      <ul v-if="schedules" class="contact__block">
-        <li class="contact__item">
+      <ul v-if="schedules" class="address__block">
+        <li class="address__item">
           <strong>Horario de atención</strong>
         </li>
-        <li class="contact__item" v-for="schedule in schedules">
+        <li class="address__item" v-for="schedule in schedules">
           {{ schedule.item }}
         </li>
       </ul>
@@ -56,14 +44,14 @@
       transports() {
         return this.$site.themeConfig.transports
       },
-      contact() {
-        return {
-          "phones": this.$site.themeConfig.phones,
-          "fax": this.$site.themeConfig.fax,
-          "email": this.$site.themeConfig.email,
-          "socialMedia": this.$site.themeConfig.socialMedia
-        }
-      },
+      // contact() {
+      //   return {
+      //     "phones": this.$site.themeConfig.phones,
+      //     "fax": this.$site.themeConfig.fax,
+      //     "email": this.$site.themeConfig.email,
+      //     "socialMedia": this.$site.themeConfig.socialMedia
+      //   }
+      // },
       address() {
         let addressLine2 = [];
         let addressCodeCity = [];
@@ -90,11 +78,12 @@
 </script>
 
 <style scoped>
-  .contact {
+  .address {
     text-align: center;
+    padding: 38px 0 33px;
   }
 
-  .contact__title {
+  .address__title {
     font-size: 23px;
     line-height: 1;
     font-family: var(--headings-font-family);
@@ -102,11 +91,11 @@
     margin-bottom: 31px;
   }
 
-  .contact__block {
+  .address__block {
     margin-bottom: 21px;
   }
 
-  .contact__item {
+  .address__item {
     margin-bottom: 1px;
     font-weight: 300;
   }
