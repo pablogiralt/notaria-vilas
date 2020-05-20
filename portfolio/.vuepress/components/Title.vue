@@ -41,6 +41,7 @@
     font-size: 32px;
     line-height: 1;
     font-family: var(--headings-font-family);
+    font-weight: bold;
   }
 
   @media screen and (min-width: 992px) {

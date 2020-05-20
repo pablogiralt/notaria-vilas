@@ -84,6 +84,10 @@
     color: var(--color-black);
   }
 
+  html {
+    scroll-behavior: initial !important;
+  }
+
   body {
     font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Ubuntu", "Droid Sans", "Helvetica Neue", sans-serif;
     font-size: 16px;

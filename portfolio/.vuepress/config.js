@@ -18,7 +18,6 @@ module.exports = {
     email: config.email,
     socialMedia: config.socialMedia,
   },
-  plugins: ['vuepress-plugin-smooth-scroll'],
   head: [
     [
       'link', { rel: "icon", href: config.favicon },

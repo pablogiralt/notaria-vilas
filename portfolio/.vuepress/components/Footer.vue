@@ -46,6 +46,7 @@
   .footer__frase {
     color: var(--color-blue);
     font-family: var(--headings-font-family);
+    font-weight: bold;
     font-size: 25px;
     line-height: 27px;
     max-width: 340px;

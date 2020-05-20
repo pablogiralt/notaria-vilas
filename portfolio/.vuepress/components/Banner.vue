@@ -56,6 +56,7 @@
     padding: 0 18px;
     text-align: center;
     font-family: var(--headings-font-family);
+    font-weight: bold;
     font-size: 32px;
     letter-spacing: 0.38px;
     color: white;

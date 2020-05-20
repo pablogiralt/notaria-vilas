@@ -91,6 +91,7 @@
     font-size: 23px;
     line-height: 1;
     font-family: var(--headings-font-family);
+    font-weight: bold;
     letter-spacing: 0.27px;
     margin-bottom: 31px;
   }

@@ -333,6 +333,7 @@
 
     .contact-form__title {
         font-family: var(--headings-font-family);
+        font-weight: bold;
         color: var(--color-blue);
         font-size: 23px;
         text-align: center;
