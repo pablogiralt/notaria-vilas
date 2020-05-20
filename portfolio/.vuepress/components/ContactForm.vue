@@ -282,8 +282,10 @@
     .contact-form {
         position: relative;
         background-color: var(--color-grey-lighter);
-        padding-top: 60px;
+        padding-top: 150px;
         padding-bottom: 40px;
+        margin-top: -80px;
+        z-index: 1;
     }
 
     .contact-form__backdrop {

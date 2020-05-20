@@ -10,5 +10,8 @@
     "axios": "^0.19.2",
     "vuepress": "^1.2.0",
     "webpack-dev-middleware": "3.6.0"
+  },
+  "devDependencies": {
+    "vuepress-plugin-smooth-scroll": "^0.0.9"
   }
 }

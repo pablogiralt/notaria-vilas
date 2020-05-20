@@ -19,17 +19,22 @@ about_list:
   about_list_text: Finalmente, tenemos que recalcar que el idioma no es ningún inconveniente
     para nosotros, ya que además de hablar en castellano, podemos atender a nuestros
     clientes en inglés o francés.
-main_image: "/upload/scott-graham-oqmzwnd3thu-unsplash.jpg"
+main_image: "/upload/notaria-vilas-edificio-wide.jpg"
+main_image_mobile: "/upload/notaria-vilas-edificio-square.jpg"
 banner:
   banner_text: "Visite nuestro despacho, \Lestaremos encantados de atenderle"
-  banner_image: "/upload/scott-graham-oqmzwnd3thu-unsplash.jpg"
-map_image: "/upload/scott-graham-oqmzwnd3thu-unsplash.jpg"
-map_link: "https://www.google.com/maps?q=notaria+vilas&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiT-q_L273pAhXFSxUIHd8TBxwQ_AUoAXoECBMQAw"
+  banner_image: "/upload/notaria-vilas-firma.jpg"
+  banner_image_mobile: "/upload/notaria-vilas-firma-square.jpg"
+map:
+  map_image: "/upload/notaria-vilas-mapa.jpg"
+  map_image_mobile: "/upload/notaria-vilas-mapa-square.jpg"
+  map_link: "https://www.google.com/maps?q=notaria+vilas&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiT-q_L273pAhXFSxUIHd8TBxwQ_AUoAXoECBMQAw"
 contact_form_title: Envíenos sus dudas y consultas. las atenderemos a la menor brevedad
 
 ---
 <Banner 
-    :image="$page.frontmatter.main_image" />
+    :image="$page.frontmatter.main_image"
+    :image_mobile="$page.frontmatter.main_image_mobile" />
     
 <Title 
     :title="$page.frontmatter.about_title" 
@@ -40,13 +45,15 @@ contact_form_title: Envíenos sus dudas y consultas. las atenderemos a la menor 
 
 <Banner 
     :text="$page.frontmatter.banner.banner_text"
-    :image="$page.frontmatter.banner.banner_image" />
+    :image="$page.frontmatter.banner.banner_image"
+    :image_mobile="$page.frontmatter.banner.banner_image_mobile" />
 
 <Address />
 
 <Banner 
-    :image="$page.frontmatter.map_image"
-    :link="$page.frontmatter.map_link"
+    :image="$page.frontmatter.map.map_image"
+    :image_mobile="$page.frontmatter.map.map_image_mobile"
+    :link="$page.frontmatter.map.map_link"
     :target="'_blank'" />
 
 <ContactForm 

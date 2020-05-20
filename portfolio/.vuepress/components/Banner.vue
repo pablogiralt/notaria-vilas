@@ -1,11 +1,13 @@
 <template>
     <div class="banner">
       <a class="banner__link" v-if="link" v-bind:href="link" :target="target?target:'_self'">
-        <img v-if="image" v-bind:src="image" class="banner__image">
+        <img v-if="image" v-bind:src="image" class="banner__image hidden-mobile">
+        <img v-if="image_mobile" v-bind:src="image_mobile" class="banner__image hidden-desktop">
         <h2 v-if="text" class="banner__text" v-html="text"></h2>   
       </a>
       <div v-else>
-        <img v-if="image" v-bind:src="image" class="banner__image">
+        <img v-if="image" v-bind:src="image" class="banner__image hidden-mobile">
+        <img v-if="image_mobile" v-bind:src="image_mobile" class="banner__image hidden-desktop">
         <h2 v-if="text" class="banner__text" v-html="text"></h2>  
       </div>
     </div>
@@ -15,6 +17,10 @@
   export default {
     props: {
       image: {
+        type: String,
+        required: false
+      },
+      image_mobile: {
         type: String,
         required: false
       },
@@ -39,6 +45,7 @@
 <style scoped>
   .banner {
     position: relative;
+    z-index: 2;
     line-height: 0;
   }
   .banner__text {

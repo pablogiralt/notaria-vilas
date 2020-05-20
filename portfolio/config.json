@@ -5,7 +5,8 @@
   "default_font_url": "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap",
   "logo": "",
   "logo_old": "/upload/logo.svg",
-  "footer": "Ⓒ Notaría Vilas",
+  "copy": "Ⓒ Notaría Vilas",
+  "footer_frase": "Vivamus et ante porttitor ligula I hendrerit. Entero masa est.",
   "favicon": "favicon-32x32.png",
   "phones": [
     {
@@ -73,6 +74,16 @@
     {
       "text": "Contacto",
       "link": "/#contacto"
+    }
+  ],
+  "footer_navigation": [
+    {
+      "text": "Política de Privacidad",
+      "link": "/politica-de-privacidad"
+    },
+    {
+      "text": "Términos y Condiciones",
+      "link": "/terminos-y-condiciones/"
     }
   ]
 }

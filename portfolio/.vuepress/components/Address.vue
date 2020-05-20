@@ -78,9 +78,13 @@
 </script>
 
 <style scoped>
+
   .address {
+    position: relative;
     text-align: center;
-    padding: 38px 0 33px;
+    padding: 120px 0 33px;
+    margin-top: -80px;
+    z-index: 1;
   }
 
   .address__title {
@@ -93,6 +97,7 @@
 
   .address__block {
     margin-bottom: 21px;
+    list-style: none;
   }
 
   .address__item {

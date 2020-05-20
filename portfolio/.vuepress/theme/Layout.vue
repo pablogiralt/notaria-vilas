@@ -3,7 +3,7 @@
 
     <Navbar :logo="$site.themeConfig.logo" :sticky="true" />
     
-    <div>
+    <div class="wrapper__inner">
       <div v-if="isSingleProject">
         <SingleProjectHeader
           :title="$page.frontmatter.title"
@@ -51,7 +51,7 @@
 </script>
 
 <style>
-
+  
   :root {
     --color-black: #4A4A4A;
     --color-blue: #1B0A47;
@@ -60,6 +60,7 @@
     --color-grey-lighter: #F5F5F5;
     --headings-font-family: 'EB Garamond', serif;
     --color-highlight: rgba(249, 233, 172, 0.99);
+    --max-wrapper-width: 1366px;
   }
 
   * {
@@ -90,6 +91,7 @@
     color: var(--color-black);
     text-rendering: optimizeLegibility!important;
     -webkit-font-smoothing: antialiased!important;
+    background-color: var(--color-grey-lighter);
   }
 
   img {
@@ -99,8 +101,13 @@
   }
 
   .wrapper {
-    max-width: 2000px;
+    padding-top: 73px;   
+  }
+
+  .wrapper__inner {
+    max-width: var(--max-wrapper-width);
     margin: auto;
+    background-color: var(--color-grey-lighter);
   }
 
   .container {
@@ -196,6 +203,10 @@
 
     .hidden-desktop {
       display: none;
+    }
+
+    .wrapper {
+      padding-top: 101px;
     }
   }
 

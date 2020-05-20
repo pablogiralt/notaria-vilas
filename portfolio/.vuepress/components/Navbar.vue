@@ -4,8 +4,9 @@
     :style="sticky && {
       position: 'fixed',
       top: '0',
-      left: '0',
+      left: '50%',
       width: '100%',
+      transform: 'translateX(-50%)'
     }"
   >
     
@@ -35,16 +36,16 @@
     </div>
 
     <div class="top-bar top-bar--mobile">
-      
-      <span class="top-bar__item">
-        contactar
-      </span>
 
       <span class="top-bar__item">
         <span v-for="(schedule, index) in schedules">
           <span class="top-bar__subitem">{{ schedule.item }}</span>
           <span v-if="index + 1 < schedules.length"> — </span>
         </span>
+      </span>
+
+      <span class="top-bar__item">
+        <a href="/#contacto" scrollbehavior="smooth">contactar</a>
       </span>
     </div>
 
@@ -68,8 +69,10 @@
               class="nav__item-link"
               :key="nav.text"
               :to="nav.link"
+              v-on:click.native="removeHash()"
               exact-active-class="nav__item-link-exact-active"
               active-class="nav__item-link-active"
+              scrollBehavior="smooth" 
               v-text="nav.text"
               exact
             />
@@ -120,6 +123,10 @@
     },
     computed: {
       navLinks() {
+        // let _ = this;
+        // _.$site.themeConfig.nav.forEach(function (item, index) {
+        //   _.$site.themeConfig.nav[index].isHash = item.link.includes('#') ? true : false;
+        // });
         return this.$site.themeConfig.nav
       },
       schedules() {
@@ -136,6 +143,16 @@
     methods: {
       toggleMobileNav() {
         this.mobileNavActive = !this.mobileNavActive
+      },
+      removeHash() {
+        // Remove the # from the hash, as different browsers may or may not include it
+        var hash = location.hash.replace('#','');
+
+        if(hash != ''){
+            setTimeout(function(){
+              location.hash = '';
+            }, 2000);
+        }
       }
     }
   }
@@ -146,14 +163,15 @@
   .header {
     position: relative;
     z-index: 10;
-    background-color: white;
+    background-color: var(--color-grey-lighter);
+    max-width: var(--max-wrapper-width);
   }
 
   .header__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 29px;
+    padding: 0px 5px;
   }
    
   .top-bar {
@@ -161,10 +179,8 @@
     height: 25px;
     display: flex;
     justify-content: center;
-    padding: 0px 20px;
     background: var(--color-blue);
     color: white;
-    font-weight: 300;
     align-items: center;
     text-transform: uppercase;
     font-size: 13px;
@@ -293,6 +309,10 @@
     .header__inner {
       align-items: flex-end;
       padding: 23px 29px 14px;
+    }
+
+    .top-bar {
+      padding: 0px 20px;
     }
 
     .top-bar--mobile {

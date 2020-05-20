@@ -5,7 +5,8 @@ module.exports = {
   base: "/",
   themeConfig: {
     logo: config.logo,
-    footer: config.footer,
+    copy: config.copy,
+    footer_frase: config.footer_frase,
     nav: config.navigation,
     phones: config.phones,
     fax: config.fax,
@@ -13,9 +14,11 @@ module.exports = {
     transports: config.transports,
     schedule: config.schedule,
     nav: config.navigation,
+    footer_nav: config.footer_navigation,
     email: config.email,
     socialMedia: config.socialMedia,
   },
+  plugins: ['vuepress-plugin-smooth-scroll'],
   head: [
     [
       'link', { rel: "icon", href: config.favicon },
