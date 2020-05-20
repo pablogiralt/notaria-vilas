@@ -147,10 +147,12 @@
       removeHash() {
         // Remove the # from the hash, as different browsers may or may not include it
         var hash = location.hash.replace('#','');
-
+        console.log(location);
         if(hash != ''){
             setTimeout(function(){
-              location.hash = '';
+              // dummy hash so scroll position is not changed when setting it
+              location.hash = '#/';
+              console.log(location);
             }, 2000);
         }
       }
@@ -202,6 +204,7 @@
   .site-name {
     font-size: 32px;
     font-family: var(--headings-font-family);
+    font-weight: bold;
     color: var(--color-blue);
     line-height: 0.95;
     padding: 0 10px;
@@ -259,6 +262,7 @@
 
   .mobile-nav__link {
     font-family: var(--headings-font-family);
+    font-weight: bold;
     color: var(--color-blue);
     font-size: 32px;
   }
