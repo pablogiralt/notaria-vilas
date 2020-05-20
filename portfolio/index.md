@@ -25,6 +25,7 @@ banner:
   banner_image: "/upload/scott-graham-oqmzwnd3thu-unsplash.jpg"
 map_image: "/upload/scott-graham-oqmzwnd3thu-unsplash.jpg"
 map_link: "https://www.google.com/maps?q=notaria+vilas&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiT-q_L273pAhXFSxUIHd8TBxwQ_AUoAXoECBMQAw"
+contact_form_title: Envíenos sus dudas y consultas. las atenderemos a la menor brevedad
 
 ---
 <Banner 
@@ -48,5 +49,6 @@ map_link: "https://www.google.com/maps?q=notaria+vilas&um=1&ie=UTF-8&sa=X&ved=2a
     :link="$page.frontmatter.map_link"
     :target="'_blank'" />
 
-<ContactForm />
+<ContactForm 
+    :title="$page.frontmatter.contact_form_title" />
 

@@ -55,7 +55,9 @@
   :root {
     --color-black: #4A4A4A;
     --color-blue: #1B0A47;
+    --color-red: #e84646;
     --color-grey-light: #9B9B9B;
+    --color-grey-lighter: #F5F5F5;
     --headings-font-family: 'EB Garamond', serif;
     --color-highlight: rgba(249, 233, 172, 0.99);
   }
@@ -94,7 +96,6 @@
     width: 100%;
     max-width: 100%;
     line-height: 0;
-    margin: 2rem 0;
   }
 
   .wrapper {
@@ -145,6 +146,23 @@
     margin: 0 auto 1rem auto;
   }
 
+  button,
+  .btn {
+    background-color: var(--color-blue);
+    color: white;
+    border: none;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    font-weight: bolder;
+    padding: 0 17px;
+  }
+  
+  [type="checkbox"] + label {
+    font-size: 13px;
+    padding-left: 10px;
+  }
+
   .subtitle {
     font-size: 16px;
     letter-spacing: 0.18px;
@@ -166,6 +184,114 @@
     .container {
       padding: 0 28px;
     }
+  }
+
+
+
+
+  .has-float-label {
+    display: block;
+    position: relative;
+    margin-bottom: 10px;
+  }
+  .has-float-label label, .has-float-label > span {
+    position: absolute;
+    left: 18px;
+    top: 3px;
+    cursor: text;
+    font-size: 75%;
+    opacity: 1;
+    -webkit-transition: all .2s;
+            transition: all .2s;
+  }
+  .has-float-label select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  .has-float-label textarea {
+    width: 100%;
+  }
+  .has-float-label input, 
+  .has-float-label select, 
+  .has-float-label textarea {
+    width: 100%;
+    height: 40px;
+    max-width: 554px;
+    font-size: inherit;
+    padding: 14px 18px 0 18px;
+    margin-bottom: 2px;
+    border: none;
+    font-size: 14px;
+  }
+
+  .has-float-label textarea {
+    height: 156px;
+    padding-top: 20px;
+  }
+
+  .has-float-label input::-webkit-input-placeholder, 
+  .has-float-label select::-webkit-input-placeholder, 
+  .has-float-label textarea::-webkit-input-placeholder {
+    opacity: 1;
+    -webkit-transition: all .2s;
+            transition: all .2s;
+  }
+  .has-float-label input::-moz-placeholder, 
+  .has-float-label select::-moz-placeholder, 
+  .has-float-label textarea::-moz-placeholder {
+    opacity: 1;
+    transition: all .2s;
+  }
+  .has-float-label input:-ms-input-placeholder, 
+  .has-float-label select:-ms-input-placeholder, 
+  .has-float-label textarea:-ms-input-placeholder {
+    opacity: 1;
+    transition: all .2s;
+  }
+  .has-float-label input::placeholder, 
+  .has-float-label select::placeholder, 
+  .has-float-label textarea::placeholder {
+    opacity: 1;
+    -webkit-transition: all .2s;
+            transition: all .2s;
+  }
+  .has-float-label input:placeholder-shown:not(:focus)::-webkit-input-placeholder, 
+  .has-float-label select:placeholder-shown:not(:focus)::-webkit-input-placeholder, 
+  .has-float-label textarea:placeholder-shown:not(:focus)::-webkit-input-placeholder {
+    opacity: 0;
+  }
+  .has-float-label input:placeholder-shown:not(:focus)::-moz-placeholder, 
+  .has-float-label select:placeholder-shown:not(:focus)::-moz-placeholder, 
+  .has-float-label textarea:placeholder-shown:not(:focus)::-moz-placeholder {
+    opacity: 0;
+  }
+  .has-float-label input:placeholder-shown:not(:focus):-ms-input-placeholder, 
+  .has-float-label select:placeholder-shown:not(:focus):-ms-input-placeholder, 
+  .has-float-label textarea:placeholder-shown:not(:focus):-ms-input-placeholder {
+    opacity: 0;
+  }
+  .has-float-label input:placeholder-shown:not(:focus)::placeholder, 
+  .has-float-label select:placeholder-shown:not(:focus)::placeholder, 
+  .has-float-label textarea:placeholder-shown:not(:focus)::placeholder {
+    opacity: 0;
+  }
+  .has-float-label input:placeholder-shown:not(:focus) + *, 
+  .has-float-label select:placeholder-shown:not(:focus) + *, 
+  .has-float-label textarea:placeholder-shown:not(:focus) + * {
+    font-size: 14px;
+    top: 10px;
+  }
+  .has-float-label input:focus, 
+  .has-float-label select:focus, 
+  .has-float-label textarea:focus {
+    outline: none;
+    border-color: rgba(0, 0, 0, 0.5);
+  }
+  .has-float-label select {
+    padding-right: 1em;
+    background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23333' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right 0.5em bottom 0.25em;
+    background-size: 8px 10px;
   }
   
 </style>

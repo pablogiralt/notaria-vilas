@@ -1,6 +1,6 @@
 <template>
     <div class="banner">
-      <a v-if="link" v-bind:href="link" :target="target?target:'_self'">
+      <a class="banner__link" v-if="link" v-bind:href="link" :target="target?target:'_self'">
         <img v-if="image" v-bind:src="image" class="banner__image">
         <h2 v-if="text" class="banner__text" v-html="text"></h2>   
       </a>
@@ -52,6 +52,10 @@
     letter-spacing: 0.38px;
     color: white;
     line-height: 1;
+  }
+  .banner__link {
+    display: block;
+    line-height: 0;
   }
 
   @media screen and (min-width: 768px) {
