@@ -1,3 +1,3 @@
 ---
-title: Testamentos y declaraciones  de herederos
+title: Testamentos y declaraciones de herederos
 ---
