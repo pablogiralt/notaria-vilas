@@ -60,30 +60,41 @@
   },
   "social_media": {
     "facebook": "https://www.facebook.com/Notar%C3%ADa-Vilas-801786883239459/",
-    "twitter": "https://twitter.com/notariavilasmad"
+    "twitter": "https://twitter.com/notariavilasmad",
+    "instagram": ""
   },
   "navigation": [
     {
+      "text": "La Notaría",
+      "link": "#la-notaria",
+      "external": false
+    },
+    {
       "text": "Cómo Llegar",
-      "link": "/#como-llegar"
+      "link": "/#como-llegar",
+      "external": false
     },
     {
       "text": "Servicios",
-      "link": "/servicios/"
+      "link": "/servicios/",
+      "external": false
     },
     {
       "text": "Contacto",
-      "link": "/#contacto"
+      "link": "/#contacto",
+      "external": false
     }
   ],
   "footer_navigation": [
     {
       "text": "Política de Privacidad",
-      "link": "/politica-de-privacidad"
+      "link": "/politica-de-privacidad",
+      "external": false
     },
     {
       "text": "Términos y Condiciones",
-      "link": "/terminos-y-condiciones/"
+      "link": "/terminos-y-condiciones/",
+      "external": false
     }
   ]
 }
