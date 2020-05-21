@@ -34,3 +34,10 @@
 	for = "/upload/*"
 	[headers.values]
 	Cache-Control = "public, max-age=3000000"
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "default-src 'self';"
+		X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+		X-Content-Type-Options = "nosniff"
