@@ -253,6 +253,12 @@
     margin: auto;
   }
 
+  .template-service .content__default li,
+  .template-text .content__default li {
+    
+    line-height: 1.5;
+  }
+
   @media screen and (min-width: 768px) {
 
     .container {
@@ -274,7 +280,7 @@
     }
 
     .template-service .content__default {
-      padding-right: 120px;
+      padding-right: 40px;
     }
 
     .hidden-mobile {
@@ -288,7 +294,6 @@
     .wrapper {
       padding-top: 101px;
     }
-
   }
 
   @media screen and (min-width: 992px) {
@@ -299,6 +304,10 @@
     .image-mobile {
       display: none;
     }   
+
+    .template-service .content__default {
+      padding-right: 120px;
+    }
   }
 
 

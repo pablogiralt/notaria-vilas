@@ -9,8 +9,6 @@ sidebar:
 
 # Compraventa
 
-## Características:
- 
 La escritura de compraventa documenta la transmisión de un inmueble por la parte vendedora a cambio de un precio que satisface la parte compradora.
 La escritura debe reflejar los medios de pago empleados para el pago del precio (metálico, cheque, transferencia) con indicación de las cuentas de cargo y abono. 
 

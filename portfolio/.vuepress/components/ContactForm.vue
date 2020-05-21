@@ -29,7 +29,7 @@
                     
                         <ul class="contact-form__contacts">
                             <li class="contact-form__contact">
-                                <span class="contact-form__contact-label">Email<span class="hidden-mobile">:</span></span><span class="hidden-desktop"> | </span><a class="contact-form__contact-link" v-bind:href="contact.email">{{ contact.email }}</a>
+                                <span class="contact-form__contact-label">Email<span class="hidden-mobile">:</span></span><span class="hidden-desktop"> | </span><a class="contact-form__contact-link" v-bind:href="'mailto:' + contact.email">{{ contact.email }}</a>
                             </li>
                             <li class="contact-form__contact">
                                 <span class="contact-form__contact-label">Teléfono<span class="hidden-mobile">:</span></span><span class="hidden-desktop"> | </span>
@@ -263,7 +263,7 @@
                             console.log('Error', error.message);
                         }
 
-                        _.message = '<p class="contact-form__message-title contact-form__message-title--error">Error al enviar</p><p class="contact-form__message-body">Hubo un problema con el envío de tu formulario.  Puedes volver a intentarlo pasados unos minutos o escribir a:<br> <a href="' + _.contact.email + '">' + _.contact.email + '</a></p>';
+                        _.message = '<p class="contact-form__message-title contact-form__message-title--error">Error al enviar</p><p class="contact-form__message-body">Hubo un problema con el envío de tu formulario.  Puedes volver a intentarlo pasados unos minutos o escribir a:<br> <a href="mailto:' + _.contact.email + '">' + _.contact.email + '</a></p>';
                         _.isActive = 1;
                     });
                 

@@ -1,6 +1,11 @@
 <template>
-	<div class="sidebar" :class="{ 'sidebar--fixed': isFixed }">
-		<div v-if="sidebar" class="sidebar__inner">
+	<div class="sidebar" ref="sidebar">
+		<div 
+			v-if="sidebar" 
+			class="sidebar__inner" 
+			:class="{ 'sidebar--fixed': isFixed }" 
+			v-bind:style="sidebarStyles">
+
 			<h2 class="sidebar__title" v-if="sidebar.title">
 				{{ sidebar.title }}
 			</h2>
@@ -26,18 +31,25 @@
 		data: function () {
         return { 
 					isFixed: false,
-					scrollPosition: 0
+					scrollPosition: 0,
+					sidebarStyles: {}
 				};
 		},
 		methods: {
 			updateScroll() {
+				console.log(this.$refs);
 				this.scrollPosition = window.scrollY;
-				if (this.scrollPosition > 101) {
+				const headerHeight = document.getElementById('header').clientHeight;
+				if (this.scrollPosition > headerHeight) {
+					const sidebarTop = this.$refs.sidebar.offsetTop - headerHeight - 2;
+					this.sidebarStyles.top = sidebarTop + 'px';
+					// console.log(sidebarTop);
 					this.isFixed = true;
 				} else {
 					this.isFixed = false;	
 				}
-				console.log(this.scrollPosition);
+				// console.log(this.$refs.sidebar.offsetTop);
+				
 			}
 		},
 		mounted() {
@@ -54,14 +66,10 @@
 		margin-top: 50px;
 	}
 
-	.sidebar--fixed {
-		position: fixed;
-		right: 0;
-	}
-
 	.sidebar__inner {
 		padding: 20px 15px;
 		background-color: #ebebeb;
+		width: 230px;
 	}
 
 	.sidebar__title {
@@ -74,5 +82,19 @@
 
 	.sidebar__btn {
 		width: 100%;
+	}
+
+	@media screen and (min-width: 768px) {
+		.sidebar--fixed {
+			position: fixed;
+			right: 16px;
+		}	
+	}
+
+	@media screen and (min-width: 1366px) {
+		.sidebar--fixed {
+			position: fixed;
+			right: calc((100vw - 1334px) / 2);	
+		}	
 	}
 </style>
