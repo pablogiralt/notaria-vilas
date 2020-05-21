@@ -91,8 +91,8 @@ contact_form_title: Envíenos sus dudas y consultas. las atenderemos a la menor 
       "@type": "Notary",
       "image": [
         "https://notaria.netlify.app/upload/notaria-en-madrid-edificio-md.jpg",
-        "https://notaria.netlify.app/upload/notaria-en-madrid-firma-md.jpg",
-       ],
+        "https://notaria.netlify.app/upload/notaria-en-madrid-firma-md.jpg"
+      ],
       "@id": "https://notaria.netlify.app",
       "name": "Notaría Vilas",
       "email": "notariavilas@notariavilas.com",

@@ -53,7 +53,7 @@
   }
 
   .footer_nav__item-link {
-    padding: 4px 10px;
+    padding: 15px 10px;
     display: inline-block;
     text-decoration: none;
     color: var(--color-black);
