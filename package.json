@@ -9,6 +9,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "vuepress": "^1.2.0",
+    "vuepress-plugin-img-lazy": "^1.0.3",
     "webpack-dev-middleware": "3.6.0"
   },
   "devDependencies": {}

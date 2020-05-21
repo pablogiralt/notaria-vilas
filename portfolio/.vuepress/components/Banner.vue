@@ -13,6 +13,7 @@
               class="banner__image" 
               :src="image_mobile">
           </picture>
+
           <h2 v-if="text" class="banner__text" v-html="text"></h2>   
         </a>
         <div v-else>
