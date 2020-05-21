@@ -7,7 +7,6 @@ sections:
 - type: document
   path: portfolio/covid-19.md
   label: Covid-19
-  match: "**/*"
 - type: document
   path: portfolio/index.md
   label: Homepage
