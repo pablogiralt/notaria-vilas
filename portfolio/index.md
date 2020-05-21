@@ -23,15 +23,18 @@ main_image:
   mobile: "/upload/notaria-en-madrid-edificio-xs.jpg"
   tablet: "/upload/notaria-en-madrid-edificio-md.jpg"
   desktop: "/upload/notaria-en-madrid-edificio-lg.jpg"
+  alt: "Notaría en Madrid Edificio"
 banner:
   text: "Visite nuestro despacho, \Lestaremos encantados de atenderle"
   image_mobile: "/upload/notaria-en-madrid-firma-xs.jpg"
   image_tablet: "/upload/notaria-en-madrid-firma-md.jpg"
   image_desktop: "/upload/notaria-en-madrid-firma-lg.jpg"
+  image_alt: "Notaría en Madrid Firma"
 map:
   image_mobile: "/upload/notaria-en-madrid-mapa-xs.jpg"
   image_tablet: "/upload/notaria-en-madrid-mapa-md.jpg"
   image_desktop: "/upload/notaria-en-madrid-mapa-lg.jpg"
+  image_alt: "Notaría en Madrid Mapa"
   link: "https://www.google.com/maps?q=notaria+vilas&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiT-q_L273pAhXFSxUIHd8TBxwQ_AUoAXoECBMQAw"
 contact_form_title: Envíenos sus dudas y consultas. las atenderemos a la menor brevedad
 
@@ -40,7 +43,8 @@ contact_form_title: Envíenos sus dudas y consultas. las atenderemos a la menor 
 <Banner 
     :image="$page.frontmatter.main_image.desktop"
     :image_mobile="$page.frontmatter.main_image.mobile"
-    :image_tablet="$page.frontmatter.main_image.tablet" />
+    :image_tablet="$page.frontmatter.main_image.tablet"
+    :image_alt="$page.frontmatter.main_image.alt" />
 
 <div id="la-notaria">
   <Title 
@@ -55,7 +59,8 @@ contact_form_title: Envíenos sus dudas y consultas. las atenderemos a la menor 
     :text="$page.frontmatter.banner.banner_text"
     :image="$page.frontmatter.banner.image_desktop"
     :image_mobile="$page.frontmatter.banner.image_mobile"
-    :image_tablet="$page.frontmatter.banner.image_tablet" />
+    :image_tablet="$page.frontmatter.banner.image_tablet"
+    :image_alt="$page.frontmatter.banner.image_alt" />
 
 <Address />
 
@@ -63,8 +68,9 @@ contact_form_title: Envíenos sus dudas y consultas. las atenderemos a la menor 
     :image="$page.frontmatter.map.image_desktop"
     :image_mobile="$page.frontmatter.map.image_mobile"
     :image_tablet="$page.frontmatter.map.image_tablet"
+    :image_alt="$page.frontmatter.map.image_alt"
     :link="$page.frontmatter.map.link"
-    :target="'_blank'" />
+    :target="'external'" />
 
 <ContactForm 
     :title="$page.frontmatter.contact_form_title" />

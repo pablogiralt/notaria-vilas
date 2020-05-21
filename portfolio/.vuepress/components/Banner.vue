@@ -1,7 +1,7 @@
 <template>
     <div class="banner wrapper__inner">
       <div class="banner__inner">
-        <a class="banner__link" v-if="link" v-bind:href="link" :target="target?target:'_self'">
+        <a class="banner__link" v-if="link" v-bind:href="link" :target="target=='external'?'_blank':'_self'" :rel="target=='external'?'noreferrer noopener':''">
           <picture>
             <source 
               :srcset="image_tablet" 
@@ -10,6 +10,7 @@
               :srcset="image" 
               media="(min-width:992px)">
             <img 
+              :alt="image_alt"
               class="banner__image" 
               :src="image_mobile">
           </picture>
@@ -25,6 +26,7 @@
               :srcset="image" 
               media="(min-width:992px)">
             <img 
+              :alt="image_alt"
               class="banner__image" 
               :src="image_mobile">
           </picture>
@@ -46,6 +48,10 @@
         required: false
       },
       image_tablet: {
+        type: String,
+        required: false
+      },
+      image_alt: {
         type: String,
         required: false
       },
