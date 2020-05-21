@@ -29,8 +29,8 @@
 [[headers]]
 	for = "/assets/*"
 	[headers.values]
-	Cache-Control = "public, max-age=360000"
+	Cache-Control = "public, max-age=3000000"
 [[headers]]
 	for = "/upload/*"
 	[headers.values]
-	Cache-Control = "public, max-age=360000"
+	Cache-Control = "public, max-age=3000000"
