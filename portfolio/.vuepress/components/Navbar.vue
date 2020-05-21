@@ -62,7 +62,7 @@
       </div>
 
       <nav v-if="navLinks" class="nav desktop-nav">
-        <ul>
+        <ul class="nav-list">
           <li class="nav__item" v-for="nav in navLinks">
             <router-link
               class="nav__item-link"
@@ -81,7 +81,7 @@
       <div class="mobile-nav-toggle" @click="toggleMobileNav" />
       <div class="mobile-nav" :class="{'mobile-nav--active': mobileNavActive}">
         <nav>
-          <ul @click="toggleMobileNav">
+          <ul class="nav-list" @click="toggleMobileNav">
             <li class="mobile-nav__item" v-for="nav in navLinks">
               <router-link
                 class="mobile-nav__link"
@@ -316,6 +316,10 @@
   .mobile-nav-toggle:hover,
   .mobile-nav-close:hover {
     opacity: 0.6;
+  }
+
+  .nav-list {
+    margin: 0;
   }
 
   @media screen and (min-width: 768px) {

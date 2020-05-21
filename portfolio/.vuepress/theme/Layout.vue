@@ -1,20 +1,26 @@
 <template>
   <div class="wrapper">
 
-    <Navbar :logo="$site.themeConfig.logo" :sticky="true" />
+    <Navbar :logo="$site.themeConfig.logo" />
 
-    <div>
+    <div :class="'template-' + $page.frontmatter.template">
 
-      <Notice />
+      <div class="template__inner">
 
-      <div v-if="isSingleProject">
-        <SingleProjectHeader
-          :title="$page.frontmatter.title"
-          :year="$page.frontmatter.year.toString()"
-          :categories="$page.frontmatter.categories"
-        />
+        <Notice />
+
+        <div v-if="isSingleProject">
+          <SingleProjectHeader
+            :title="$page.frontmatter.title"
+            :year="$page.frontmatter.year.toString()"
+            :categories="$page.frontmatter.categories"
+          />
+        </div>
+
+        <Content/>
+
       </div>
-      <Content/>
+
     </div>
 
     <Footer />
@@ -122,6 +128,10 @@
     margin: auto;
   }
 
+  .content__default {
+    min-height: calc(100vh - 73px - 282px);
+  }
+
   .journal-list, .single-journal {
     width: 800px;
     max-width: 100%;
@@ -141,12 +151,24 @@
   }
 
   h1 {
-    font-size: 3rem;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: var(--headings-font-family);
     line-height: 1.15;
   }
 
+  h1:before {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: var(--color-blue);
+    margin-bottom: 20px;
+  }
+
   h2 {
-    font-size: 2rem;
+    font-size: 16px;
+    font-weight: bolder;
   }
 
   h3 {
@@ -157,6 +179,11 @@
     font-size: 1rem;
     line-height: 1.5;
     margin: 0 auto 1rem auto;
+  }
+
+  ul {
+    padding-left: 20px;
+    margin-bottom: 40px;
   }
 
   button,
@@ -201,10 +228,24 @@
     display: none;
   }
 
+  .template-text {
+    padding: 0 16px;
+    margin: auto;
+  }
+
   @media screen and (min-width: 768px) {
 
     .container {
       padding: 0 28px;
+    }
+
+    .template-text {
+      padding-left: 42px;
+      max-width: var(--max-wrapper-width);
+    }
+    
+    .template-text .template__inner {
+      max-width: 800px;
     }
 
     .hidden-mobile {

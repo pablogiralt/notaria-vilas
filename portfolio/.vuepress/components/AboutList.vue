@@ -5,8 +5,7 @@
         <h2 class="about__title subtitle-strong">
           {{ item.about_list_title }}
         </h2>
-        <div class="about__text">
-          {{ item.about_list_text }}
+        <div class="about__text" v-html="item.about_list_text">
         </div>
       </li>
     </ul>

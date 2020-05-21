@@ -5,21 +5,10 @@ about_pre_title: Notaría en Madrid
 about_title: Somos un despacho notarial con amplia experiencia en el sector y trabajamos
   con un equipo de eficacia comprobada.
 about_list:
-- about_list_title: La Notaría
-  about_list_text: Somos Notaría Vilas y ofrecemos excelentes servicios profesionales
-    desde 1996, lo que nos ha otorgado una amplia experiencia en el sector. Nuestro
-    despacho notarial se encuentra bajo la dirección de Don Ricardo Vilas de Escauriaza,
-    quien junto a un equipo conformado por nueve profesionales jóvenes y eficaces,
-    se encarga de atender las necesidades de nuestros clientes.
-- about_list_title: El Despacho
-  about_list_text: Nuestro despacho notarial no posee barreras arquitectónicas, ya
-    que estamos situados en Conde Cartagena, una de las calles más funcionales y accesibles
-    de todo Madrid; por otro lado, en nuestras instalaciones no hay escalones que
-    puedan dificultar la circulación de las personas que nos visitan en silla de ruedas.
-- about_list_title: El edificio
-  about_list_text: Finalmente, tenemos que recalcar que el idioma no es ningún inconveniente
-    para nosotros, ya que además de hablar en castellano, podemos atender a nuestros
-    clientes en inglés o francés.
+- about_list_title: Quienes Somos
+  about_list_text: Notaría Vilas ofrece un servicio jurídico integral en la firma de escrituras y actas notariales, asesorando sobre las opciones más  idóneas para el cliente. <br>Ofrecemos un servicio de gestión ágil y profesional, tramitando cualquier tipo de Impuestos que afecten a las escrituras firmadas en cualquier Comunidad Autónoma de España e inscribiéndolas en cualquier Registro de la Propiedad o Mercantil.
+- about_list_title: Lo que nos diferencia
+  about_list_text: <p>Notaría Vilas, establecida en Madrid desde 1996, cuenta con un equipo muy cualificado de profesionales, con soluciones a todas sus iniciativas  y con disponibilidad para atenderle y resolver sus dudas, incluso en el ámbito internacional, pues El Notario y algún empleado hablan inglés, francés y catalán.</p><p>Disponemos de un servicio de gestión que comprende el pago de cualesquiera de los Impuestos derivados de las escrituras firmadas y su inscripción en cualquier Registro Público. (ver servicios de gestión)</p><p>Notaría Vilas cuenta con unas modernas instalaciones en un amplio chalet situado  a nivel de calle , sin barreras arquitectónicas, que permite el acceso en silla de ruedas o a personas de movilidad reducida. Posee  jardín interior,   cuatro salas de firma y amplios espacios diáfanos  de espera,  que se adaptan a las medidas de protección sanitarias y de seguridad establecidas por la Legislación vigente.( ver sección Covid 19 )</p><p>Nuestro amplísimo horario de atención al público y de firma  comprende todos los días laborables de 9:00 a 14:00 y de Lunes a Jueves de 16:30 a 19:00. ¡un lujo en Madrid!</p>
 main_image: 
   mobile: "/upload/notaria-en-madrid-edificio-xs.jpg"
   tablet: "/upload/notaria-en-madrid-edificio-md.jpg"
