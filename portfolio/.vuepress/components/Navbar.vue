@@ -1,13 +1,5 @@
 <template>
-  <header
-    class="header"
-    :style="sticky && {
-      position: 'fixed',
-      top: '0',
-      left: '0',
-      width: '100%'
-    }"
-  >
+  <header class="header">
     
     <div class="top-bar top-bar--desktop">
 
@@ -172,6 +164,10 @@
     position: relative;
     z-index: 10;
     background-color: var(--color-grey-lighter);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
   }
 
   .header__inner {

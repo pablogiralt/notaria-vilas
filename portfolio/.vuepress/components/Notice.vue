@@ -11,7 +11,8 @@
           </p>
         </div>
         <a 
-          class="notice_btn btn" 
+          class="notice_btn btn"
+          :title="'Información sobre el Coronavirus (Covid-19)'"
           v-if="notice.notice_btn_text" 
           v-bind:href="notice.notice_btn_link">
             {{ notice.notice_btn_text }}
