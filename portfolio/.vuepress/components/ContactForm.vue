@@ -41,7 +41,7 @@
                                 </span>
                             </li>
                             <li class="contact-form__contact">
-                                <span class="contact-form__contact-label">Fax<span class="hidden-mobile">:</span></span><span class="hidden-desktop"> | </span>{{ contact.fax }}
+                                <span class="contact-form__contact-label">Fax<span class="hidden-mobile">:</span></span><span class="hidden-desktop"> | </span><span class="contact-form__contact-link">{{ contact.fax }}</span>
                             </li>
                         </ul>
                    
@@ -263,7 +263,7 @@
                             console.log('Error', error.message);
                         }
 
-                        _.message = '<p class="contact-form__message-title contact-form__message-title--error">Error al enviar</p><p class="contact-form__message-body">Hubo un problema con el envío de tu formulario.  Puedes volver a intentarlo pasados unos minutos o escribir a:<br> <a href="' + _.form.email + '">' + _.form.email + '</a></p>';
+                        _.message = '<p class="contact-form__message-title contact-form__message-title--error">Error al enviar</p><p class="contact-form__message-body">Hubo un problema con el envío de tu formulario.  Puedes volver a intentarlo pasados unos minutos o escribir a:<br> <a href="' + _.contact.email + '">' + _.contact.email + '</a></p>';
                         _.isActive = 1;
                     });
                 
@@ -357,14 +357,19 @@
         list-style: none;
         padding-bottom: 40px;
         text-align: center;
+        margin-top: -15px;
     }
 
-    .contact-form__contact-link {
+    .contact-form__contact-link,
+    .contact-form__contact-span,
+    .contact-form__contact-label {
         color: var(--color-black);
+        padding: 15px 0;
+        display: inline-block;
     }
 
     .contact-form__contact {
-        margin-bottom: 8px;
+        margin-bottom: 0;
         font-size: 14px;
     }
 

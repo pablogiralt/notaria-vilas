@@ -30,7 +30,7 @@ module.exports = {
       'link', { rel: "stylesheet", href: config.default_font_url }
     ],
     [
-      'meta', { name: "viewport", content: "width=device-width, user-scalable=no" }
+      'meta', { name: "viewport", content: "width=device-width,initial-scale=1" }
     ]
   ],
   markdown: {

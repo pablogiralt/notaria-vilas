@@ -59,7 +59,7 @@
     }
 
     .notice_btn {
-      min-width: 150px;
+      min-width: 200px;
       position: relative;
       top: -7px;
     }
