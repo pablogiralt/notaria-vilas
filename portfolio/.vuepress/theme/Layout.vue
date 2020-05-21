@@ -3,11 +3,11 @@
 
     <Navbar :logo="$site.themeConfig.logo" />
 
-    <div :class="'template-' + $page.frontmatter.template">
+    <div :class="templateClass">
+
+      <Notice />
 
       <div class="template__inner">
-
-        <Notice />
 
         <div v-if="isSingleProject">
           <SingleProjectHeader
@@ -18,6 +18,10 @@
         </div>
 
         <Content/>
+
+        <ServiceSidebar v-if="isSingleService"
+          :sidebar="$page.frontmatter.sidebar"
+        />
 
       </div>
 
@@ -31,10 +35,24 @@
 <script>
   export default {
     computed: {
+      templateClass() {
+        if ( this.isSingleService ) {
+          return 'template-service';
+        } else if (this.$page.frontmatter.template) {
+          return 'template-' + this.$page.frontmatter.template;  
+        }
+      },
       isSingleProject() {
         const worksRoute = '/works/'
         const path = this.$route.path
         if (path.includes('works') && path.length >= (worksRoute.length + 1)) {
+          return true
+        }
+      },
+      isSingleService() {
+        const servicesRoute = '/servicios/'
+        const path = this.$route.path
+        if (path.includes('servicios') && path.length >= (servicesRoute.length + 1)) {
           return true
         }
       }
@@ -229,7 +247,8 @@
     display: none;
   }
 
-  .template-text {
+  .template-text,
+  .template-service {
     padding: 0 16px;
     margin: auto;
   }
@@ -240,13 +259,22 @@
       padding: 0 28px;
     }
 
-    .template-text {
+    .template-text,
+    .template-service {
       padding-left: 42px;
       max-width: var(--max-wrapper-width);
     }
     
     .template-text .template__inner {
       max-width: 800px;
+    }
+
+    .template-service .template__inner {
+      display: flex;
+    }
+
+    .template-service .content__default {
+      padding-right: 120px;
     }
 
     .hidden-mobile {
