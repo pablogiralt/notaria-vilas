@@ -75,3 +75,76 @@ contact_form_title: Envíenos sus dudas y consultas. las atenderemos a la menor 
 <ContactForm 
     :title="$page.frontmatter.contact_form_title" />
 
+
+
+<script>
+  export default {
+    created () {
+      if (this.$ssrContext) {
+        // https://code.luasoftware.com/tutorials/vuepress/vuepress-add-json-structured-data-to-page/
+        // https://developers.google.com/search/docs/data-types/local-business
+        // https://schema.org/Notary
+        const extra = `
+<script type="application/ld+json">
+{
+      "@context": "https://schema.org",
+      "@type": "Notary",
+      "image": [
+        "https://notaria.netlify.app/upload/notaria-en-madrid-edificio-md.jpg",
+        "https://notaria.netlify.app/upload/notaria-en-madrid-firma-md.jpg",
+       ],
+      "@id": "https://notaria.netlify.app",
+      "name": "Notaría Vilas",
+      "email": "notariavilas@notariavilas.com",
+      "telephone": "+34915014100",
+      "faxNumber": "915017296",
+      "logo": "http://www.example.com/images/logo.png",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Calle del Conde de Cartagena, 43",
+        "addressLocality": "Madrid",
+        "addressRegion": "Madrid",
+        "postalCode": "28007",
+        "addressCountry": "ES"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.407637,
+        "longitude": -3.672392
+      },
+      "url": "https://notaria.netlify.app",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "09:00",
+          "closes": "14:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "opens": "16:30",
+          "closes": "19:00"
+        }
+      ]
+    }
+<\/script>
+        `;
+        // this.$ssrContext.userHeadTags += extra
+        this.$ssrContext.pageMeta += extra;
+      }
+    }
+  }
+</script>
+
