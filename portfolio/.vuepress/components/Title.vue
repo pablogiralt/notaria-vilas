@@ -35,6 +35,11 @@
   .title-block__pretitle {
     font-size: 16px;
     margin-bottom: 23px;
+    font-family: var(--body-font-family);
+  }
+
+  .title-block__pretitle:before {
+    content: none;
   }
 
   .title-block__title {

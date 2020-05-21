@@ -1,5 +1,6 @@
 ---
-title: Medidas Coronavirus (Covid-19) | Notaría Vilas
+title: Medidas Coronavirus (Covid-19)
+description: Nuestra prioridad es siempre la seguridad y el bienestar de todos nuestros clientes y trabajadores. Nos mantenemos informados sobre todo lo relacionado con el coronavirus (COVID-19) y estamos adoptando una serie de medidas para ayudar a garantizar su seguridad.
 hide_notice: true
 template: text
 ---

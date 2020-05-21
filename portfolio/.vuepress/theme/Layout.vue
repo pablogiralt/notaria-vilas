@@ -68,6 +68,7 @@
     --color-grey-light: #9B9B9B;
     --color-grey-lighter: #F5F5F5;
     --headings-font-family: 'EB Garamond', serif;
+    --body-font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Ubuntu", "Droid Sans", "Helvetica Neue", sans-serif;
     --color-highlight: rgba(249, 233, 172, 0.99);
     --max-wrapper-width: 1366px;
   }
@@ -98,7 +99,7 @@
   }
 
   body {
-    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Ubuntu", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-family: var(--body-font-family);
     font-size: 16px;
     background: #fff;
     color: var(--color-black);
