@@ -17,6 +17,7 @@ module.exports = {
     footer_nav: config.footer_navigation,
     email: config.email,
     socialMedia: config.socialMedia,
+    notice: config.notice
   },
   head: [
     [

@@ -7,9 +7,24 @@ fields:
   label: title
   hidden: true
 - name: main_image
-  type: file
-  config:
-    maxSize: 64
+  type: field_group
+  config: {}
+  fields:
+  - name: mobile
+    type: file
+    config:
+      maxSize: 64
+    label: Imagen Móvil
+  - name: tablet
+    type: file
+    config:
+      maxSize: 64
+    label: Imagen Tablet
+  - name: desktop
+    type: file
+    config:
+      maxSize: 64
+    label: Imagen Desktop
   label: Imagen de portada
 - type: text
   name: about_pre_title
@@ -47,41 +62,51 @@ fields:
   type: field_group
   config: {}
   fields:
-  - name: banner_text
+  - name: text
     type: textarea
     config:
       required: false
     label: Texto
-  - name: banner_image
+  - name: image_mobile
     type: file
     config:
       maxSize: 64
-    label: Imagen
-  - name: banner_image_mobile
+    label: Imagen Móvil
+  - name: image_tablet
     type: file
     config:
       maxSize: 64
-    label: Imagen
+    label: Imagen Tablet
+  - name: image_desktop
+    type: file
+    config:
+      maxSize: 64
+    label: Imagen Desktop
   label: Imagen Con Texto
 - name: map
   type: field_group
   config: {}
   fields:
-  - name: map_link
+  - name: link
     type: text
     config:
       required: false
     label: Link
-  - name: map_image
-    type: file
-    config:
-      maxSize: 64
-    label: Imagen
-  - name: map_image_mobile
+  - name: image_mobile
     type: file
     config:
       maxSize: 64
     label: Imagen Móvil
+  - name: image_tablet
+    type: file
+    config:
+      maxSize: 64
+    label: Imagen Tablet
+  - name: image_desktop
+    type: file
+    config:
+      maxSize: 64
+    label: Imagen Desktop
   label: Mapa
 - type: textarea
   name: contact_form_title

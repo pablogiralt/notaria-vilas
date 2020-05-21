@@ -185,5 +185,36 @@ fields:
     default: ''
   hidden: false
   default: ''
+- name: notice
+  type: field_group_list
+  fields:
+  - name: notice_title
+    type: text
+    config:
+      required: false
+    label: Título
+  - name: notice_text
+    type: textarea
+    config:
+      wysiwyg: true
+      required: false
+      schema:
+        format: html
+    label: Texto
+  - name: notice_btn_text
+    type: text
+    config:
+      required: false
+    label: Título
+  - name: notice_btn_link
+    type: text
+    config:
+      required: false
+    label: Título
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Notificación
 pages:
 - portfolio/config.json

@@ -1,14 +1,34 @@
 <template>
-    <div class="banner">
-      <a class="banner__link" v-if="link" v-bind:href="link" :target="target?target:'_self'">
-        <img v-if="image" v-bind:src="image" class="banner__image hidden-mobile">
-        <img v-if="image_mobile" v-bind:src="image_mobile" class="banner__image hidden-desktop">
-        <h2 v-if="text" class="banner__text" v-html="text"></h2>   
-      </a>
-      <div v-else>
-        <img v-if="image" v-bind:src="image" class="banner__image hidden-mobile">
-        <img v-if="image_mobile" v-bind:src="image_mobile" class="banner__image hidden-desktop">
-        <h2 v-if="text" class="banner__text" v-html="text"></h2>  
+    <div class="banner wrapper__inner">
+      <div class="banner__inner">
+        <a class="banner__link" v-if="link" v-bind:href="link" :target="target?target:'_self'">
+          <picture>
+            <source 
+              :srcset="image_tablet" 
+              media="(min-width:420px) and (max-width: 992px)">
+            <source 
+              :srcset="image" 
+              media="(min-width:992px)">
+            <img 
+              class="banner__image" 
+              :src="image_mobile">
+          </picture>
+          <h2 v-if="text" class="banner__text" v-html="text"></h2>   
+        </a>
+        <div v-else>
+          <picture>
+            <source 
+              :srcset="image_tablet" 
+              media="(min-width:420px) and (max-width: 992px)">
+            <source 
+              :srcset="image" 
+              media="(min-width:992px)">
+            <img 
+              class="banner__image" 
+              :src="image_mobile">
+          </picture>
+          <h2 v-if="text" class="banner__text" v-html="text"></h2>  
+        </div>
       </div>
     </div>
 </template>
@@ -21,6 +41,10 @@
         required: false
       },
       image_mobile: {
+        type: String,
+        required: false
+      },
+      image_tablet: {
         type: String,
         required: false
       },
@@ -47,9 +71,14 @@
     position: relative;
     z-index: 2;
     line-height: 0;
-    height: 0;
-    padding-bottom: 50%;
   }
+
+  .banner__inner {
+    height: 0;
+    padding-bottom: 80%;
+    overflow: hidden;
+  }
+
   .banner__text {
     position: absolute;
     left: 50%;
@@ -74,4 +103,12 @@
       padding: 0 28px;
     }
   }
+
+
+  @media screen and (min-width: 992px) {
+    .banner__inner {
+      padding-bottom: 40%;
+    }
+  }
+  
 </style>

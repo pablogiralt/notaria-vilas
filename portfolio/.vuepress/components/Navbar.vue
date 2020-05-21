@@ -4,49 +4,56 @@
     :style="sticky && {
       position: 'fixed',
       top: '0',
-      left: '50%',
-      width: '100%',
-      transform: 'translateX(-50%)'
+      left: '0',
+      width: '100%'
     }"
   >
     
     <div class="top-bar top-bar--desktop">
-        
-      <span class="top-bar__item">
-        <span v-for="(schedule, index) in schedules">
-          <span class="top-bar__subitem">{{ schedule.item }}</span>
-          <span v-if="index + 1 < schedules.length"> — </span>
-        </span>
-      </span>
 
-      <span>
+      <div class="top-bar__inner">
+        
         <span class="top-bar__item">
-          <span v-for="(phone, index) in contact.phones">
-            <a class="top-bar__link" v-bind:href="'tel:' + phone.link">{{ phone.visible }}</a>
-            <span v-if="index + 1 < contact.phones.length"> | </span>
+          <span v-for="(schedule, index) in schedules">
+            <span class="top-bar__subitem">{{ schedule.item }}</span>
+            <span v-if="index + 1 < schedules.length"> — </span>
           </span>
         </span>
-        <span class="top-bar__item">
-          <a class="top-bar__link" v-bind:href="'mailto:' + contact.email">
-            {{ contact.email }}
-          </a>
+
+        <span>
+          <span class="top-bar__item">
+            <span v-for="(phone, index) in contact.phones">
+              <a class="top-bar__link" v-bind:href="'tel:' + phone.link">{{ phone.visible }}</a>
+              <span v-if="index + 1 < contact.phones.length"> | </span>
+            </span>
+          </span>
+          <span class="top-bar__item">
+            <a class="top-bar__link" v-bind:href="'mailto:' + contact.email">
+              {{ contact.email }}
+            </a>
+          </span>
         </span>
-      </span>
+
+      </div>
 
     </div>
 
     <div class="top-bar top-bar--mobile">
 
-      <span class="top-bar__item">
-        <span v-for="(schedule, index) in schedules">
-          <span class="top-bar__subitem">{{ schedule.item }}</span>
-          <span v-if="index + 1 < schedules.length"> — </span>
-        </span>
-      </span>
+      <div class="top-bar__inner">
 
-      <span class="top-bar__item">
-        <a href="/#contacto" scrollbehavior="smooth">contactar</a>
-      </span>
+        <span class="top-bar__item">
+          <span v-for="(schedule, index) in schedules">
+            <span class="top-bar__subitem">{{ schedule.item }}</span>
+            <span v-if="index + 1 < schedules.length"> — </span>
+          </span>
+        </span>
+
+        <span class="top-bar__item">
+          <a href="/#contacto" scrollbehavior="smooth">contactar</a>
+        </span>
+
+      </div>
     </div>
 
     <div class="header__inner">
@@ -165,7 +172,6 @@
     position: relative;
     z-index: 10;
     background-color: var(--color-grey-lighter);
-    max-width: var(--max-wrapper-width);
   }
 
   .header__inner {
@@ -173,19 +179,28 @@
     justify-content: space-between;
     align-items: center;
     padding: 0px 5px;
+    max-width: var(--max-wrapper-width);
+    margin: auto;
   }
    
   .top-bar {
     width: 100%;
     height: 25px;
-    display: flex;
-    justify-content: center;
     background: var(--color-blue);
     color: white;
-    align-items: center;
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 13px; 
+  }
+
+  .top-bar__inner {
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     justify-content: space-between;
+    max-width: var(--max-wrapper-width);
+    margin: auto;
   }
 
   .top-bar--desktop {
@@ -314,7 +329,7 @@
       padding: 23px 29px 14px;
     }
 
-    .top-bar {
+    .top-bar__inner {
       padding: 0px 20px;
     }
 

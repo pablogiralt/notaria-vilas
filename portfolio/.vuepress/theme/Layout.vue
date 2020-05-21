@@ -2,8 +2,11 @@
   <div class="wrapper">
 
     <Navbar :logo="$site.themeConfig.logo" :sticky="true" />
-    
-    <div class="wrapper__inner">
+
+    <div>
+
+      <Notice />
+
       <div v-if="isSingleProject">
         <SingleProjectHeader
           :title="$page.frontmatter.title"
@@ -108,10 +111,9 @@
     padding-top: 73px;   
   }
 
-  .wrapper__inner {
-    max-width: var(--max-wrapper-width);
+  .wrapper__inner { 
     margin: auto;
-    background-color: var(--color-grey-lighter);
+    max-width: var(--max-wrapper-width);
   }
 
   .container {
@@ -167,6 +169,9 @@
     font-size: 14px;
     font-weight: bolder;
     padding: 0 17px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
   }
   
   [type="checkbox"] + label {
@@ -191,12 +196,13 @@
     display: none;
   }
 
-  .hidden-mobile {
+  .hidden-mobile,
+  .image-desktop {
     display: none;
   }
-  
 
   @media screen and (min-width: 768px) {
+
     .container {
       padding: 0 28px;
     }
@@ -212,9 +218,18 @@
     .wrapper {
       padding-top: 101px;
     }
+
   }
 
+  @media screen and (min-width: 992px) {
+    .image-desktop {
+      display: initial;
+    }
 
+    .image-mobile {
+      display: none;
+    }   
+  }
 
 
   .has-float-label {
