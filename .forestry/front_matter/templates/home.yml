@@ -4,8 +4,12 @@ hide_body: true
 fields:
 - type: text
   name: title
-  label: title
-  hidden: true
+  label: Meta Título
+  hidden: false
+- type: textarea
+  name: description
+  label: Meta Descripción
+  hidden: false
 - name: main_image
   type: field_group
   config: {}
