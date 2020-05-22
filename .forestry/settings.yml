@@ -20,6 +20,11 @@ sections:
   exclude: index.md
   templates:
   - servicios
+- type: directory
+  path: portfolio/tipo-de-servicio
+  label: Tipo de Servicio
+  create: all
+  match: "**/*"
 - type: document
   path: portfolio/covid-19.md
   label: Covid-19
