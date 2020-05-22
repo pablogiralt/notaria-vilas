@@ -1,7 +1,6 @@
 ---
 services_index: true
 title: 'Servicios de La Notaría'
-main_image: "/upload/scott-graham-oqmzwnd3thu-unsplash.jpg"
 banner:
   banner_text: Contamos con notarios de renombrada trayectoria, quienes resolverán
     las dudas de nuestros clientes en el menor tiempo posible.
@@ -11,12 +10,13 @@ services_title: <span class="s1">En Vilas estamos capacitados para ofrecer a nue
   clientes un servicio de notaría completo y eficaz.</span>
 ---
 
-<Banner 
-    :image="$page.frontmatter.main_image" />
+# Servicios
 
+<!--
 <Title 
     :title="$page.frontmatter.services_title" 
     :pretitle="$page.frontmatter.services_pre_title" />
+-->
 
 <ServicesList />
 

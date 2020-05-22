@@ -1,4 +1,32 @@
 ---
 label: Servicios
-hide_body: false
-fields: []
+hide_body: true
+fields:
+- name: title
+  default: ''
+  label: Título
+  hidden: false
+  type: text
+  config:
+    required: true
+- type: textarea
+  name: description
+  label: Meta Descripción
+  hidden: false
+- name: sidebar
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    label: Título
+  - name: text
+    type: text
+    label: Texto
+  - name: btn_text
+    type: text
+    label: Texto botón
+  label: Llamada a la acción
+- type: tag_list
+  name: service_type
+  label: Tipo de servicio

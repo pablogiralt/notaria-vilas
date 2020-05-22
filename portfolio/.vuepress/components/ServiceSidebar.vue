@@ -37,19 +37,15 @@
 		},
 		methods: {
 			updateScroll() {
-				console.log(this.$refs);
 				this.scrollPosition = window.scrollY;
 				const headerHeight = document.getElementById('header').clientHeight;
 				if (this.scrollPosition > headerHeight) {
 					const sidebarTop = this.$refs.sidebar.offsetTop - headerHeight - 2;
 					this.sidebarStyles.top = sidebarTop + 'px';
-					// console.log(sidebarTop);
 					this.isFixed = true;
 				} else {
 					this.isFixed = false;	
 				}
-				// console.log(this.$refs.sidebar.offsetTop);
-				
 			}
 		},
 		mounted() {

@@ -2,7 +2,7 @@
   <div class="wrapper">
 
     <Navbar :logo="$site.themeConfig.logo" />
-
+    
     <div :class="templateClass">
 
       <Notice />

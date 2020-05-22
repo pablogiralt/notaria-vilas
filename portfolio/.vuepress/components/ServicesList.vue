@@ -17,6 +17,14 @@
   export default {
     computed: {
       posts() {
+        let servicesByCategory = [];
+        const services = this.$site.pages
+          .filter(x => x.path.startsWith('/servicios/') && !x.frontmatter.services_index)
+          .sort()
+          .forEach(service => {
+            console.log(service);
+            // servicesByCategory
+          });
         return this.$site.pages
           .filter(x => x.path.startsWith('/servicios/') && !x.frontmatter.services_index)
           .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date))
