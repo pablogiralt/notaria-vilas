@@ -1,17 +1,21 @@
 <template>
   <div class="services">
 
-    <div class=""
-      v-for="(category, categoryName) in services.categories">
+    <div class="services__category" v-for="category in services">
 
-      {{ categoryName }}
+      <p class="services__category-name">
+        {{ category.category.title }}
+      </p>
+
       <router-link
-        :to="post.path"
-        v-for="post in services.servicesByType[categoryName]"
-        :key="post.title"
-        class="post"
+        :to="service.path"
+        v-for="service in category.services"
+        :key="service.title"
+        class="services__service"
       >
-          <h2>{{ post.frontmatter.title }}</h2>
+          <h2 class="services__service-link">
+            {{ service.frontmatter.title }}
+          </h2>
       </router-link>
 
     </div>
@@ -56,12 +60,49 @@
         orderedServices.sort((a, b) => {
           return a.category.frontmatter.order - b.category.frontmatter.order
         });
-
-        return servicesByType;
+        console.log(orderedServices);
+        return orderedServices;
       }
     }
   }
 </script>
 
 <style scoped>
+
+  .services {
+    padding-top: 40px;
+  }
+
+  .services__category-name {
+    font-size: 20px;
+    font-weight: 900;
+    color: var(--color-blue);
+  }
+
+  .services__category {
+    padding-bottom: 40px;
+  }
+
+  .services__service {
+    text-decoration: none;
+  }
+
+  .services__service-link {
+    font-weight: 400;
+  }
+
+
+  @media screen and (min-width: 768px) {
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      margin-left: -40px;
+      margin-right: -40px;
+    }
+
+    .services__category {
+      padding: 0 40px 0;
+    }
+  }
 </style>

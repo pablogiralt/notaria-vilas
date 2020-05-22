@@ -248,7 +248,8 @@
   }
 
   .template-text,
-  .template-service {
+  .template-service,
+  .template-services {
     padding: 0 16px;
     margin: auto;
   }
@@ -266,7 +267,8 @@
     }
 
     .template-text,
-    .template-service {
+    .template-service,
+    .template-services {
       padding-left: 42px;
       max-width: var(--max-wrapper-width);
     }

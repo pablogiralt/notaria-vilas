@@ -8,6 +8,7 @@ banner:
 services_pre_title: Nuestros servicios de notaría en Madrid
 services_title: <span class="s1">En Vilas estamos capacitados para ofrecer a nuestros
   clientes un servicio de notaría completo y eficaz.</span>
+template: services
 ---
 
 # Servicios
@@ -19,7 +20,3 @@ services_title: <span class="s1">En Vilas estamos capacitados para ofrecer a nue
 -->
 
 <ServicesList />
-
-<Banner 
-    :text="$page.frontmatter.banner.banner_text"
-    :image="$page.frontmatter.banner.banner_image" />
