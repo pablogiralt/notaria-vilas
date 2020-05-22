@@ -38,8 +38,8 @@ fields:
     - Sociedades
     - Otros
     source:
-      type: simple
-      section: 
+      type: pages
+      section: tipo-de-servicio
       file: 
       path: 
   label: Tipo de Servicio

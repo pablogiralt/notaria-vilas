@@ -25,6 +25,8 @@ sections:
   label: Tipo de Servicio
   create: all
   match: "**/*"
+  templates:
+  - tipo-de-servicio
 - type: document
   path: portfolio/covid-19.md
   label: Covid-19

@@ -7,3 +7,5 @@ fields:
   config:
     required: false
   label: Nombre
+pages:
+- portfolio/tipo-de-servicio/Propiedad.md
