@@ -7,5 +7,15 @@ fields:
   config:
     required: false
   label: Nombre
+- name: order
+  type: number
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+  label: Posición
 pages:
 - portfolio/tipo-de-servicio/Propiedad.md
