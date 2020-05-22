@@ -44,4 +44,5 @@ fields:
       path: 
   label: Tipo de Servicio
 pages:
+- portfolio/servicios/otros-servicio.md
 - portfolio/servicios/polizas.md
