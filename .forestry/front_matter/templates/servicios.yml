@@ -27,6 +27,19 @@ fields:
     type: text
     label: Texto botón
   label: Llamada a la acción
-- type: tag_list
-  name: service_type
-  label: Tipo de servicio
+- name: service_type
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Propiedad
+    - Familia
+    - Sociedades
+    - Otros
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Tipo de Servicio
