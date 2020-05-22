@@ -1,5 +1,5 @@
 ---
-service_type: []
+service_type: portfolio/tipo-de-servicio/otros.md
 title: Pólizas
 description: ''
 sidebar:
