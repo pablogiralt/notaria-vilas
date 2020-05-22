@@ -1,6 +1,6 @@
 ---
 template: ''
-title: ''
+title: Propiedad
 description: ''
 hide_notice: false
 
