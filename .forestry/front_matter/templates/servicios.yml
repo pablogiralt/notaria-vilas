@@ -44,5 +44,4 @@ fields:
       path: 
   label: Tipo de Servicio
 pages:
-- portfolio/servicios/poderes-y-servicios.md
 - portfolio/servicios/polizas.md
