@@ -3,21 +3,6 @@
 
     <div class="services__category" v-for="category in services">
 
-      <p class="services__category-name">
-        {{ category.category.title }}
-      </p>
-
-      <router-link
-        :to="service.path"
-        v-for="service in category.services"
-        :key="service.title"
-        class="services__service"
-      >
-          <h2 class="services__service-link">
-            {{ service.frontmatter.title }}
-          </h2>
-      </router-link>
-
     </div>
   </div>
 </template>
@@ -28,8 +13,8 @@
       services() {
         let servicesByType = [];
 
-        console.log( this.$site.pages
-          .filter(x => x.path.startsWith('/servicios/') && !x.frontmatter.services_index))
+        //console.log( this.$site.pages
+        //  .filter(x => x.path.startsWith('/servicios/') && !x.frontmatter.services_index))
         const services = this.$site.pages
           .filter(x => x.path.startsWith('/servicios/') && !x.frontmatter.services_index)
           .forEach(service => {
@@ -58,15 +43,17 @@
         
           });
 
+        console.log(servicesByType);
+        
         let orderedServices = [];
         
-        Object.entries(servicesByType).forEach(category => {
-          orderedServices.push(category[1]);
-        });
+        //Object.entries(servicesByType).forEach(category => {
+        //  orderedServices.push(category[1]);
+        //});
 
-        orderedServices.sort((a, b) => {
-          return a.category.frontmatter.order - b.category.frontmatter.order
-        });
+        //orderedServices.sort((a, b) => {
+        //  return a.category.frontmatter.order - b.category.frontmatter.order
+        //});
 
         return orderedServices;
       }
