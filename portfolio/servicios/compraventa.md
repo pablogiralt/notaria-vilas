@@ -6,6 +6,7 @@ sidebar:
   btn_text: Contactar
 service_type: portfolio/tipo-de-servicio/Propiedad.md
 link_service: true
+description: En la Notaría vilas te ayudamos a firmar tu compraventa
 
 ---
 # Compraventa
