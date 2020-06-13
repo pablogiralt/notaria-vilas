@@ -33,7 +33,10 @@
         const services = this.$site.pages
           .filter(x => x.path.startsWith('/servicios/') && !x.frontmatter.services_index)
           .forEach(service => {
-          
+            
+            if (typeof service == 'undefined') {
+              console.log('undefined!!!!!!!')
+            }
             if (!service.frontmatter.service_type || service.frontmatter.service_type.length == 0) {
               console.log(service);
               service.frontmatter.service_type = 'portfolio/tipo-de-servicio/otros.md';
