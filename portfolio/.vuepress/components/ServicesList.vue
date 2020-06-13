@@ -3,6 +3,21 @@
 
     <div class="services__category" v-for="category in services">
 
+      <p v-if="category.category" class="services__category-name">
+        {{ category.category.title }}
+      </p>
+
+      <router-link
+        :to="service.path"
+        v-for="service in category.services"
+        :key="service.title"
+        class="services__service"
+      >
+          <h2 class="services__service-link">
+            {{ service.frontmatter.title }}
+          </h2>
+      </router-link>
+
     </div>
   </div>
 </template>
@@ -19,20 +34,19 @@
           .filter(x => x.path.startsWith('/servicios/') && !x.frontmatter.services_index)
           .forEach(service => {
             
-            if (typeof service == 'undefined') {
-              console.log('undefined!!!!!!!')
-            }
             if (!service.frontmatter.service_type || service.frontmatter.service_type.length == 0) {
-              console.log(service);
               service.frontmatter.service_type = 'portfolio/tipo-de-servicio/otros.md';
             }
         
             if (!servicesByType[service.frontmatter.service_type] || !servicesByType[service.frontmatter.service_type]['category']) {
               // console.log(service.frontmatter.service_type);
+              console.log(service.frontmatter.service_type.replace('portfolio/', ''))
               const category = this.$site.pages.filter(x => x.relativePath == service.frontmatter.service_type.replace('portfolio/', ''));
-              servicesByType[service.frontmatter.service_type] = {
-                'category' : category[0]
-              };
+              if (category) {
+                servicesByType[service.frontmatter.service_type] = {
+                  'category' : category[0]
+                };
+              }
             } 
 
             if (servicesByType[service.frontmatter.service_type]['services']) {
