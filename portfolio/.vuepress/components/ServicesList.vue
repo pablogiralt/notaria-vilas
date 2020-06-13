@@ -28,44 +28,42 @@
       services() {
         let servicesByType = [];
 
+        console.log( this.$site.pages
+          .filter(x => x.path.startsWith('/servicios/') && !x.frontmatter.services_index))
         const services = this.$site.pages
           .filter(x => x.path.startsWith('/servicios/') && !x.frontmatter.services_index)
           .forEach(service => {
-            
-            console.log(service)
-            if (!service) {
-              return
-            }
-            if (!service.frontmatter.service_type || service.frontmatter.service_type.length == 0) {
-              console.log(service);
-              service.frontmatter.service_type = 'portfolio/tipo-de-servicio/otros.md';
-            }
+          
+            //if (!service.frontmatter.service_type || service.frontmatter.service_type.length == 0) {
+            //  console.log(service);
+            //  service.frontmatter.service_type = 'portfolio/tipo-de-servicio/otros.md';
+            //}
         
-            if (!servicesByType[service.frontmatter.service_type] || !servicesByType[service.frontmatter.service_type]['category']) {
-              // console.log(service.frontmatter.service_type);
-              const category = this.$site.pages.filter(x => x.relativePath == service.frontmatter.service_type.replace('portfolio/', ''));
-              servicesByType[service.frontmatter.service_type] = {
-                'category' : category[0]
-              };
-            } 
+            //if (!servicesByType[service.frontmatter.service_type] || !servicesByType[service.frontmatter.service_type]['category']) {
+            //  // console.log(service.frontmatter.service_type);
+            //  const category = this.$site.pages.filter(x => x.relativePath == service.frontmatter.service_type.replace('portfolio/', ''));
+            //  servicesByType[service.frontmatter.service_type] = {
+            //    'category' : category[0]
+            //  };
+            //} 
 
-            if (servicesByType[service.frontmatter.service_type]['services']) {
-              servicesByType[service.frontmatter.service_type]['services'].push(service);
-            } else {
-              servicesByType[service.frontmatter.service_type]['services'] = [service];
-            }
+            //if (servicesByType[service.frontmatter.service_type]['services']) {
+            //  servicesByType[service.frontmatter.service_type]['services'].push(service);
+            //} else {
+            //  servicesByType[service.frontmatter.service_type]['services'] = [service];
+            //}
         
           });
 
         let orderedServices = [];
         
-        Object.entries(servicesByType).forEach(category => {
-          orderedServices.push(category[1]);
-        });
+        //Object.entries(servicesByType).forEach(category => {
+        //  orderedServices.push(category[1]);
+        //});
 
-        orderedServices.sort((a, b) => {
-          return a.category.frontmatter.order - b.category.frontmatter.order
-        });
+        //orderedServices.sort((a, b) => {
+        //  return a.category.frontmatter.order - b.category.frontmatter.order
+        //});
 
         return orderedServices;
       }
