@@ -4,7 +4,7 @@ sidebar:
   title: "¿Necesitas realizar una compraventa?"
   text: "<p>En la Notaría vilas te ayudamos a firmar tu compraventa.</p>"
   btn_text: Contactar
-service_type: portfolio/tipo-de-servicio/Propiedad.md
+service_type: portfolio/tipo-de-servicio/propiedad.md
 link_service: true
 description: En la Notaría vilas te ayudamos a firmar tu compraventa
 
