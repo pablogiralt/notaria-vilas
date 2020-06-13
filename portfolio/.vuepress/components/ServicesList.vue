@@ -40,12 +40,15 @@
         
             if (!servicesByType[service.frontmatter.service_type] || !servicesByType[service.frontmatter.service_type]['category']) {
               // console.log(service.frontmatter.service_type);
-              console.log(service.frontmatter.service_type.replace('portfolio/', ''))
+
+              const serviceSlug = service.frontmatter.service_type.replace('portfolio/tipo-de-servicio/', '')
+              console.log('serviceSlug', serviceSlug)
+
               console.log(this.$site.pages.filter(x => x.relativePath.includes('tipo-de-servicio')))
+              console.log(this.$site.pages.filter(x => x.relativePath.includes(serviceSlug)))
               console.log('..........')
-              const category = this.$site.pages.filter(x => x.relativePath.includes(service.frontmatter.service_type.replace('portfolio/', '')));
+              const category = this.$site.pages.filter(x => x.relativePath.includes(serviceSlug));
               console.log(category)
-              console.log(this.$site.pages.filter(x => x.relativePath.includes(service.frontmatter.service_type.replace('portfolio/', ''))))
               if (category) {
                 servicesByType[service.frontmatter.service_type] = {
                   'category' : category[0]
