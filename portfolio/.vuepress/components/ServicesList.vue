@@ -27,16 +27,18 @@
     computed: {
       services() {
         let servicesByType = [];
-       
+
         const services = this.$site.pages
           .filter(x => x.path.startsWith('/servicios/') && !x.frontmatter.services_index)
           .forEach(service => {
-
-            if (!service.frontmatter.service_type) {
-              service.frontmatter.service_type = 'Otros';
+              
+            if (!service.frontmatter.service_type || service.frontmatter.service_type.length == 0) {
+              console.log(service);
+              service.frontmatter.service_type = 'portfolio/tipo-de-servicio/otros.md';
             }
-
+        
             if (!servicesByType[service.frontmatter.service_type] || !servicesByType[service.frontmatter.service_type]['category']) {
+              // console.log(service.frontmatter.service_type);
               const category = this.$site.pages.filter(x => x.relativePath == service.frontmatter.service_type.replace('portfolio/', ''));
               servicesByType[service.frontmatter.service_type] = {
                 'category' : category[0]
@@ -60,7 +62,7 @@
         orderedServices.sort((a, b) => {
           return a.category.frontmatter.order - b.category.frontmatter.order
         });
-        console.log(orderedServices);
+
         return orderedServices;
       }
     }
@@ -70,7 +72,7 @@
 <style scoped>
 
   .services {
-    padding-top: 40px;
+    padding: 40px 0 80px;
   }
 
   .services__category-name {
@@ -102,7 +104,14 @@
     }
 
     .services__category {
-      padding: 0 40px 0;
+      width: 50%;
+      padding: 0 40px 40px;
+    }
+  }
+
+  @media screen and (min-width: 1100px) {
+     .services__category {
+      width: 25%;
     }
   }
 </style>

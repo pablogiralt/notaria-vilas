@@ -1,6 +1,6 @@
 ---
 service_type: portfolio/tipo-de-servicio/otros.md
-title: Poderes y Servicios
+title: Poderes y Actas
 description: ''
 sidebar:
   title: "¿Necesitas realizar un firmar un poder?"
@@ -8,6 +8,6 @@ sidebar:
   btn_text: Contactar
 
 ---
-# Poderes y Servicios
+# Poderes y Actas
 
-Los poderes y servicios...
+Los poderes y actas...

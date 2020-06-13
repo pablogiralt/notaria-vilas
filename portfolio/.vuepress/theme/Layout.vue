@@ -260,6 +260,13 @@
     line-height: 1.5;
   }
 
+  .template-text .notice,
+  .template-service .notice,
+  .template-services .notice {
+    /*margin-left: -16px;
+    margin-right: -16px;*/
+  }
+
   @media screen and (min-width: 768px) {
 
     .container {
