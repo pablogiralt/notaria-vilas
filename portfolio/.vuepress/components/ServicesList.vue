@@ -6,17 +6,29 @@
       <p v-if="category.category" class="services__category-name">
         {{ category.category.title }}
       </p>
-
-      <router-link
-        :to="service.path"
-        v-for="service in category.services"
+      
+      <div 
+        v-for="service in category.services" 
         :key="service.title"
         class="services__service"
       >
-          <h2 class="services__service-link">
+        <router-link
+          :to="service.path"       
+          v-if="service.frontmatter.link_service"
+          class="services__service-link"
+        >
+          <h2 class="services__service-name">
+            {{ service.frontmatter.title }}     
+          </h2>
+        </router-link>
+
+        <span class="services__service" v-else>
+          <h2 class="services__service-name services__service-name--nolink">
             {{ service.frontmatter.title }}
           </h2>
-      </router-link>
+        </span>
+
+      </div>
 
     </div>
   </div>
@@ -38,7 +50,6 @@
         
             if (!servicesByType[service.frontmatter.service_type] || !servicesByType[service.frontmatter.service_type]['category']) {
               const servicetypeSlug = service.frontmatter.service_type.replace('portfolio/', '').toLowerCase()
-              // console.log(servicetypeSlug);
               const category = this.$site.pages.filter(x => x.relativePath.toLowerCase() == servicetypeSlug);
               if (category && category[0]) {
                 servicesByType[service.frontmatter.service_type] = {
@@ -69,7 +80,7 @@
         orderedServices.sort((a, b) => {
           return a.category.frontmatter.order - b.category.frontmatter.order
         });
-
+        console.log(orderedServices);
         return orderedServices;
       }
     }
@@ -97,9 +108,18 @@
   }
 
   .services__service-link {
+     text-decoration: none;
+  }
+
+  .services__service-name 
+  {
     font-weight: 400;
   }
 
+  .services__service-name--nolink 
+  {
+    color: var(--color-grey-light)
+  }
 
   @media screen and (min-width: 768px) {
     .services {
