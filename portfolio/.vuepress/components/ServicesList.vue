@@ -26,7 +26,7 @@
   export default {
     computed: {
       services() {
-        let servicesByType = [];
+        let servicesByType = {};
 
         //console.log( this.$site.pages
         //  .filter(x => x.path.startsWith('/servicios/') && !x.frontmatter.services_index))
@@ -42,6 +42,7 @@
               // console.log(service.frontmatter.service_type);
               console.log(service.frontmatter.service_type.replace('portfolio/', ''))
               const category = this.$site.pages.filter(x => x.relativePath == service.frontmatter.service_type.replace('portfolio/', ''));
+              console.log(this.$site.pages.filter(x => x.relativePath.includes("tipo-de-servicio")))
               if (category) {
                 servicesByType[service.frontmatter.service_type] = {
                   'category' : category[0]
@@ -61,9 +62,10 @@
         
         let orderedServices = [];
         
-        //Object.entries(servicesByType).forEach(category => {
-        //  orderedServices.push(category[1]);
-        //});
+        Object.entries(servicesByType).forEach(category => {
+          // console.log(category)
+          orderedServices.push(category[1]);
+        });
 
         //orderedServices.sort((a, b) => {
         //  return a.category.frontmatter.order - b.category.frontmatter.order
