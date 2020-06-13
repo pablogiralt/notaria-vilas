@@ -43,3 +43,6 @@ fields:
       file: 
       path: 
   label: Tipo de Servicio
+- name: link_service
+  type: boolean
+  label: Enlazar a Página de Servicio
