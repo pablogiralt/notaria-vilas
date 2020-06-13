@@ -26,34 +26,25 @@
   export default {
     computed: {
       services() {
-        let servicesByType = {};
+        let servicesByType = [];
 
-        //console.log( this.$site.pages
-        //  .filter(x => x.path.startsWith('/servicios/') && !x.frontmatter.services_index))
         const services = this.$site.pages
           .filter(x => x.path.startsWith('/servicios/') && !x.frontmatter.services_index)
           .forEach(service => {
-            
+              
             if (!service.frontmatter.service_type || service.frontmatter.service_type.length == 0) {
+              console.log(service);
               service.frontmatter.service_type = 'portfolio/tipo-de-servicio/otros.md';
             }
         
             if (!servicesByType[service.frontmatter.service_type] || !servicesByType[service.frontmatter.service_type]['category']) {
               // console.log(service.frontmatter.service_type);
-
-              const serviceSlug = service.frontmatter.service_type.replace('portfolio/tipo-de-servicio/', '')
-              console.log('serviceSlug', serviceSlug)
-
-              console.log(this.$site.pages.filter(x => x.relativePath.includes('tipo-de-servicio')))
-              console.log(this.$site.pages.filter(x => x.relativePath.includes(serviceSlug)))
-              console.log('..........')
-              const category = this.$site.pages.filter(x => x.relativePath.includes(serviceSlug));
-              console.log(category)
-              if (category) {
-                servicesByType[service.frontmatter.service_type] = {
-                  'category' : category[0]
-                };
-              }
+              const servicetypeSlug = service.frontmatter.service_type.replace('portfolio/', '').toLowerCase()
+              console.log(servicetypeSlug);
+              const category = this.$site.pages.filter(x => x.relativePath.toLowerCase() == servicetypeSlug);
+              servicesByType[service.frontmatter.service_type] = {
+                'category' : category[0]
+              };
             } 
 
             if (servicesByType[service.frontmatter.service_type]['services']) {
@@ -64,18 +55,15 @@
         
           });
 
-        console.log(servicesByType);
-        
         let orderedServices = [];
         
         Object.entries(servicesByType).forEach(category => {
-          // console.log(category)
           orderedServices.push(category[1]);
         });
 
-        //orderedServices.sort((a, b) => {
-        //  return a.category.frontmatter.order - b.category.frontmatter.order
-        //});
+        orderedServices.sort((a, b) => {
+          return a.category.frontmatter.order - b.category.frontmatter.order
+        });
 
         return orderedServices;
       }
