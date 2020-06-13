@@ -33,19 +33,24 @@
           .forEach(service => {
               
             if (!service.frontmatter.service_type || service.frontmatter.service_type.length == 0) {
-              console.log(service);
               service.frontmatter.service_type = 'portfolio/tipo-de-servicio/otros.md';
             }
         
             if (!servicesByType[service.frontmatter.service_type] || !servicesByType[service.frontmatter.service_type]['category']) {
-              // console.log(service.frontmatter.service_type);
               const servicetypeSlug = service.frontmatter.service_type.replace('portfolio/', '').toLowerCase()
-              console.log(servicetypeSlug);
+              // console.log(servicetypeSlug);
               const category = this.$site.pages.filter(x => x.relativePath.toLowerCase() == servicetypeSlug);
-              servicesByType[service.frontmatter.service_type] = {
-                'category' : category[0]
-              };
+              if (category && category[0]) {
+                servicesByType[service.frontmatter.service_type] = {
+                  'category' : category[0]
+                };
+              }
             } 
+            
+            // Did not finde the category
+            if (!servicesByType[service.frontmatter.service_type]) {
+              return
+            }
 
             if (servicesByType[service.frontmatter.service_type]['services']) {
               servicesByType[service.frontmatter.service_type]['services'].push(service);
@@ -59,7 +64,7 @@
         
         Object.entries(servicesByType).forEach(category => {
           orderedServices.push(category[1]);
-        });
+        })
 
         orderedServices.sort((a, b) => {
           return a.category.frontmatter.order - b.category.frontmatter.order
