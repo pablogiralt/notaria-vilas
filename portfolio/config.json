@@ -28,6 +28,10 @@
   },
   "transports": [
     {
+      "transport_label": "Coche",
+      "transport_text": "Se encuentra aparcamiento fácil en la calle"
+    },
+    {
       "transport_label": "parking",
       "transport_text": "Avenida del Mediterráneo, 28"
     },
