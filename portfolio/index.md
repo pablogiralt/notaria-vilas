@@ -1,35 +1,55 @@
 ---
 title: Notaría en Madrid
-description: Notaría en Madrid en la zona de barrio de Retiro.  Se realizan poderes, testamentos...
+description: Notaría en Madrid en la zona de barrio de Retiro.  Se realizan poderes,
+  testamentos...
 about_pre_title: Notaría en Madrid
 about_title: Somos un despacho notarial con amplia experiencia en el sector y trabajamos
   con un equipo de eficacia comprobada.
 about_list:
 - about_list_title: Quienes Somos
-  about_list_text: Notaría Vilas ofrece un servicio jurídico integral en la firma de escrituras y actas notariales, asesorando sobre las opciones más  idóneas para el cliente. <br>Ofrecemos un servicio de gestión ágil y profesional, tramitando cualquier tipo de Impuestos que afecten a las escrituras firmadas en cualquier Comunidad Autónoma de España e inscribiéndolas en cualquier Registro de la Propiedad o Mercantil.
+  about_list_text: Notaría Vilas ofrece un servicio jurídico integral en la firma
+    de escrituras y actas notariales, asesorando sobre las opciones más  idóneas para
+    el cliente. <br>Ofrecemos un servicio de gestión ágil y profesional, tramitando
+    cualquier tipo de Impuestos que afecten a las escrituras firmadas en cualquier
+    Comunidad Autónoma de España e inscribiéndolas en cualquier Registro de la Propiedad
+    o Mercantil.
 - about_list_title: Lo que nos diferencia
-  about_list_text: <p>Notaría Vilas, establecida en Madrid desde 1996, cuenta con un equipo muy cualificado de profesionales, con soluciones a todas sus iniciativas  y con disponibilidad para atenderle y resolver sus dudas, incluso en el ámbito internacional, pues El Notario y algún empleado hablan inglés, francés y catalán.</p><p>Disponemos de un servicio de gestión que comprende el pago de cualesquiera de los Impuestos derivados de las escrituras firmadas y su inscripción en cualquier Registro Público. (ver servicios de gestión)</p><p>Notaría Vilas cuenta con unas modernas instalaciones en un amplio chalet situado  a nivel de calle , sin barreras arquitectónicas, que permite el acceso en silla de ruedas o a personas de movilidad reducida. Posee  jardín interior,   cuatro salas de firma y amplios espacios diáfanos  de espera,  que se adaptan a las medidas de protección sanitarias y de seguridad establecidas por la Legislación vigente.( ver sección Covid 19 )</p><p>Nuestro amplísimo horario de atención al público y de firma  comprende todos los días laborables de 9:00 a 14:00 y de Lunes a Jueves de 16:30 a 19:00. ¡un lujo en Madrid!</p>
-main_image: 
+  about_list_text: "<p>Notaría Vilas, establecida en Madrid desde 1996, cuenta con
+    un equipo muy cualificado de profesionales, con soluciones a todas sus iniciativas
+    \ y con disponibilidad para atenderle y resolver sus dudas, incluso en el ámbito
+    internacional, pues El Notario y algún empleado hablan inglés, francés y catalán.</p><p>Disponemos
+    de un servicio de gestión que comprende el pago de cualesquiera de los Impuestos
+    derivados de las escrituras firmadas y su inscripción en cualquier Registro Público.
+    (ver servicios de gestión)</p><p>Notaría Vilas cuenta con unas modernas instalaciones
+    en un amplio chalet situado  a nivel de calle , sin barreras arquitectónicas,
+    que permite el acceso en silla de ruedas o a personas de movilidad reducida. Posee
+    \ jardín interior,   cuatro salas de firma y amplios espacios diáfanos  de espera,
+    \ que se adaptan a las medidas de protección sanitarias y de seguridad establecidas
+    por la Legislación vigente.( ver sección Covid 19 )</p><p>Nuestro amplísimo horario
+    de atención al público y de firma  comprende todos los días laborables de 9:00
+    a 14:00 y de Lunes a Jueves de 16:30 a 19:00. ¡un lujo en Madrid!</p>"
+main_image:
   mobile: "/upload/notaria-en-madrid-edificio-xs.jpg"
   tablet: "/upload/notaria-en-madrid-edificio-md.jpg"
   desktop: "/upload/notaria-en-madrid-edificio-lg.jpg"
-  alt: "Notaría en Madrid Edificio"
+  alt: Notaría en Madrid Edificio
 banner:
   text: "Visite nuestro despacho, \Lestaremos encantados de atenderle"
   image_mobile: "/upload/notaria-en-madrid-firma-xs.jpg"
   image_tablet: "/upload/notaria-en-madrid-firma-md.jpg"
   image_desktop: "/upload/notaria-en-madrid-firma-lg.jpg"
-  image_alt: "Notaría en Madrid Firma"
+  image_alt: Notaría en Madrid Firma
 map:
   image_mobile: "/upload/notaria-en-madrid-mapa-xs.jpg"
   image_tablet: "/upload/notaria-en-madrid-mapa-md.jpg"
   image_desktop: "/upload/notaria-en-madrid-mapa-lg.jpg"
-  image_alt: "Notaría en Madrid Mapa"
-  link: "https://www.google.com/maps?q=notaria+vilas&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiT-q_L273pAhXFSxUIHd8TBxwQ_AUoAXoECBMQAw"
+  image_alt: Notaría en Madrid Mapa
+  link: https://www.google.com/maps?q=notaria+vilas&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiT-q_L273pAhXFSxUIHd8TBxwQ_AUoAXoECBMQAw
 contact_form_title: Envíenos sus dudas y consultas. las atenderemos a la menor brevedad
+gallery:
+- "/upload/notaria-en-madrid-edificio-md.jpg"
 
 ---
-
 <ClientOnly>
   <Gallery />
 </ClientOnly>
@@ -140,4 +160,3 @@ contact_form_title: Envíenos sus dudas y consultas. las atenderemos a la menor 
     }
   }
 </script>
-
