@@ -1,6 +1,6 @@
 <template>
   <div class="text-block">
-      {{ intro }}
+    {{ intro }}
   </div>
 </template>
 

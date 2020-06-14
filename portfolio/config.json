@@ -2,7 +2,7 @@
   "title": "Notaría Vilas",
   "description": "Notaría en Madrid",
   "headings_font_url": "https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&display=swap",
-  "default_font_url": "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap",
+  "default_font_url": "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap",
   "logo": "",
   "logo_old": "/upload/logo.svg",
   "copy": "Ⓒ Notaría Vilas",
@@ -46,7 +46,7 @@
         "item": "De lunes a viernes de 9:00 a 14:00h."
       },
       {
-        "item": "Por las tardes: lunes, martes, miércoles y jueves de 16:30 a 19:00h"
+        "item": "Tardes: lunes a jueves de 16:30 a 19:00h"
       }
     ],
     "schedule_short": [

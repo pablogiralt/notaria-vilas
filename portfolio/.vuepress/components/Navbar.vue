@@ -6,7 +6,8 @@
       <div class="top-bar__inner">
         
         <span class="top-bar__item">
-          <span v-for="(schedule, index) in schedules">
+        <!--<span class="top-bar__item  top-bar--highlight">-->
+          <span v-for="(schedule, index) in schedulesLong">
             <span class="top-bar__subitem">{{ schedule.item }}</span>
             <span v-if="index + 1 < schedules.length"> — </span>
           </span>
@@ -130,6 +131,9 @@
       schedules() {
         return this.$site.themeConfig.schedule.schedule_short
       },
+      schedulesLong() {
+        return this.$site.themeConfig.schedule.schedule_long
+      },
       contact() {
         return {
           "phones": this.$site.themeConfig.phones,
@@ -186,6 +190,7 @@
     color: white;
     text-transform: uppercase;
     font-size: 13px; 
+    font-weight: 500;
   }
 
   .top-bar__inner {
@@ -201,6 +206,10 @@
 
   .top-bar--desktop {
     display: none;
+  }
+
+  .top-bar--highlight {
+    color: #e6e031;
   }
 
   .top-bar__item {

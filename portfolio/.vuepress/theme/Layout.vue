@@ -274,9 +274,13 @@
     }
 
     .template-text,
-    .template-service,
-    .template-services {
+    .template-service {
       padding-left: 42px;
+      padding-right: 42px;
+      max-width: var(--max-wrapper-width);
+    }
+
+    .template-services {
       max-width: var(--max-wrapper-width);
     }
     

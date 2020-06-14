@@ -83,14 +83,14 @@
 	@media screen and (min-width: 768px) {
 		.sidebar--fixed {
 			position: fixed;
-			right: 16px;
+			right: 42px;
 		}	
 	}
 
 	@media screen and (min-width: 1366px) {
 		.sidebar--fixed {
 			position: fixed;
-			right: calc((100vw - 1334px) / 2);	
+			right: calc((100vw - 1282px) / 2);	
 		}	
 	}
 </style>
