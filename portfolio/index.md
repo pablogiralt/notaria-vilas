@@ -30,9 +30,9 @@ contact_form_title: Envíenos sus dudas y consultas. las atenderemos a la menor 
 
 ---
 
-<ClientOnly>
-  <Gallery />
-</ClientOnly>
+
+<Gallery />
+
 
 <Banner 
     :image="$page.frontmatter.main_image.desktop"
