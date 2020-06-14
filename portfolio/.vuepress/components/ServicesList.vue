@@ -80,7 +80,6 @@
         orderedServices.sort((a, b) => {
           return a.category.frontmatter.order - b.category.frontmatter.order
         });
-        console.log(orderedServices);
         return orderedServices;
       }
     }
