@@ -52,10 +52,6 @@ gallery:
 - "/upload/notaria-en-madrid-edificio-md.jpg"
 
 ---
-<ClientOnly>
-  <Gallery />
-</ClientOnly>
-
 <Banner 
     :image="$page.frontmatter.main_image.desktop"
     :image_mobile="$page.frontmatter.main_image.mobile"
@@ -71,13 +67,17 @@ gallery:
 <AboutList 
     :list="$page.frontmatter.about_list" />
 
+<ClientOnly>
+  <Gallery :slides="$page.frontmatter.gallery"/>
+</ClientOnly>
+<!--
 <Banner 
     :text="$page.frontmatter.banner.banner_text"
     :image="$page.frontmatter.banner.image_desktop"
     :image_mobile="$page.frontmatter.banner.image_mobile"
     :image_tablet="$page.frontmatter.banner.image_tablet"
     :image_alt="$page.frontmatter.banner.image_alt" />
-
+-->
 <Address />
 
 <Banner 

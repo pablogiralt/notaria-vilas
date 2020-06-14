@@ -1,8 +1,8 @@
 <template>
   <div class="gallery wrapper__inner">
     <div class="gallery__inner">
-      <carousel :per-page="1" :perPageCustom="[[768, 2], [992, 3]]" :navigationEnabled="true">
-        <slide v-for="slide in slides2">
+      <carousel v-if="slides && slides.length" :per-page="1" :perPageCustom="[[768, 2], [992, 3]]" :navigationEnabled="true">
+        <slide v-for="slide in slides">
           <img :srcset="slide" >
         </slide>
       </carousel>
@@ -21,17 +21,6 @@
         required: false
       }
     },
-    data() {
-      return {
-        slides2: [
-          '/upload/notaria-en-madrid-edificio-md.jpg',
-          '/upload/notaria-en-madrid-edificio-md.jpg',
-          '/upload/notaria-en-madrid-edificio-md.jpg',
-          '/upload/notaria-en-madrid-edificio-md.jpg'
-        ]
-      }
-    },
-    
     components: {
       Carousel,
       Slide
@@ -46,6 +35,10 @@
 </style>
 
 <style scoped>
+  .gallery {
+    overflow: hidden;
+  }
+
   .gallery__inner {
     margin-left: -10px;
     margin-right: -10px;
