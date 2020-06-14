@@ -119,5 +119,9 @@ fields:
     wysiwyg: true
     schema:
       format: html
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: Galería
 pages:
 - portfolio/index.md
