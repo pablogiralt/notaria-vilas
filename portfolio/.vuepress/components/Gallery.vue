@@ -1,7 +1,7 @@
 <template>
   <div class="test">
 
-      <ClientOnly>
+  
         <carousel :per-page="1" :mouse-drag="false">
           <slide>
             Slide 1 Content
@@ -10,7 +10,7 @@
             Slide 2 Content
           </slide>
         </carousel>
-      </ClientOnly>
+    
       
   </div>
 </template>
