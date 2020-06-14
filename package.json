@@ -8,6 +8,7 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.19.2",
+    "vue-carousel": "^0.18.0",
     "vuepress": "^1.2.0",
     "vuepress-plugin-img-lazy": "^1.0.3",
     "webpack-dev-middleware": "3.6.0"
