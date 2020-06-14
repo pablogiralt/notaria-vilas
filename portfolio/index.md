@@ -47,9 +47,12 @@ map:
   link: https://www.google.com/maps?q=notaria+vilas&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiT-q_L273pAhXFSxUIHd8TBxwQ_AUoAXoECBMQAw
 contact_form_title: Envíenos sus dudas y consultas. las atenderemos a la menor brevedad
 gallery:
+- "/upload/notaria-madrid-sala-espera-1.jpg"
+- "/upload/toa-heftiba-fv3gconvsss-unsplash.jpg"
+- "/upload/luca-bravo-9l_326fiszk-unsplash.jpg"
+- "/upload/pierre-chatel-innocenti-wkmdjz8dbic-unsplash.jpg"
+- "/upload/carl-heyerdahl-ke0nc8-58mq-unsplash.jpg"
 - "/upload/notaria-en-madrid-firma-md.jpg"
-- "/upload/notaria-en-madrid-mapa-md.jpg"
-- "/upload/notaria-en-madrid-edificio-md.jpg"
 
 ---
 <Banner 
