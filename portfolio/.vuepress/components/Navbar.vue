@@ -189,7 +189,7 @@
     background: var(--color-blue);
     color: white;
     text-transform: uppercase;
-    font-size: 13px; 
+    font-size: 14px; 
     font-weight: 500;
   }
 
