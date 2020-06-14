@@ -28,20 +28,20 @@
   },
   "transports": [
     {
-      "transport_label": "Coche",
-      "transport_text": "Se encuentra aparcamiento fácil en la calle"
-    },
-    {
-      "transport_label": "parking",
-      "transport_text": "Avenida del Mediterráneo, 28"
-    },
-    {
       "transport_label": "metro",
       "transport_text": "Conde de Casal"
     },
     {
       "transport_label": "bus",
       "transport_text": "Lineas 14, 32, 63, 143, C1, C2"
+    },
+    {
+      "transport_label": "parking",
+      "transport_text": "Avenida del Mediterráneo, 28"
+    },
+    {
+      "transport_label": "Coche",
+      "transport_text": "Se encuentra aparcamiento fácil en la calle"
     }
   ],
   "schedule": {
