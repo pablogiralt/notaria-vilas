@@ -47,6 +47,8 @@ map:
   link: https://www.google.com/maps?q=notaria+vilas&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiT-q_L273pAhXFSxUIHd8TBxwQ_AUoAXoECBMQAw
 contact_form_title: Envíenos sus dudas y consultas. las atenderemos a la menor brevedad
 gallery:
+- "/upload/notaria-en-madrid-firma-md.jpg"
+- "/upload/notaria-en-madrid-mapa-md.jpg"
 - "/upload/notaria-en-madrid-edificio-md.jpg"
 
 ---
