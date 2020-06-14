@@ -49,7 +49,7 @@
     font-weight: bold;
     font-size: 25px;
     line-height: 27px;
-    max-width: 340px;
+    max-width: 380px;
   }
 
   .footer_nav__item-link {
