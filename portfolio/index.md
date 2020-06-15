@@ -47,12 +47,11 @@ map:
   link: https://www.google.com/maps?q=notaria+vilas&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiT-q_L273pAhXFSxUIHd8TBxwQ_AUoAXoECBMQAw
 contact_form_title: Envíenos sus dudas y consultas. las atenderemos a la menor brevedad
 gallery:
+- "/upload/dsc_6125.JPG"
+- "/upload/dscn5359.JPG"
 - "/upload/img_4091.JPG"
 - "/upload/dscn5370.JPG"
-- "/upload/dscn5367.JPG"
-- "/upload/dscn5359.JPG"
 - "/upload/dscn5364.JPG"
-- "/upload/dsc_6125.JPG"
 
 ---
 <Banner 
