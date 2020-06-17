@@ -5,7 +5,10 @@ fields:
 - name: order
   type: list
   config:
-    use_select: false
+    use_select: true
     min: 
     max: 
+    source:
+      type: pages
+      section: servicios
   label: Orden
