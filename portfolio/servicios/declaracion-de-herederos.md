@@ -1,5 +1,5 @@
 ---
-service_type: []
+service_type: portfolio/tipo-de-servicio/familia.md
 title: Declaración de Herederos
 description: ''
 sidebar:
@@ -7,7 +7,7 @@ sidebar:
   text: "<p>En Notaría Vilas le asesoramos y ayudamos a realizar la declaración de
     herederos.</p>"
   btn_text: Contactar
-link_service: false
+link_service: true
 
 ---
 # **Declaración de herederos:**
