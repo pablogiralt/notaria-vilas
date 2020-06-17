@@ -12,5 +12,3 @@ fields:
       type: pages
       section: servicios
   label: Orden
-pages:
-- portfolio/order.md
