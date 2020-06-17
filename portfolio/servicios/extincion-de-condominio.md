@@ -20,14 +20,21 @@ Al igual que en una compraventa, la extinción de condominio debe reflejar los *
 
 ## **Documentación a aportar**:
 
-\-DNI de todos los intervinientes (adquirentes y transmitentes) y estado civil. Si son no residentes en España, deberán obtener un Número de Identidad de Extranjero (N.I.E.). Si son personas jurídicas, debe aportar escritura de constitución, escritura de nombramiento de administrador y acta de titularidad real
+* DNI de todos los intervinientes (adquirentes y transmitentes) y estado civil. Si son no residentes en España, deberán obtener un Número de Identidad de Extranjero (N.I.E.). Si son personas jurídicas, debe aportar escritura de constitución, escritura de nombramiento de administrador y acta de titularidad real
+* Escritura de propiedad del inmueble que se transmite y/o nota simple
+* Último recibo del IBI pagado
+* Certificado bancario con saldo pendiente de la hipoteca (si la hay) a la fecha de firma
+* Certificado de eficiencia energética (excepto en plazas de garajes o naves industriales)
+* Precio (contraprestación económica) y forma de pago. Justificante de todos los pagos efectuados antes de la firma
 
-\-Escritura de propiedad del inmueble que se transmite y/o nota simple
+## **Impuestos aplicables (base imponible: Valor de la parte del inmueble a adquirir)**:
 
-\-Último recibo del IBI pagado
+**Parte adquirente**:
 
-\-Certificado bancario con saldo pendiente de la hipoteca (si la hay) a la fecha de firma
+* No sujeto al concepto de Transmisiones Patrimoniales Onerosas (ITP0)
+* Sujeto al concepto de Actos Jurídicos Documentados (AJD) al tipo vigente en la Comunidad Autónoma en la que radica el inmueble (Comunidad de Madrid al 0,75%), siendo la base imponible el valor de la parte del inmueble que se adquiere por el nuevo titular único, y no el total valor del inmueble. (Resto de Comunidades Autónomas: oscilan entre el 0,75% y 1,50%)
 
-\-Certificado de eficiencia energética (excepto en plazas de garajes o naves industriales)
+**Parte transmitente: No hay impuestos a su cargo**
 
-\-Precio (contraprestación económica) y forma de pago. Justificante de todos los pagos efectuados antes de la firma
+* No sujeto al Impuesto sobre el Incremento del Valor del Suelo de los Terrenos de Naturaleza Urbana (Plusvalía Municipal).
+* En su caso, estaría solo sujeto a la posible ganancia patrimonial en renta de la parte transmitente en los mismos supuestos aplicables a la compraventa (ver [Compraventa](/servicios/compraventa.html)).
