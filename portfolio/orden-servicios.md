@@ -22,5 +22,6 @@ order_servicios:
 - portfolio/servicios/disolucion-y-liquidacion-de-sociedad.md
 - portfolio/servicios/poderes-y-actas.md
 - portfolio/servicios/polizas.md
+order: []
 
 ---
