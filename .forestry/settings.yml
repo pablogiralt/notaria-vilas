@@ -27,6 +27,10 @@ sections:
   exclude: index.md
   templates:
   - servicios
+- type: document
+  path: portfolio/order.md
+  label: Ordén
+  match: "**/*"
 - type: directory
   path: portfolio/tipo-de-servicio
   label: Tipo de Servicio
