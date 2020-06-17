@@ -2,7 +2,7 @@
 label: Ordenar servicios
 hide_body: true
 fields:
-- name: order
+- name: order_servicios
   type: list
   config:
     use_select: true
