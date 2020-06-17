@@ -44,5 +44,14 @@ fields:
     schema:
       format: html-blocks
   label: Contenido
+- name: pagos
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Métodos de pago
 pages:
 - portfolio/servicios/index.md
