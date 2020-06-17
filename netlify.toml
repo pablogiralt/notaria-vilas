@@ -23,17 +23,21 @@
   from = "/servicios-que-prestamos"
   to = "/servicios"
 
+[[redirects]]
   from = "/qgaleria-de-imagenes"
   to = "/"
 
+[[redirects]]
   from = "/blog"
   to = "/"
 
+[[redirects]]
   from = "/quienes-somos"
   to = "/"
-
   # The default HTTP status code is 301, but you can define a different one.
   status = 301
+
+
 
 [[headers]]
 	for = "/assets/*"
