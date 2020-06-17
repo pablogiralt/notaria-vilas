@@ -1,5 +1,6 @@
 ---
-order:
+services_index: true
+order_servicios:
 - portfolio/servicios/testamentos-y-declaraciones-de-herederos.md
 - portfolio/servicios/declaracion-de-herederos.md
 - portfolio/servicios/herencias.md
