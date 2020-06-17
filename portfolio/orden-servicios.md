@@ -1,5 +1,4 @@
 ---
-services_index: true
 order_servicios:
 - portfolio/servicios/testamentos-y-declaraciones-de-herederos.md
 - portfolio/servicios/declaracion-de-herederos.md
@@ -22,6 +21,5 @@ order_servicios:
 - portfolio/servicios/disolucion-y-liquidacion-de-sociedad.md
 - portfolio/servicios/poderes-y-actas.md
 - portfolio/servicios/polizas.md
-order: []
 
 ---
