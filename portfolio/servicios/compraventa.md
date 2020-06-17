@@ -2,7 +2,7 @@
 title: Compraventa
 sidebar:
   title: "¿Necesitas realizar una compraventa?"
-  text: "<p>En la Notaría Vilas te asesoramos y te ayudamos a firmar tu compraventa,
+  text: "<p>En Notaría Vilas te asesoramos y te ayudamos a firmar tu compraventa,
     seas comprador o vendedor.</p>"
   btn_text: Contactar
 service_type: portfolio/tipo-de-servicio/propiedad.md
