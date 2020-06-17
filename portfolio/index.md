@@ -19,6 +19,10 @@ about_list:
     a todas sus iniciativas y tenemos disponibilidad para atenderle y resolver sus
     dudas, <strong>incluso en el ámbito internacional</strong>, pues El Notario y
     varios empleados hablan inglés, francés y catalán.
+- about_list_title: Gestión integral
+  about_list_text: Disponemos de un servicio de gestión que comprende el pago de cualesquiera
+    de los <strong>impuestos</strong> derivados de las escrituras firmadas y su <strong>inscripción</strong>
+    en cualquier Registro Público.
 main_image:
   mobile: "/upload/notaria-en-madrid-edificio-xs.jpg"
   tablet: "/upload/notaria-en-madrid-edificio-md.jpg"
