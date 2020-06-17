@@ -23,6 +23,10 @@ about_list:
   about_list_text: Disponemos de un servicio de gestión que comprende el pago de cualesquiera
     de los <strong>impuestos</strong> derivados de las escrituras firmadas y su <strong>inscripción</strong>
     en cualquier Registro Público.
+- about_list_text: Nuestro amplísimo horario de atención al público y firmas comprende
+    todos los días laborables de 9:00 a 14:00 de la mañana y de Lunes a Jueves de
+    16:30 a 19:00 de la tarde. ¡Un lujo en Madrid!
+  about_list_title: Horario de atención
 main_image:
   mobile: "/upload/notaria-en-madrid-edificio-xs.jpg"
   tablet: "/upload/notaria-en-madrid-edificio-md.jpg"
