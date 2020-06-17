@@ -10,6 +10,11 @@ sections:
   templates:
   - settings
 - type: document
+  path: portfolio/covid-19.md
+  label: Covid-19
+- type: heading
+  label: Servicios
+- type: document
   path: portfolio/servicios/index.md
   label: Página Servicios
 - type: directory
@@ -27,16 +32,18 @@ sections:
   match: "**/*"
   templates:
   - tipo-de-servicio
+- type: heading
+  label: Legal
 - type: document
-  path: portfolio/covid-19.md
-  label: Covid-19
-- type: directory
-  path: portfolio/works
-  label: Works
-  create: all
+  path: portfolio/aviso-legal.md
+  label: Aviso Legal
   match: "**/*"
-  templates:
-  - works
+- type: document
+  path: portfolio/politica-de-privacidad.md
+  label: Política de privacidad
+  match: "**/*"
+- type: heading
+  label: Otros
 - type: directory
   path: portfolio/journal
   label: Blog
