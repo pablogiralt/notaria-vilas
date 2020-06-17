@@ -6,35 +6,43 @@ fields:
   name: title
   label: title
   hidden: true
-- name: main_image
-  type: file
+- name: intro
+  type: textarea
+  default: ''
   config:
-    maxSize: 64
-  label: Imagen de portada
-- type: text
-  name: services_pre_title
-  label: Pre Título de Servicios
-- type: textarea
-  name: services_title
-  label: Título Servicios
-  config:
+    required: false
     wysiwyg: true
     schema:
-      format: html
+      format: html-blocks
+  label: Intro
 - name: banner
   type: field_group
   config: {}
   fields:
-  - name: banner_text
-    type: textarea
-    config:
-      required: false
-    label: Texto
-  - name: banner_image
+  - name: image_mobile
     type: file
     config:
       maxSize: 64
-    label: Imagen
-  label: Imagen Con Texto
+    label: Imagen Móvil
+  - name: image_tablet
+    type: file
+    config:
+      maxSize: 64
+    label: Imagen Tablet
+  - name: image_desktop
+    type: file
+    config:
+      maxSize: 64
+    label: Imagen Desktop
+  label: Imagen de portada
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Contenido
 pages:
 - portfolio/servicios/index.md
