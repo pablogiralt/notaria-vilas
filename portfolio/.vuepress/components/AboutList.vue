@@ -58,12 +58,15 @@
 
     .about__item {
       display: flex;
+       margin-bottom: 30px;
     }
 
     .about__title {
       width: 164px;
       min-width: 164px;
       text-align: left;
+      margin-bottom: 20px;
+      padding-right: 20px;
     }
   }
 </style>
