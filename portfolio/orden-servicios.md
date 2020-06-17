@@ -19,7 +19,8 @@ order_servicios:
 - portfolio/servicios/poderes-y-actas.md
 - portfolio/servicios/fusiones.md
 - portfolio/servicios/disolucion-y-liquidacion-de-sociedad.md
+- portfolio/servicios/ampliacion-reduccion-de-capital.md
+- portfolio/servicios/cambio-de-domicilio-y-o-objeto-social.md
 - portfolio/servicios/poderes-y-actas.md
 - portfolio/servicios/polizas.md
-
 ---

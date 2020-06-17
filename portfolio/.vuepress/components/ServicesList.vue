@@ -40,10 +40,30 @@
       services() {
         let servicesByType = [];
 
-        const services = this.$site.pages
-          .filter(x => x.path.startsWith('/servicios/') && !x.frontmatter.services_index)
-          .forEach(service => {
-              
+        const pages = this.$site.pages
+        
+        // get the services order from the orden-servicios.md page
+        const servicesOrderPage = pages.filter(x => x.path == '/orden-servicios.html')
+        const servicesOrder = servicesOrderPage.length && servicesOrderPage[0].frontmatter.order_servicios
+
+        // remove a part of the path to match the relativePath of the services
+        for (let i = 0; i < servicesOrder.length; i++) {
+          servicesOrder[i] = servicesOrder[i].replace('portfolio/', '')
+        }
+
+        const services = pages.filter(x => x.path.startsWith('/servicios/') && !x.frontmatter.services_index)
+        // We order the services by order defined in servicesOrder
+        services.sort((a, b) => { 
+          const aPos = servicesOrder.indexOf(a.relativePath)
+          const aVal = aPos >= 0 ? aPos : 99999
+          const bPos = servicesOrder.indexOf(b.relativePath)
+          const bVal = bPos >= 0 ? bPos : 99999
+          return aVal - bVal
+        });
+
+        // Group services by category
+        services.forEach(service => {
+            
             if (!service.frontmatter.service_type || service.frontmatter.service_type.length == 0) {
               service.frontmatter.service_type = 'portfolio/tipo-de-servicio/otros.md';
             }
@@ -58,7 +78,7 @@
               }
             } 
             
-            // Did not finde the category
+            // Did not find the category
             if (!servicesByType[service.frontmatter.service_type]) {
               return
             }
