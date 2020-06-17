@@ -46,3 +46,5 @@ fields:
 - name: link_service
   type: boolean
   label: Enlazar a Página de Servicio
+pages:
+- portfolio/servicios/declaracion-de-herederos.md
