@@ -28,7 +28,7 @@ sections:
   templates:
   - servicios
 - type: document
-  path: portfolio/servicios/orden-servicios.md
+  path: portfolio/orden-servicios.md
   label: Ordenar Servicios
 - type: directory
   path: portfolio/tipo-de-servicio
