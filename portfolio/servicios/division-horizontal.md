@@ -1,9 +1,9 @@
 ---
 title: División Horizontal, Obra Nueva, Agrupación y Segregación
 sidebar:
-  title: "¿Necesitas realizar una escritura de división horizontal, obra nueva, agrupación
+  title: "¿Necesita realizar una escritura de división horizontal, obra nueva, agrupación
     o segregación de finca?"
-  text: "<p>En Notaría Vilas te asesoramos y ayudamos a gestionar este tipo de escrituras
+  text: "<p>En Notaría Vilas le asesoramos y ayudamos a gestionar este tipo de escrituras
     adaptándonos a la complejidad de la operación.</p>"
   btn_text: Contactar
 service_type: portfolio/tipo-de-servicio/propiedad.md
