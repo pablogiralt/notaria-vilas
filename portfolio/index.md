@@ -6,7 +6,7 @@ about_pre_title: Notaría en Madrid
 about_title: Somos un despacho notarial con amplia experiencia que ofrece soluciones
   ágiles y eficaces a sus clientes
 about_list:
-- about_list_title: Quienes Somos
+- about_list_title: Quiénes Somos
   about_list_text: Notaría Vilas ofrece un servicio jurídico integral en la firma
     de escrituras y actas notariales, asesorando sobre las opciones más  idóneas para
     el cliente. <br>Ofrecemos un servicio de gestión ágil y profesional, tramitando
