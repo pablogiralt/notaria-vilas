@@ -13,21 +13,12 @@ about_list:
     cualquier tipo de Impuestos que afecten a las escrituras firmadas en cualquier
     Comunidad Autónoma de España e inscribiéndolas en cualquier Registro de la Propiedad
     o Mercantil.
-- about_list_title: Lo que nos diferencia
-  about_list_text: "<p>Notaría Vilas, establecida en Madrid desde 1996, cuenta con
-    un equipo muy cualificado de profesionales, con soluciones a todas sus iniciativas
-    \ y con disponibilidad para atenderle y resolver sus dudas, incluso en el ámbito
-    internacional, pues El Notario y algún empleado hablan inglés, francés y catalán.</p><p>Disponemos
-    de un servicio de gestión que comprende el pago de cualesquiera de los Impuestos
-    derivados de las escrituras firmadas y su inscripción en cualquier Registro Público.
-    (ver servicios de gestión)</p><p>Notaría Vilas cuenta con unas modernas instalaciones
-    en un amplio chalet situado  a nivel de calle , sin barreras arquitectónicas,
-    que permite el acceso en silla de ruedas o a personas de movilidad reducida. Posee
-    \ jardín interior,   cuatro salas de firma y amplios espacios diáfanos  de espera,
-    \ que se adaptan a las medidas de protección sanitarias y de seguridad establecidas
-    por la Legislación vigente.( ver sección Covid 19 )</p><p>Nuestro amplísimo horario
-    de atención al público y de firma  comprende todos los días laborables de 9:00
-    a 14:00 y de Lunes a Jueves de 16:30 a 19:00. ¡un lujo en Madrid!</p>"
+- about_list_title: Experiencia y disponibilidad
+  about_list_text: Notaría Vilas, establecida en Madrid desde 1996, cuenta con un
+    equipo de profesionales muy cualificado con amplia experiencia. Ofrecemos soluciones
+    a todas sus iniciativas y tenemos disponibilidad para atenderle y resolver sus
+    dudas, <strong>incluso en el ámbito internacional</strong>, pues El Notario y
+    varios empleados hablan inglés, francés y catalán.
 main_image:
   mobile: "/upload/notaria-en-madrid-edificio-xs.jpg"
   tablet: "/upload/notaria-en-madrid-edificio-md.jpg"
