@@ -1,10 +1,11 @@
 ---
-title: Testamentos y declaraciones de herederos
+title: Testamento
 sidebar:
-  title: "¿Necesitas realizar una Herencia?"
-  text: "<p>En la Notaría vilas te ayudamos a gestional tu Herencia.</p>"
+  title: "¿Quiere realizar un Testamento?"
+  text: "<p>En Notaría Vilas le asesoramos y ayudamos a realizar su Testamento.</p>"
   btn_text: Contactar
 service_type: portfolio/tipo-de-servicio/familia.md
 description: This is the meta description
+link_service: true
 
 ---
