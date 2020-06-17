@@ -23,6 +23,15 @@
   from = "/servicios-que-prestamos"
   to = "/servicios"
 
+  from = "/qgaleria-de-imagenes"
+  to = "/"
+
+  from = "/blog"
+  to = "/"
+
+  from = "/quienes-somos"
+  to = "/"
+
   # The default HTTP status code is 301, but you can define a different one.
   status = 301
 
