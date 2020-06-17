@@ -37,7 +37,7 @@ Una vez firmada el acta de declaración de herederos ante el Notario por al meno
 * **Fotocopia Del D.N.I. de dos testigos**, mayores de edad, que hayan conocido al fallecido y a los presuntos herederos.
 * Certificado de empadronamiento (Junta Municipal), **sólo en el caso de que no conste el último domicilio del causante en el certificado de defunción**
 
-  ### **b.Declaraciones de herederos a favor de colaterales (hermanos, tíos y/o sobrinos)**
+  ### **b. Declaraciones de herederos a favor de colaterales (hermanos, tíos y/o sobrinos)**
   * **Certificado literal de defunción** del fallecido (causante) (Registro Civil – Calle Pradillo si falleció en Madrid) o Registro Civil o Juzgado de Paz del lugar de fallecimiento
   * **Certificado de Últimas Voluntades** (Registro General De Últimas Voluntades – (Calle de La Bolsa nº 8)
   * **Certificado literal de matrimonio** del causante y su cónyuge (Registro Civil o Juzgado de Paz del lugar de celebración del matrimonio)
