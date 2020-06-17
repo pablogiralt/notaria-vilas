@@ -36,3 +36,30 @@ banner:
 <ServicesList />
 
 <TextBlock :intro="$page.frontmatter.content" />
+
+<table>
+    <tr>
+        <th>Tipo de servicio</th>
+        <th>Efectivo</th>
+        <th>Tarjeta Bancaria</th>
+        <th>Transferencia</th>
+        <th>Talón</th>
+        <th>Cheque</th>
+    </tr>
+    <tr>
+        <td>Honorarios Notaría</td>
+        <td>✓</td>
+        <td>✓</td>
+        <td>✓</td>
+        <td>✓</td>
+        <td>✓</td>
+    </tr>
+    <tr>
+        <td>Gestoría, Impuestos y Registros</td>
+        <td>✗</td>
+        <td>✗</td>
+        <td>✓</td>
+        <td>✓</td>
+        <td>✓</td>
+    </tr>
+</table>
