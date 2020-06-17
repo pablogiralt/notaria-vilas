@@ -51,7 +51,7 @@ map:
   image_desktop: "/upload/notaria-en-madrid-mapa-lg.jpg"
   image_alt: Notaría en Madrid Mapa
   link: https://www.google.com/maps?q=notaria+vilas&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiT-q_L273pAhXFSxUIHd8TBxwQ_AUoAXoECBMQAw
-contact_form_title: Envíenos sus dudas y consultas. las atenderemos a la menor brevedad
+contact_form_title: Envíenos sus dudas y consultas. Las atenderemos a la menor brevedad
 gallery:
 - "/upload/dsc_6125.JPG"
 - "/upload/dscn5359.JPG"
