@@ -1,7 +1,5 @@
 <template>
-  <div class="text-block">
-    {{ intro }}
-  </div>
+  <div v-html="intro" class="text-block"></div>
 </template>
 
 <script>
