@@ -13,7 +13,7 @@ fields:
     required: false
     wysiwyg: true
     schema:
-      format: markdown
+      format: html-blocks
   label: Intro
 - name: banner
   type: field_group
@@ -42,7 +42,7 @@ fields:
     required: false
     wysiwyg: true
     schema:
-      format: html-blocks
+      format: markdown
   label: Contenido
 pages:
 - portfolio/servicios/index.md
