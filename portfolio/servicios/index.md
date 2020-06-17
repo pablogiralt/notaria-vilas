@@ -1,17 +1,25 @@
 ---
 services_index: true
 title: Servicios de La Notaría
-intro: <h2><strong>Escrituras, actas y pólizas</strong></h2><p>En Notaría Vilas le
-  ofrecemos la posibilidad de firmar todo tipo de escrituras, actas y pólizas. A continuación
-  mencionamos los <strong>documentos notariales más habituales</strong> que elaboramos,
-  y pinchando sobre cada uno podrá conocer sus principales <strong>características,</strong>
-  la <strong>documentación que debe facilitar a la Notaría</strong>, así como los
-  <strong>impuestos que le serán aplicables</strong> tras su firma. Para obtener información
-  adicional y personalizada, <a href="/# contacto" title="" editing="" creating="">contacte
-  con nosotros</a>.</p>
-content: |2
+intro: <h2>Escrituras, actas y pólizas</h2><p>En Notaría Vilas le ofrecemos la posibilidad
+  de firmar todo tipo de escrituras, actas y pólizas. A continuación mencionamos los
+  <strong>documentos notariales más habituales</strong> que elaboramos, y pinchando
+  sobre cada uno podrá conocer sus principales <strong>características,</strong> la
+  <strong>documentación que debe facilitar a la Notaría</strong>, así como los <strong>impuestos
+  que le serán aplicables</strong> tras su firma. Para obtener información adicional
+  y personalizada, <a href="/# contacto" title="">contacte con nosotros</a>.</p>
+content: |-
+  ## Servicio de Gestión y Tramitación de sus escrituras
 
-  Servicio de Gestión y Tramitación de sus escrituras
+  Además de los servicios de elaboración de escrituras, actas y pólizas, en Notaría contamos con un gestor en plantilla para proporcionarles **a nuestros clientes** un **servicio integral y completo**, que incluye la **gestión de las escrituras firmadas en nuestra Notaría que requieran una posterior tramitación,** en cuanto a presentación y pago de Impuestos e inscripción en los Registros correspondientes en toda España.
+
+  Si desea contar con este servicio, a través de una provisión de fondos que le solicitamos tras la firma, con un desglose entre los distintos conceptos:
+
+  **a) Presentamos y pagamos en su nombre las liquidaciones** correspondientes a los Impuestos de Transmisiones Patrimoniales y Actos Jurídicos Documentados (ITPAJD), en sus distintas modalidades, Impuestos de Sucesiones y Donaciones (ISD), e Impuestos sobre el Incremento del Valor del Suelo de los Terrenos de Naturaleza Urbana (Plusvalía Municipal).
+
+  **b) Presentamos en su nombre las escrituras a inscripción en los Registros** de la Propiedad y Registros Mercantiles en toda España, y en el caso de matrimonios y divorcios, en el Registro Civil correspondiente, **y abonamos en su nombre los honorarios de Registro correspondientes.**
+
+  c) Al finalizar la tramitación, le entregamos los originales de sus escrituras liquidadas en Hacienda e inscritas en los Registros, con todas las facturas correspondientes a Notaría, Registro y nuestra factura de gestión, junto con el importe sobrante de la provisión de fondos.
 template: services
 banner:
   image_mobile: "/upload/notaria-en-madrid-firma-xs.jpg"
