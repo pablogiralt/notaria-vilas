@@ -6,13 +6,6 @@ about_pre_title: Notaría en Madrid
 about_title: Somos un despacho notarial con amplia experiencia que ofrece soluciones
   ágiles y eficaces a sus clientes
 about_list:
-- about_list_title: Instalaciones
-  about_list_text: Notaría Vilas cuenta con unas modernas instalaciones en un chalet
-    situado a nivel de calle , sin barreras arquitectónicas, que permite el acceso
-    en silla de ruedas o a personas de movilidad reducida. Posee jardín interior,
-    cuatro salas de firma y amplios espacios diáfanos de espera, que se adaptan a
-    las medidas de protección sanitarias y de seguridad establecidas por la Legislación
-    vigente (ver sección Covid 19)
 - about_list_title: Quiénes Somos
   about_list_text: Notaría Vilas ofrece un servicio jurídico integral en la firma
     de escrituras y actas notariales, asesorando sobre las opciones más  idóneas para
@@ -29,11 +22,18 @@ about_list:
 - about_list_title: Gestión integral
   about_list_text: Disponemos de un servicio de gestión que comprende el pago de cualesquiera
     de los <strong>impuestos</strong> derivados de las escrituras firmadas y su <strong>inscripción</strong>
-    en cualquier Registro Público.
+    en cualquier Registro Público (ver <a href="/servicios/" title="">Sección Servicios</a>)
 - about_list_text: Nuestro amplísimo horario de atención al público y firmas comprende
     todos los días laborables de 9:00 a 14:00 de la mañana y de Lunes a Jueves de
     16:30 a 19:00 de la tarde. ¡Un lujo en Madrid!
   about_list_title: Horario de atención
+- about_list_title: Instalaciones
+  about_list_text: Notaría Vilas cuenta con unas modernas instalaciones en un chalet
+    situado a nivel de calle , sin barreras arquitectónicas, que permite el acceso
+    en silla de ruedas o a personas de movilidad reducida. Posee jardín interior,
+    cuatro salas de firma y amplios espacios diáfanos de espera, que se adaptan a
+    las medidas de protección sanitarias y de seguridad establecidas por la Legislación
+    vigente (ver sección Covid 19)
 main_image:
   mobile: "/upload/notaria-en-madrid-edificio-xs.jpg"
   tablet: "/upload/notaria-en-madrid-edificio-md.jpg"
