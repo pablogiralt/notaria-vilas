@@ -4,7 +4,7 @@ description: Nuestra prioridad es siempre la seguridad y el bienestar de todos n
   clientes y trabajadores. Nos mantenemos informados sobre todo lo relacionado con
   el coronavirus (COVID-19) y estamos adoptando una serie de medidas para ayudar a
   garantizar su seguridad
-hide_notice: false
+hide_notice: true
 template: text
 
 ---
