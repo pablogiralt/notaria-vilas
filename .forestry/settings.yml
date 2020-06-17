@@ -37,11 +37,9 @@ sections:
 - type: document
   path: portfolio/aviso-legal.md
   label: Aviso Legal
-  match: "**/*"
 - type: document
   path: portfolio/politica-de-privacidad.md
   label: Política de privacidad
-  match: "**/*"
 - type: heading
   label: Otros
 - type: directory
