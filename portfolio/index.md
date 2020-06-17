@@ -6,6 +6,13 @@ about_pre_title: Notaría en Madrid
 about_title: Somos un despacho notarial con amplia experiencia que ofrece soluciones
   ágiles y eficaces a sus clientes
 about_list:
+- about_list_title: Instalaciones
+  about_list_text: Notaría Vilas cuenta con unas modernas instalaciones en un chalet
+    situado a nivel de calle , sin barreras arquitectónicas, que permite el acceso
+    en silla de ruedas o a personas de movilidad reducida. Posee jardín interior,
+    cuatro salas de firma y amplios espacios diáfanos de espera, que se adaptan a
+    las medidas de protección sanitarias y de seguridad establecidas por la Legislación
+    vigente (ver sección Covid 19)
 - about_list_title: Quiénes Somos
   about_list_text: Notaría Vilas ofrece un servicio jurídico integral en la firma
     de escrituras y actas notariales, asesorando sobre las opciones más  idóneas para
