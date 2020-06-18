@@ -22,8 +22,8 @@ Mientras dure el estado de alarma, las fases de desescalada y  las medidas espec
 
 ## b. Medidas de Seguridad recomendadas a los clientes
 
-* Uso obligatorio de mascarilla dentro del despacho.
+* Uso obligatorio de mascarilla dentro del despacho
 * Uso de guantes, si es posible
-* Desinfección con el gel hidroalcóholico disponible a la entrada y en todas las salas
+* Uso de gel hidroalcóholico disponible a la entrada y en todas las salas
 * No usar las instalaciones de W.C. de la Notaría
 * Traer bolígrafo propio para la firma
