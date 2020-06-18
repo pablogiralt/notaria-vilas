@@ -28,12 +28,12 @@ about_list:
     Lunes a Jueves de 16:30 a 19:00 de la tarde. ¡Un lujo en Madrid!
   about_list_title: Horario de atención
 - about_list_title: Instalaciones
-  about_list_text: Notaría Vilas cuenta con unas modernas instalaciones en un chalet
-    situado a nivel de calle, sin barreras arquitectónicas, que permite el acceso
-    en silla de ruedas o a personas de movilidad reducida. Posee jardín interior,
-    cuatro salas de firma y amplios espacios diáfanos de espera, que se adaptan a
-    las medidas de protección sanitarias y de seguridad establecidas por la Legislación
-    vigente (ver sección Covid 19)
+  about_list_text: Notaría Vilas cuenta con unas <strong>modernas instalaciones</strong>
+    en un chalet situado a nivel de calle, <strong>sin barreras arquitectónicas</strong>,
+    que permite el acceso en silla de ruedas o a personas de movilidad reducida. Posee
+    jardín interior, cuatro salas de firma y amplios espacios diáfanos de espera,
+    que se adaptan a las medidas de protección sanitarias y de seguridad establecidas
+    por la Legislación vigente (ver <a href="/covid-19.html" title="">sección Covid-19</a>)
 main_image:
   mobile: "/upload/notaria-en-madrid-edificio-xs.jpg"
   tablet: "/upload/notaria-en-madrid-edificio-md.jpg"
