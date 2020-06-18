@@ -7,10 +7,10 @@ sidebar:
   text: "<p>En Notaría Vilas le ayudamos a gestionar y firmar su donación, sea dineraria
     o de bienes inmuebles.</p>"
   btn_text: Contactar
-link_service: false
+link_service: true
 
 ---
-# **Donación**
+# Donación
 
 La donación documenta la transmisión de un bien (mueble o inmueble) propiedad del donante a favor de otra persona que lo recibe (donatario), **a título gratuito**, es decir, sin que éste tenga que abonar precio ni satisfacer contraprestación alguna a cambio.
 
@@ -20,7 +20,7 @@ Las **ventajas fiscales** de estos supuestos de donación exigen en todo caso qu
 
 En los casos en los que el grado de parentesco de donante y donatarios es de padres e hijos o de cónyuges (herederos forzosos), la escritura debe reflejar el **carácter no colacionable o colacionable** de la donación: será **no colacionable** cuando el donante la realiza a modo de "regalo", con cargo al tercio de libre disposición o mejora de la herencia, sin necesidad de que el donatario compense a los demás herederos forzosos del donante, si los hay, y será **colacionable** cuando la donación la efectúa el donante como un anticipo de la futura herencia, con cargo al tercio de legítima, y existe obligación por el donatario de compensar a los demás herederos forzosos cuando se formalice la herencia del donante, si éstos no hubieran recibido en vida otra donación de igual valor.
 
-## **Documentación a aportar:**
+## Documentación a aportar:
 
 ### **a. Donación de bien inmueble**
 
@@ -39,7 +39,7 @@ En los casos en los que el grado de parentesco de donante y donatarios es de pad
 
   Si se donan **otros bienes muebles** **distintos al dinero**, por ejemplo un **vehículo**, se ha de aportar permiso de circulación y ficha de inspección técnica del vehículo, para hacer constar su descripción, marca, número de serie etc.. y en la escritura de donación se hará constar también el título de adquisición. Si se donan **participaciones sociales o acciones de empresas**, se han de aportar las escrituras de constitución de las mismas, y los títulos de propiedad de las participaciones/acciones que se donan.
 
-  ## **Impuestos aplicables (base imponible: Valor de lo donado)**:
+  ## Impuestos aplicables (base imponible: Valor de lo donado):
 
   ### **a. Donación de bien inmueble**
 
