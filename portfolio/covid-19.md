@@ -10,7 +10,7 @@ template: text
 ---
 # Medidas especiales Covid-19
 
-Mientras duren "La Nueva Normalidad" y las medidas sanitarias especiales derivadas del COVID 19, Notaría Vilas, para conseguir la mayor protección posible de clientes y empleados, tomará las siguientes medidas:
+Mientras duren "La Nueva Normalidad" y las medidas sanitarias especiales derivadas del COVID 19, Notaría Vilas, para conseguir la mayor protección posible de clientes y empleados, ha tomado las siguientes medidas:
 
 ## a. Medidas de seguridad tomadas por la Notaría
 
