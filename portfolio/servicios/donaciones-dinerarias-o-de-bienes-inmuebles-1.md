@@ -63,4 +63,3 @@ En los casos en los que el grado de parentesco de donante y donatarios es de pad
 
     Si **hay varios donantes y donatarios**, se ha de **presentar una liquidación por cada uno de ellos**, por lo que si dona un matrimonio en régimen de gananciales a favor de un hijo, se liquida por el donatario en impresos diferentes la parte del bien inmueble por él recibida de cada cónyuge donante.
   * Ganancia patrimonial en renta: Solo cuando a consecuencia de la donación de bienes muebles (por ejemplo si se donan fondos de inversión, acciones, carteras de valores etc), se produzca una ganancia patrimonial para quien la realiza la donación (donante), por ser superior el valor del bien donado en el momento de la donación, al valor de adquisición para el donante de ese mismo bien, éste deberá tributar por esa diferencia de valores (ganancia patrimonial) en el IRPF del donante a pagar en el siguiente año
-* 
