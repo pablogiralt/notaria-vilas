@@ -7,8 +7,8 @@ sidebar:
   btn_text: Contactar
 service_type: portfolio/tipo-de-servicio/propiedad.md
 link_service: true
-description: En la Notaría Vilas le asesoramos y ayudamos a firmar su compraventa
-  sea vendedor o comprador
+description: En Notaría Vilas le asesoramos y ayudamos a firmar su escritura de compraventa,
+  sea vendedor o comprador.
 
 ---
 # Compraventa
@@ -29,8 +29,8 @@ La escritura de **compraventa** documenta la transmisión de un inmueble por la 
 
 **Parte compradora:**
 
-* _Inmuebles en 2ª o posterior transmisión_ (viviendas, locales comerciales, plazas de garaje, trasteros, naves industriales, fincas rústicas, terrenos): Impuesto de Transmisiones Patrimoniales (ITP) al tipo vigente en la Comunidad Autónoma en la que radica el inmueble. Comunidad de Madrid: 6%. Si es vivienda habitual y el precio es inferior a 250.000 euros: 5,4%
-* _Inmuebles 1ª transmisión (nuevos)_:
+* **Inmuebles en 2ª o posterior transmisión** (viviendas, locales comerciales, plazas de garaje, trasteros, naves industriales, fincas rústicas, terrenos): Impuesto de Transmisiones Patrimoniales (ITP) al tipo vigente en la Comunidad Autónoma en la que radica el inmueble. Comunidad de Madrid: 6%. Si es vivienda habitual y el precio es inferior a 250.000 euros: 5,4%
+* **Inmuebles 1ª transmisión (nuevos):**
 
   a) vivienda con hasta dos plazas de garaje y un trastero: Impuesto sobre el valor Añadido IVA (10%) + Actos Jurídicos Documentados (AJD) al tipo aplicable en la Comunidad Autónoma en la que radica el inmueble (Comunidad de Madrid al 0,75%)
 
