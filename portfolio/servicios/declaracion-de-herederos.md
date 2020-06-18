@@ -4,8 +4,8 @@ title: Declaración de Herederos
 description: ''
 sidebar:
   title: "¿Necesita realizar una declaración de herederos?"
-  text: "<p>En Notaría Vilas le asesoramos y ayudamos a realizar la declaración de
-    herederos de cualquier herencia.</p>"
+  text: "<p>En Notaría Vilas le ayudamos a tramitar la declaración de herederos de
+    cualquier familiar fallecido sin testamento.</p>"
   btn_text: Contactar
 link_service: true
 
