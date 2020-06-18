@@ -2,8 +2,8 @@
 title: Donación dineraria o de bien inmueble
 sidebar:
   title: "¿Necesita realizar una donación?"
-  text: "<p>En Notaría Vilas le ayudamos a gestionar y firmar su donación, sea dineraria
-    o de bienes inmuebles.</p>"
+  text: "<p>En Notaría Vilas le ayudamos a gestionar paso a paso la firma de su escritura
+    de donación, sea dineraria o de bienes inmuebles.</p>"
   btn_text: Contactar
 service_type: portfolio/tipo-de-servicio/familia.md
 link_service: true
