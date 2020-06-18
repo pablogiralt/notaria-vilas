@@ -4,7 +4,7 @@ description: Notaría en Madrid en la zona de barrio de Retiro.  Se realizan pod
   testamentos...
 about_pre_title: Notaría en Madrid
 about_title: Somos un despacho notarial con amplia experiencia que ofrece soluciones
-  ágiles y eficaces a sus clientes
+  ágiles y eficaces a sus clientes. Conózcanos.
 about_list:
 - about_list_title: Quiénes Somos
   about_list_text: Notaría Vilas ofrece un <strong>servicio jurídico integral</strong>
