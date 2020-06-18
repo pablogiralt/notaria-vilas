@@ -9,10 +9,10 @@ about_list:
 - about_list_title: Quiénes Somos
   about_list_text: Notaría Vilas ofrece un <strong>servicio jurídico integral</strong>
     en la firma de escrituras y actas notariales, asesorando sobre las opciones más
-    idóneas para el cliente. <br>Ofrecemos un servicio de <strong>gestión ágil y profesional</strong>,
-    tramitando cualquier tipo de Impuestos que afecten a las escrituras firmadas en
-    cualquier Comunidad Autónoma de España e inscribiéndolas en cualquier Registro
-    de la Propiedad o Mercantil.
+    idóneas para el cliente. <br>Ofrecemos un servicio <strong>ágil y profesional
+    </strong>en todo tipo de asuntos notariales, tramitando el pago de cualquier Impuesto
+    que afecte a las escrituras firmadas en cualquier Comunidad Autónoma de España
+    e inscribiéndolas en cualquier Registro de la Propiedad o Mercantil.
 - about_list_title: Experiencia y disponibilidad
   about_list_text: Notaría Vilas, establecida en Madrid desde 1996, cuenta con un
     equipo de profesionales muy cualificado con <strong>amplia experiencia</strong>.
