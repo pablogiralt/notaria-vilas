@@ -10,8 +10,8 @@ service_type: portfolio/tipo-de-servicio/propiedad.md
 link_service: true
 
 ---
-# **División Horizontal, Obra nueva, agrupación y segregación**
+# División Horizontal, Obra nueva, Agrupación y Segregación
 
 Las escrituras de división horizontal de un inmueble en varias fincas independientes, declaración de obra nueva (en construcción o terminada) y de segregación de una finca en varias, o de agrupación de varias fincas para formar una sola, son documentos relativamente complejos, pues suelen requerir de **informes de técnicos de y/o arquitectos**, así como la obtención de **licencias** de los oportunos Ayuntamientos.
 
-Los documentos necesarios e impuestos aplicables dependen del tipo de operación. Si desea elaborar una escritura de este tipo, por favor contacte directamente con nosotros y le indicaremos los pasos a seguir (ver Sección [Contacto](/# Contacto))
+Los documentos necesarios e impuestos aplicables dependen del tipo de operación. Si desea elaborar una escritura de este tipo, por favor [contacte con nosotros](/#contacto) y le indicaremos los pasos a seguir.
