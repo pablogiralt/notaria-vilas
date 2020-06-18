@@ -11,7 +11,7 @@ description: This is the meta description
 link_service: true
 
 ---
-# **Testamento:**
+# **Testamento**
 
 En el testamento se consigna la última la voluntad de la persona que lo otorga (testador) respecto de quien o quienes habrán de recibir los bienes, derechos, acciones y obligaciones que conforman su patrimonio, tras su fallecimiento (herederos o legatarios), y en qué proporciones, con sujeción a los criterios legales que rigen en nuestro derecho sucesorio.
 
