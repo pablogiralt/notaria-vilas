@@ -8,7 +8,7 @@ service_type: portfolio/tipo-de-servicio/familia.md
 link_service: true
 
 ---
-# **Capitulaciones matrimoniales**:
+# Capitulaciones matrimoniales
 
 En la escritura de capitulaciones matrimoniales, dos personas que van a contraer matrimonio (contrayentes) o bien, dos personas que ya están casadas entre sí (cónyuges) pactan el **régimen económico** (separación de bienes, gananciales u otros) **que va a regir su vida matrimonial**, por lo que es una escritura que han de firmar ambos simultáneamente.
 
