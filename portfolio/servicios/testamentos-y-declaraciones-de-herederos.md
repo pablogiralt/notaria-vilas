@@ -2,8 +2,9 @@
 title: Testamento
 sidebar:
   title: "¿Quiere realizar un Testamento?"
-  text: "<p>En Notaría Vilas le asesoramos y ayudamos a realizar su Testamento de
-    forma que quede reflejada su voluntad y cumpla a su vez los requisitos legales.</p>"
+  text: "<p>En Notaría Vilas le asesoramos y ayudamos a realizar un Testamento de
+    forma que quede reflejada la voluntad del testador y se cumplan a su vez los requisitos
+    legales.</p>"
   btn_text: Contactar
 service_type: portfolio/tipo-de-servicio/familia.md
 description: This is the meta description
