@@ -13,7 +13,7 @@ description: En Notaría Vilas le asesoramos y ayudamos a firmar su escritura de
 ---
 # Compraventa
 
-La escritura de **compraventa** documenta la transmisión de un inmueble por la parte vendedora a cambio de un precio que satisface la parte compradora. La escritura debe reflejar los empleados para el pago del precio (metálico, cheque, transferencia) con indicación de las cuentas de cargo y abono.
+La escritura de **compraventa** documenta la transmisión de un inmueble por la parte vendedora a cambio de un precio que satisface la parte compradora. La escritura debe reflejar los medios de pago empleados para el pago del precio (metálico, cheque, transferencia) con indicación de las cuentas de cargo y abono.
 
 ## Documentación a aportar:
 
