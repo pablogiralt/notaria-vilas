@@ -9,7 +9,7 @@ service_type: portfolio/tipo-de-servicio/familia.md
 link_service: true
 
 ---
-# **Donación**
+# Donación
 
 La donación documenta la transmisión de un bien (mueble o inmueble) propiedad del donante a favor de otra persona que lo recibe (donatario), **a título gratuito**, es decir, sin que éste tenga que abonar precio ni satisfacer contraprestación alguna a cambio.
 
