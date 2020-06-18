@@ -23,9 +23,9 @@ about_list:
   about_list_text: Disponemos de un servicio de gestión que comprende el pago de cualesquiera
     de los <strong>impuestos</strong> derivados de las escrituras firmadas y su <strong>inscripción</strong>
     en cualquier Registro Público (ver <a href="/servicios/" title="">Sección Servicios</a>)
-- about_list_text: Nuestro amplísimo horario de atención al público y firmas comprende
-    todos los días laborables de 9:00 a 14:00 de la mañana y de Lunes a Jueves de
-    16:30 a 19:00 de la tarde. ¡Un lujo en Madrid!
+- about_list_text: Nuestro <strong>amplísimo horario de atención al público</strong>
+    y firmas comprende todos los días laborables de 9:00 a 14:00 de la mañana y de
+    Lunes a Jueves de 16:30 a 19:00 de la tarde. ¡Un lujo en Madrid!
   about_list_title: Horario de atención
 - about_list_title: Instalaciones
   about_list_text: Notaría Vilas cuenta con unas modernas instalaciones en un chalet
