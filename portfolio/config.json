@@ -28,11 +28,11 @@
   },
   "transports": [
     {
-      "transport_label": "metro",
+      "transport_label": "Metro",
       "transport_text": "Conde de Casal"
     },
     {
-      "transport_label": "bus",
+      "transport_label": "Bus",
       "transport_text": "Lineas 14, 32, 63, 143, C1, C2"
     },
     {
@@ -101,11 +101,10 @@
       "external": false
     }
   ],
-  "notice":
-  {
-      "notice_title": "Recursos y novedades sobre el coronavirus (COVID-19)",
-      "notice_text": "Nuestra prioridad es la seguridad y el bienestar de nuestros clientes y trabajadores. Nos mantenemos informados sobre todo lo relacionado con el coronavirus (COVID-19) y estamos adoptando medidas para garantizar su seguridad.",
-      "notice_btn_text": "Medidas para el Covid-19",
-      "notice_btn_link": "/covid-19"
+  "notice": {
+    "notice_title": "Recursos y novedades sobre el coronavirus (COVID-19)",
+    "notice_text": "Nuestra prioridad es la seguridad y el bienestar de nuestros clientes y trabajadores. Nos mantenemos informados sobre todo lo relacionado con el coronavirus (COVID-19) y estamos adoptando medidas para garantizar su seguridad.",
+    "notice_btn_text": "Medidas para el Covid-19",
+    "notice_btn_link": "/covid-19"
   }
 }
