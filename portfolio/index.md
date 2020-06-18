@@ -29,15 +29,19 @@ about_list:
     Lunes a Jueves de 16:30 a 19:00 de la tarde. ¡Un lujo en Madrid!
   about_list_title: Horario de atención
 - about_list_title: Ubicación e Instalaciones
-  about_list_text: Notaría Vilas está ubicada entre los barrios de Retiro y Pacífico,
+  about_list_text: 'Notaría Vilas está ubicada entre los barrios de Retiro y Pacífico,
     en una <strong>zona céntrica </strong>que está rodeada de sucursales de los principales
-    bancos, lo cual es muy práctico para la firma de ciertos documentos.<br><br>Notaría
-    Vilas cuenta con unas <strong>modernas instalaciones</strong> en un chalet situado
-    a nivel de calle, <strong>sin barreras arquitectónicas</strong>, que permite el
-    acceso en silla de ruedas o a personas de movilidad reducida. Posee jardín interior,
-    cuatro salas de firma y amplios espacios diáfanos de espera, que se adaptan a
-    las medidas de protección sanitarias y de seguridad establecidas por la Legislación
-    vigente (ver <a href="/covid-19.html" title="">sección Covid-19</a>)
+    bancos, lo cual es muy práctico para la firma de ciertos documentos. El acceso
+    es fácil desde cualquier punto de la ciudad, y además, para clientes que nos visiten
+    desde fuera de Madrid, estamos muy próximos a la salida de la A-3 y a 5 minutos
+    de la estación de tren de Atocha.<br><br>Notaría Vilas cuenta con unas <strong>modernas
+    instalaciones</strong> en un chalet situado a nivel de calle, <strong>sin barreras
+    arquitectónicas</strong>, que permite el acceso en silla de ruedas o a personas
+    de movilidad reducida. Su diseño exclusivo y moderno hacen de ella una Notaría
+    única en Madrid con jardín interior, cuatro salas de firma y amplios espacios
+    diáfanos de espera, que se adaptan a las medidas de protección sanitarias y de
+    seguridad establecidas por la Legislación vigente (ver <a href="/covid-19.html"
+    title="">sección Covid-19</a>). '
 main_image:
   mobile: "/upload/notaria-en-madrid-edificio-xs.jpg"
   tablet: "/upload/notaria-en-madrid-edificio-md.jpg"
