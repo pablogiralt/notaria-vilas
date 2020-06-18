@@ -30,7 +30,7 @@ about_list:
 - about_list_title: Ubicación e Instalaciones
   about_list_text: Notaría Vilas está ubicada entre los barrios de Retiro y Pacífico,
     en una <strong>zona céntrica </strong>que está rodeada de sucursales de los principales
-    bancos, lo cual es muy práctico para la firma de ciertos documentos.<br>Notaría
+    bancos, lo cual es muy práctico para la firma de ciertos documentos.<br><br>Notaría
     Vilas cuenta con unas <strong>modernas instalaciones</strong> en un chalet situado
     a nivel de calle, <strong>sin barreras arquitectónicas</strong>, que permite el
     acceso en silla de ruedas o a personas de movilidad reducida. Posee jardín interior,
