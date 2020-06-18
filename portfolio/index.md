@@ -16,9 +16,10 @@ about_list:
 - about_list_title: Experiencia y disponibilidad
   about_list_text: Notaría Vilas, establecida en Madrid desde 1996, cuenta con un
     equipo de profesionales muy cualificado con <strong>amplia experiencia</strong>.
-    Ofrecemos soluciones a todas sus iniciativas y tenemos disponibilidad para atenderle
-    y resolver sus dudas, <strong>incluso en el ámbito internacional</strong>, pues
-    El Notario y varios empleados hablan inglés, francés y catalán.
+    Ofrecemos soluciones a todas sus iniciativas que requieran del servicio notarial
+    y nuestro equipo está disponible para atenderle y resolver sus dudas, <strong>incluso
+    en el ámbito internacional</strong>, pues el Notario y varios empleados hablan
+    inglés, francés y catalán.
 - about_list_title: Gestión integral
   about_list_text: Disponemos de un servicio de gestión que comprende el pago de cualesquiera
     de los <strong>impuestos</strong> derivados de las escrituras firmadas y su <strong>inscripción</strong>
