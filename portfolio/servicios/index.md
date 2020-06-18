@@ -7,7 +7,8 @@ intro: <h2>Escrituras, actas y pólizas</h2><p>En Notaría Vilas le ofrecemos la
   pinchando sobre cada uno, podrá conocer sus principales <strong>características,</strong>
   la <strong>documentación que debe facilitar a la Notaría</strong>, así como los
   <strong>impuestos aplicables</strong> tras su firma. Para obtener información adicional
-  y personalizada, <a href="/# contacto" title="">contacte con nosotros</a>.</p>
+  y personalizada, <a href="/#contacto" title="" editing="" creating="">contacte con
+  nosotros</a>.</p>
 content: "<h2>Servicio de Gestión y Tramitación de sus escrituras</h2><p>Además de
   los servicios de elaboración de escrituras, actas y pólizas, en Notaría contamos
   con un gestor en plantilla para proporcionarles <strong>a nuestros clientes</strong>
