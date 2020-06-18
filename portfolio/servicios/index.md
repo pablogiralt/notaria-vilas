@@ -41,10 +41,8 @@ pagos: <h2>C. Forma de pago de nuestros servicios</h2><p>En Notaría Vilas admit
   desea contar con el servicio de gestión de las escrituras que haya firmado, se le
   solicitará una provisión de fondos para el pago de los honorarios de Registro, gestoría
   e impuestos aplicables, que podrá ser abonada por el cliente mediante transferencia
-  bancaria, talón o cheque.</p><table><tbody><tr><th>Tipo de servicio</th><th>Efectivo</th><th>Tarjeta
-  Bancaria</th><th>Transferencia</th><th>Talón</th><th>Cheque</th></tr><tr><td>Honorarios
-  Notaría</td><td>✓</td><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr><tr><td>Gestoría,
-  Impuestos y Registros</td><td>✗</td><td>✗</td><td>✓</td><td>✓</td><td>✓</td></tr></tbody></table>
+  bancaria, talón o cheque.</p>
+tabla_pagos: <div style="overflow-x:auto;"> <table> <tr> <th>Tipo de servicio</th> <th>Efectivo</th> <th>Tarjeta Bancaria</th> <th>Transferencia</th> <th>Talón</th> <th>Cheque</th> </tr><tr> <td>Honorarios Notaría</td><td>✓</td><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr><tr> <td>Gestoría, Impuestos y Registros</td><td>✗</td><td>✗</td><td>✓</td><td>✓</td><td>✓</td></tr></table></div>
 
 ---
 <Banner 
@@ -70,31 +68,4 @@ pagos: <h2>C. Forma de pago de nuestros servicios</h2><p>En Notaría Vilas admit
 
 <TextBlock :intro="$page.frontmatter.pagos" />
 
-<div style="overflow-x:auto;">
-  <table>
-      <tr>
-          <th>Tipo de servicio</th>
-          <th>Efectivo</th>
-          <th>Tarjeta Bancaria</th>
-          <th>Transferencia</th>
-          <th>Talón</th>
-          <th>Cheque</th>
-      </tr>
-      <tr>
-          <td>Honorarios Notaría</td>
-          <td>✓</td>
-          <td>✓</td>
-          <td>✓</td>
-          <td>✓</td>
-          <td>✓</td>
-      </tr>
-      <tr>
-          <td>Gestoría, Impuestos y Registros</td>
-          <td>✗</td>
-          <td>✗</td>
-          <td>✓</td>
-          <td>✓</td>
-          <td>✓</td>
-      </tr>
-  </table>
-</div>
+<TextBlock :intro="$page.frontmatter.tabla_pagos" />
