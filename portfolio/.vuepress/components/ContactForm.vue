@@ -245,6 +245,15 @@
                         // console.log(response);
                         _.message = '<p class="contact-form__message-title contact-form__message-title--success">¡Mensaje Enviado!</p><p class="contact-form__message-body">Hemos recibido tu mensaje y nos pondremos en contacto contigo lo antes posible</p>';
                         _.isActive = 1;
+                        this.form = {
+                            nombre: "",
+                            empresa: "",
+                            telefono: "",
+                            email: "",
+                            mensaje: "",
+                            privacy: "",
+                            subject: ""
+                        }
                     })
                     .catch(function (error) {
                         if (error.response) {
@@ -282,9 +291,8 @@
     .contact-form {
         position: relative;
         background-color: var(--color-grey-lighter);
-        padding-top: 150px;
         padding-bottom: 40px;
-        margin-top: -80px;
+        padding-top: 80px;
         z-index: 1;
     }
 

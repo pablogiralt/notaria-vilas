@@ -13,7 +13,7 @@
 				v-if="sidebar.text" 
 				v-html="sidebar.text">
 			</div>
-			<a class="btn sidebar__btn" href="/#contacto">
+			<a class="btn sidebar__btn" href="/contacto/">
 				{{ sidebar.btn_text }}
 			</a>
 		</div>

@@ -85,7 +85,7 @@
     },
     {
       "text": "Contacto",
-      "link": "/#contacto",
+      "link": "/contacto/",
       "external": false
     }
   ],

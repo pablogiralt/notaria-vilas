@@ -99,8 +99,9 @@ gallery:
     :link="$page.frontmatter.map.link"
     :target="'external'" />
 
-<ContactForm 
-    :title="$page.frontmatter.contact_form_title" />
+<div class="contact-form__wrapper">
+  <ContactForm :title="$page.frontmatter.contact_form_title" />
+</div>
 
 
 
@@ -173,3 +174,10 @@ gallery:
     }
   }
 </script>
+
+<style scoped>
+  .contact-form__wrapper {
+    margin-top: -80px;
+    padding-top: 70px;
+  }
+</style>
