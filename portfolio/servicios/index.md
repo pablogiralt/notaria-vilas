@@ -24,11 +24,11 @@ content: "<h2>Servicio de Gestión y Tramitación de sus escrituras</h2><p>Adem�
   Urbana (Plusvalía Municipal)</p><p><strong>b) Presentamos en su nombre las escrituras
   a inscripción en los Registros</strong> de la Propiedad y Registros Mercantiles
   en toda España, y en el caso de matrimonios y divorcios, en el Registro Civil correspondiente,
-  <strong>y abonamos en su nombre los honorarios de Registro correspondientes.</strong></p><p>c)
-  Al finalizar la tramitación, le <strong>entregamos los originales</strong> de sus
-  escrituras liquidadas en Hacienda e inscritas en los Registros, con todas las facturas
-  correspondientes a Notaría, Registro y nuestra factura de gestión, junto con el
-  importe sobrante de la provisión de fondos.</p>"
+  <strong>y abonamos en su nombre los honorarios de Registro correspondientes.</strong></p><p><strong>c)
+  Al finalizar la tramitación, le entregamos los originales</strong> de sus escrituras
+  liquidadas en Hacienda e inscritas en los Registros, con todas las facturas correspondientes
+  a Notaría, Registro y nuestra factura de gestión, junto con el importe sobrante
+  de la provisión de fondos.</p>"
 template: services
 banner:
   image_mobile: "/upload/notaria-en-madrid-firma-xs.jpg"
