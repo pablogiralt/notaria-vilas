@@ -1,6 +1,7 @@
 ---
 title: Aviso Legal
 description: 
+template: text
 
 ---
 # AVISO LEGAL LSSI – NOTARÍA VILAS

@@ -1,6 +1,7 @@
 ---
 title: Política de privacidad
 description: 
+template: text
 
 ---
 # Política de Privacidad y Protección de Datos
