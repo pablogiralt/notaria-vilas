@@ -1,6 +1,6 @@
 ---
 service_type: portfolio/tipo-de-servicio/propiedad.md
-title: Donaciones dinerarias o de bienes inmuebles
+title: Donación dineraria o de bien inmueble
 description: ''
 sidebar:
   title: "¿Necesita realizar una donación?"
