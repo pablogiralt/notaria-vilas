@@ -81,6 +81,7 @@
                                 id="contact-name"
                                 placeholder=" "
                                 class="contact-form__field"
+                                v-model="form.nombre"
                                 @input="processName($event.target.value)"
                                 required />
                             
@@ -94,7 +95,8 @@
                                 placeholder=" "
                                 id="contact-company"
                                 class="contact-form__field"
-                                @input="ev => form.empresa = ev.target.value" />
+                                v-model="form.empresa"
+                                />
                             <span>Empresa</span>
                         </label>
 
@@ -105,7 +107,7 @@
                                 placeholder=" "
                                 id="contact-phone"
                                 class="contact-form__field"
-                                @input="ev => form.telefono = ev.target.value"
+                                v-model="form.telefono"
                                 required />  
                             <span>Teléfono *</span>   
                         </label>
@@ -117,7 +119,7 @@
                                 placeholder=" "
                                 id="contact-email"
                                 class="contact-form__field"
-                                @input="ev => form.email = ev.target.value"
+                                v-model="form.email"
                                 required />
                             <span>Email *</span>   
                         </label>
@@ -128,7 +130,7 @@
                                 placeholder=" "
                                 id="contact-message"
                                 class="contact-form__field"
-                                @input="ev => form.mensaje = ev.target.value"
+                                v-model="form.mensaje"
                                 required>
                             </textarea>
                             <span>Mensaje *</span> 
@@ -221,7 +223,6 @@
                 .join("&");
             },
             processName (nombre) {
-                this.form.nombre = nombre;
                 this.form.subject = "[Notaria Vilas] Envío de formulario de contacto de " + nombre;
             },
             handleSubmit () {
