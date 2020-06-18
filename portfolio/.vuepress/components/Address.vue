@@ -82,7 +82,7 @@
   .address {
     position: relative;
     text-align: center;
-    padding: 120px 0 33px;
+    padding: 50px 20px;
     margin-top: -80px;
     z-index: 1;
   }
@@ -97,6 +97,7 @@
   }
 
   .address__block {
+    padding: 0;
     margin-bottom: 21px;
     list-style: none;
   }

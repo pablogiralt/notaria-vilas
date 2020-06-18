@@ -52,7 +52,8 @@ pagos: <h2>C. Forma de pago de nuestros servicios</h2><p>En Notaría Vilas admit
     :image="$page.frontmatter.banner.image_desktop"
     :image_mobile="$page.frontmatter.banner.image_mobile"
     :image_tablet="$page.frontmatter.banner.image_tablet"
-    :image_alt="$page.frontmatter.banner.image_alt" />
+    :image_alt="$page.frontmatter.banner.image_alt"
+    :banner_class="'banner__inner--thin'" />
 
 # Servicios
 

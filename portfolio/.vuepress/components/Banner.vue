@@ -1,6 +1,6 @@
 <template>
     <div class="banner wrapper__inner">
-      <div class="banner__inner">
+      <div class="banner__inner" :class="banner_class">
         <a class="banner__link" v-if="link" v-bind:href="link" :target="target=='external'?'_blank':'_self'" :rel="target=='external'?'noreferrer noopener':''">
           <picture>
             <source 
@@ -66,6 +66,10 @@
       target: {
         type: String,
         required: false
+      },
+      banner_class: {
+        type: String,
+        required: false
       }
     },
     computed: {
@@ -84,6 +88,10 @@
     height: 0;
     padding-bottom: 80%;
     overflow: hidden;
+  }
+
+  .banner__inner--thin {
+    padding-bottom: 57%;
   }
 
   .banner__text {
@@ -115,6 +123,9 @@
   @media screen and (min-width: 992px) {
     .banner__inner {
       padding-bottom: 40%;
+    }
+    .banner__inner--thin {
+      padding-bottom: 31.7%;
     }
   }
   

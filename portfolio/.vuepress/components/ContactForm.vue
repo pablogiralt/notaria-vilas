@@ -245,7 +245,7 @@
                         // console.log(response);
                         _.message = '<p class="contact-form__message-title contact-form__message-title--success">¡Mensaje Enviado!</p><p class="contact-form__message-body">Hemos recibido tu mensaje y nos pondremos en contacto contigo lo antes posible</p>';
                         _.isActive = 1;
-                        this.form = {
+                        _.form = {
                             nombre: "",
                             empresa: "",
                             telefono: "",
