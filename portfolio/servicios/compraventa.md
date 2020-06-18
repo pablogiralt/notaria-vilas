@@ -2,8 +2,8 @@
 title: Compraventa
 sidebar:
   title: "¿Necesita firmar una escritura de compraventa?"
-  text: "<p>En Notaría Vilas le asesoramos y ayudamos a firmar su escritura de compraventa,
-    sea vendedor o comprador.</p>"
+  text: "<p>En Notaría Vilas le asesoramos y ayudamos a firmar su escritura de compraventa
+    con las máximas garantías, sea vendedor o comprador.</p>"
   btn_text: Contactar
 service_type: portfolio/tipo-de-servicio/propiedad.md
 link_service: true
