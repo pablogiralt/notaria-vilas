@@ -10,10 +10,10 @@ intro: <h2>Escrituras, actas y pólizas</h2><p>En Notaría Vilas le ofrecemos la
   y personalizada, <a href="/#contacto" title="" editing="" creating="">contacte con
   nosotros</a>.</p>
 content: "<h2>Servicio de Gestión y Tramitación de sus escrituras</h2><p>Además de
-  los servicios de elaboración de escrituras, actas y pólizas, en Notaría contamos
-  con un gestor en plantilla para proporcionarles <strong>a nuestros clientes</strong>
-  un <strong>servicio integral y completo</strong>, que incluye la <strong>gestión
-  de las escrituras firmadas en nuestra Notaría que requieran una posterior tramitación,</strong>
+  los servicios de elaboración de escrituras, actas y pólizas, en Notaría Vilas contamos
+  con un gestor en plantilla para ofrecer <strong>a nuestros clientes</strong> un
+  <strong>servicio integral y completo</strong>, que incluye la <strong>gestión de
+  las escrituras firmadas en nuestra Notaría que requieran una posterior tramitación,</strong>
   en cuanto a presentación y pago de Impuestos e inscripción en los Registros correspondientes
   en toda España.</p><p>Si desea contar con este servicio, a través de una provisión
   de fondos que le solicitamos tras la firma, con un desglose entre los distintos
