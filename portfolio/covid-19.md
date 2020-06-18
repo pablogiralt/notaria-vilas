@@ -25,5 +25,8 @@ Mientras duren "La Nueva Normalidad" y las medidas sanitarias especiales derivad
 * Uso obligatorio de mascarilla dentro del despacho
 * Uso de guantes, si es posible
 * Uso de gel hidroalcóholico disponible a la entrada y en todas las salas
-* No usar las instalaciones de W.C. de la Notaría
+* Mantener la distancia de seguridad con los empleados y
+
+  otros clientes
+* No usar las instalaciones de W.C. de la Notaría (salvo casos de extrema urgencia)
 * Traer bolígrafo propio para la firma
