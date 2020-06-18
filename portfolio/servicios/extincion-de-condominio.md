@@ -8,7 +8,7 @@ service_type: portfolio/tipo-de-servicio/propiedad.md
 link_service: true
 
 ---
-# **Extinción de condominio**
+# Extinción de condominio
 
 La extinción de condominio es una compraventa entre co-titulares de un inmueble, por el que uno solo de ellos, adquiere de los demás sus partes de la finca para convertirse en el único propietario de todo el inmueble.
 
@@ -18,7 +18,7 @@ Tiene un **tratamiento fiscal muy ventajoso** para las partes transmitente y adq
 
 Al igual que en una compraventa, la extinción de condominio debe reflejar los **medios de pago** empleados para el pago del precio de la parte de inmueble que se adquiere (metálico, cheque, transferencia) con indicación de las cuentas de cargo y abono.
 
-## **Documentación a aportar**:
+## Documentación a aportar:
 
 * DNI de todos los intervinientes (adquirentes y transmitentes) y estado civil. Si son no residentes en España, deberán obtener un Número de Identidad de Extranjero (N.I.E.). Si son personas jurídicas, debe aportar escritura de constitución, escritura de nombramiento de administrador y acta de titularidad real
 * Escritura de propiedad del inmueble que se transmite y/o nota simple
@@ -27,7 +27,7 @@ Al igual que en una compraventa, la extinción de condominio debe reflejar los *
 * Certificado de eficiencia energética (excepto en plazas de garajes o naves industriales)
 * Precio (contraprestación económica) y forma de pago. Justificante de todos los pagos efectuados antes de la firma
 
-## **Impuestos aplicables (base imponible: Valor de la parte del inmueble a adquirir)**:
+## Impuestos aplicables (base imponible: Valor de la parte del inmueble a adquirir):
 
 **Parte adquirente**:
 
