@@ -2,7 +2,8 @@
 title: Extinción de condominio
 sidebar:
   title: "¿Necesita realizar una extinción de condominio?"
-  text: "<p>En Notaría Vilas le asesoramos y ayudamos a firmar la extinción del condominio.</p>"
+  text: "<p>En Notaría Vilas le asesoramos y ayudamos a firmar su escritura de extinción
+    de condominio maximizando su ahorro fiscal.</p>"
   btn_text: Contactar
 service_type: portfolio/tipo-de-servicio/propiedad.md
 link_service: true
