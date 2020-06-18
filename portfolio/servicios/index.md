@@ -67,6 +67,8 @@ pagos: <h2>C. Forma de pago de nuestros servicios</h2><p>En Notaría Vilas admit
 
 <TextBlock :intro="$page.frontmatter.content" />
 
+<TextBlock :intro="$page.frontmatter.pagos" />
+
 <div style="overflow-x:auto;">
   <table>
       <tr>

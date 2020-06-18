@@ -32,6 +32,12 @@
   .VueCarousel-dot-container {
     margin-top: -20px !important;
   }
+  .VueCarousel-dot {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+  }
+  .VueCarousel-dot--active {
+    background-color: var(--color-blue) !important
+  }
 </style>
 
 <style scoped>
