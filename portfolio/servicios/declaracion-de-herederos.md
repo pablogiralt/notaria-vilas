@@ -10,14 +10,14 @@ sidebar:
 link_service: true
 
 ---
-# **Declaración de herederos:**
+# **Declaración de Herederos**
 
-El acta de notoriedad de declaración de herederos es el documento que ha de firmarse **cuando una persona fallece sin haber otorgado testamento** (o con testamento nulo), por **al menos, uno de los herederos, junto con dos testigos idóneos**, para que el Notario pueda determinar quiénes son sus herederos legales, y en qué proporciones le heredan, en base a las siguientes reglas que regula nuestro código civil:
+El acta de notoriedad de declaración de herederos es el documento que ha de firmarse **cuando una persona fallece sin haber otorgado testamento** (o con testamento nulo), por **al menos, uno de los herederos, junto con dos testigos idóneos**, para que el Notario pueda determinar quiénes son sus herederos legales, y en qué proporciones le heredan, en base a las siguientes reglas que regula nuestro Código Civil:
 
 * Si la persona fallecida tiene **hijos**, le heredarán éstos por iguales partes entre sí, con reserva a favor del **cónyuge viudo** del fallecido, en caso de sobrevivirle, de la cuota legal usufructuaria, que en la actualidad es el **derecho de usufructo vitalicio de un tercio de la herencia**
-* Si la persona fallecida no tiene hijos le heredarán sus **ascendientes** si éstos aún viven (padres o abuelos), **por iguales partes,** con reserva a favor del **cónyuge viudo** del fallecido, en caso de sobrevivirle, de la cuota legal usufructuaria.
-* Si la persona fallecida **carece de descendientes y no le sobreviven sus ascendentes**, heredará el **cónyuge sobreviviente**, y en su defecto, le heredarán **parientes colaterales (hermanos y/o sobrinos),** que heredan con preferencia a los demás parientes. Si existen hermanos y sobrinos, los primeros heredarán por cabezas y los segundos por estirpes.
-* En defecto de hermanos y sobrinos, podrían heredar **primos hermanos**, si hubiere y en defecto de parientes del difunto, la herencia pasaría al **Estado**.
+* Si la persona fallecida no tiene hijos le heredarán sus **ascendientes** si éstos aún viven (padres o abuelos), **por iguales partes,** con reserva a favor del **cónyuge viudo** del fallecido, en caso de sobrevivirle, de la cuota legal usufructuaria
+* Si la persona fallecida **carece de descendientes y no le sobreviven sus ascendentes**, heredará el **cónyuge sobreviviente**, y en su defecto, le heredarán **parientes colaterales (hermanos y/o sobrinos),** que heredan con preferencia a los demás parientes. Si existen hermanos y sobrinos, los primeros heredarán por cabezas y los segundos por estirpes
+* En defecto de hermanos y sobrinos, podrían heredar **primos hermanos**, si hubiere y en defecto de parientes del difunto, la herencia pasaría al **Estado**
 
 El Notario tiene competencia territorial para firmar actas declaraciones de herederos y podrá firmar las de **personas fallecidas, cuyo último domicilio estuviera en la Comunidad de Madrid, excepto** en el municipio de **Navalcarnero.**
 
