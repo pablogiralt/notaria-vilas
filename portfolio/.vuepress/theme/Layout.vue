@@ -207,7 +207,6 @@
 
   table {
     border-collapse: collapse;
-    margin: auto;
   }
 
   td, th {

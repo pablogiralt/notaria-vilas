@@ -5,8 +5,14 @@
 
       <div class="top-bar__inner">
         
-        <span class="top-bar__item">
-        <!--<span class="top-bar__item  top-bar--highlight">-->
+        <span class="top-bar__item top-bar__item__short">
+          <span v-for="(schedule, index) in schedules">
+            <span class="top-bar__subitem">{{ schedule.item }}</span>
+            <span v-if="index + 1 < schedules.length"> — </span>
+          </span>
+        </span>
+
+        <span class="top-bar__item top-bar__item__long">
           <span v-for="(schedule, index) in schedulesLong">
             <span class="top-bar__subitem">{{ schedule.item }}</span>
             <span v-if="index + 1 < schedules.length"> — </span>
@@ -204,6 +210,10 @@
     margin: auto;
   }
 
+  .top-bar__item__long {
+    display: none;
+  }
+
   .top-bar--desktop {
     display: none;
   }
@@ -341,7 +351,7 @@
     .top-bar__inner {
       padding: 0px 20px;
     }
-
+  
     .top-bar--mobile {
       display: none;
     }
@@ -365,7 +375,16 @@
     .mobile-nav {
       display: none;
     }
+  }
 
+  @media screen and (min-width: 1200px) {
+    .top-bar__item__short {
+      display: none;
+    }
+
+    .top-bar__item__long {
+      display: block;
+    }
   }
 
 </style>
