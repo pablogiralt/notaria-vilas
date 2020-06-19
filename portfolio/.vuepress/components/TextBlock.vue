@@ -14,4 +14,7 @@
 </script>
 
 <style scoped>
+  .text-block {
+    max-width: 1100px;
+  }
 </style>

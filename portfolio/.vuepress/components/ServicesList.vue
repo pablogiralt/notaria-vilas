@@ -109,7 +109,7 @@
 <style scoped>
 
   .services {
-    padding: 40px 0 80px;
+    padding-bottom: 20px;
   }
 
   .services__category-name {

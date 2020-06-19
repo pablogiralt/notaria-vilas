@@ -42,8 +42,7 @@ pagos: <h2>C. Forma de pago de nuestros servicios</h2><p>En Notaría Vilas admit
   solicitará una provisión de fondos para el pago de los honorarios de Registro, gestoría
   e impuestos aplicables, que podrá ser abonada por el cliente mediante transferencia
   bancaria, talón o cheque.</p>
-tabla_pagos: <div style="overflow-x:auto;"> <table> <tr> <th>Tipo de servicio</th> <th>Efectivo</th> <th>Tarjeta Bancaria</th> <th>Transferencia</th> <th>Talón</th> <th>Cheque</th> </tr><tr> <td>Honorarios Notaría</td><td>✓</td><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr><tr> <td>Gestoría, Impuestos y Registros</td><td>✗</td><td>✗</td><td>✓</td><td>✓</td><td>✓</td></tr></table></div>
-
+tabla_pagos: <div style="overflow-x:auto;"> <table> <tr> <th>Tipo de servicio</th> <th>Efectivo</th> <th>Tarjeta Bancaria</th> <th>Transferencia</th> <th>Talón</th> <th>Cheque</th> </tr><tr> <td>Honorarios Notaría</td><td class="symbol--correct">✓</td><td class="symbol--correct">✓</td><td class="symbol--correct">✓</td><td class="symbol--correct">✓</td><td class="symbol--correct">✓</td></tr><tr> <td>Gestoría, Impuestos y Registros</td><td class="symbol--wrong">✗</td><td class="symbol--wrong">✗</td><td class="symbol--correct">✓</td><td class="symbol--correct">✓</td><td class="symbol--correct">✓</td></tr></table></div>
 ---
 <Banner 
     :text="$page.frontmatter.banner.banner_text"
@@ -56,11 +55,6 @@ tabla_pagos: <div style="overflow-x:auto;"> <table> <tr> <th>Tipo de servicio</t
 # Servicios
 
 <TextBlock :intro="$page.frontmatter.intro" />
-<!--
-<Title 
-    :title="$page.frontmatter.services_title" 
-    :pretitle="$page.frontmatter.services_pre_title" />
--->
 
 <ServicesList />
 
@@ -69,3 +63,10 @@ tabla_pagos: <div style="overflow-x:auto;"> <table> <tr> <th>Tipo de servicio</t
 <TextBlock :intro="$page.frontmatter.pagos" />
 
 <TextBlock :intro="$page.frontmatter.tabla_pagos" />
+
+<style scoped>
+  .text-block {
+    margin-bottom: 60px;
+  }
+</style>
+

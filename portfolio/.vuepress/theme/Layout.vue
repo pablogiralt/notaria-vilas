@@ -205,6 +205,23 @@
     margin-bottom: 40px;
   }
 
+  table {
+    border-collapse: collapse;
+    margin: auto;
+  }
+
+  td, th {
+    padding: 8px 16px;
+    border-bottom: 1px solid var(--color-blue);
+    text-align: center;
+  }
+
+  td:first-child, 
+  th:first-child {
+    text-align: left;
+    padding-left: 0;
+  }
+
   button,
   .btn {
     background-color: var(--color-blue);
@@ -265,6 +282,20 @@
   .template-services .notice {
     /*margin-left: -16px;
     margin-right: -16px;*/
+  }
+
+  .symbol--correct,
+  .symbol--wrong {
+    font-size: 23px;
+    font-weight: bold;
+  }
+
+  .symbol--correct {
+    color: green;
+  }
+
+  .symbol--wrong {
+    color: red;
   }
 
   @media screen and (min-width: 768px) {
