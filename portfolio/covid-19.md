@@ -15,7 +15,7 @@ Mientras duren "La Nueva Normalidad" y las medidas sanitarias especiales derivad
 ## a. Medidas de seguridad tomadas por la Notaría
 
 * Desinfección quincenal de todas las instalaciones a base de amonio cuaternario de uso diluido de triple acción: bactericida, fungicida y virucida con pulverizador
-* Prueba serólogica periódica de detección de Coronoavirus  toda la plantilla de la Notaría (última realizada el 19 de Junio)
+* Prueba serólogica periódica de detección de Coronavirus  toda la plantilla de la Notaría (última realizada el 19 de Junio)
 * Disponibilidad de gel hidroalcóholico en la entrada y en todas las salas
 * Uso de mascarillas por parte de empleados
 * Mamparas de protección de metacrilato en recepción y caja
