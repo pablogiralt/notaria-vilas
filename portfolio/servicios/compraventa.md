@@ -38,5 +38,5 @@ La escritura de **compraventa** documenta la transmisión de un inmueble por la 
 
 **Parte vendedora:**
 
-* Impuesto sobre el Incremento del Valor del Suelo de los Terrenos de Naturaleza Urbana (Plusvalía Municipal), en función del valor catastral del suelo del recibo de Ibi y los años de tenencia del inmueble urbano, con un máximo de 20 años
+* Impuesto sobre el Incremento del Valor de los Terrenos de Naturaleza Urbana (Plusvalía Municipal), en función del valor catastral del suelo del recibo de Ibi y los años de tenencia del inmueble urbano, con un máximo de 20 años
 * Ganancia patrimonial en renta: Solo cuando a consecuencia de la compraventa se produzca una ganancia patrimonial para el vendedor, por ser superior el precio de su transmisión, al valor de adquisición de ese mismo bien cuando el vendedor lo adquirió, éste deberá tributar por esa diferencia de precio (ganancia patrimonial) en su IRPF a pagar en el siguiente año. No habrá lugar a su pago si no existe tal ganancia patrimonial (el precio de venta del inmueble es inferior o igual al precio de su adquisición) o aun cuando existiendo la ganancia, el bien transmitido sea la vivienda habitual del vendedor y éste es mayor de 65 años
