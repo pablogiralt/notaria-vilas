@@ -2,8 +2,8 @@
 title: Testamento
 sidebar:
   title: "¿Quiere realizar un Testamento?"
-  text: "<p>En Notaría Vilas le asesoramos y ayudamos a realizar un Testamento de
-    forma que quede reflejada la voluntad del testador y se cumplan a su vez los requisitos
+  text: "<p>En Notaría Vilas le asesoramos y ayudamos a realizar su testamento de
+    forma que quede reflejada la voluntad del testador y se ajuste a los requisitos
     legales.</p>"
   btn_text: Contactar
 service_type: portfolio/tipo-de-servicio/familia.md
@@ -23,7 +23,7 @@ Además, tiene **carácter revocable**, ya que el testador puede cambiar su volu
 
 El testamento puede contener también **otras disposiciones** como el nombramiento de tutor de los hijos menores de edad, para el caso de que fallezcan ambos padres, evitando así su elección por el juez, y/o el nombramiento de un administrador hasta que los hijos cumplan cierta edad.
 
-El **asesoramiento notarial previo** es esencial a la hora de firmar un testamento, para determinar lo que mejor se adecúa a la voluntad y del testador, y que éste se ajuste a los criterios legales.
+El **asesoramiento notarial previo** es esencial a la hora de firmar un testamento, para determinar lo que mejor se adecúa a la voluntad del testador, y que éste se ajuste a los criterios legales.
 
 ## **Documentación a aportar**:
 

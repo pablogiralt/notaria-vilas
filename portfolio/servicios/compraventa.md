@@ -2,8 +2,8 @@
 title: Compraventa
 sidebar:
   title: "¿Necesita firmar una escritura de compraventa?"
-  text: "<p>En Notaría Vilas le asesoramos y ayudamos a firmar su escritura de compraventa,
-    sea vendedor o comprador.</p>"
+  text: "<p>En Notaría Vilas le asesoramos y ayudamos a firmar su escritura de compraventa
+    con las máximas garantías, sea vendedor o comprador.</p>"
   btn_text: Contactar
 service_type: portfolio/tipo-de-servicio/propiedad.md
 link_service: true
@@ -13,7 +13,7 @@ description: En Notaría Vilas le asesoramos y ayudamos a firmar su escritura de
 ---
 # Compraventa
 
-La escritura de **compraventa** documenta la transmisión de un inmueble por la parte vendedora a cambio de un precio que satisface la parte compradora. La escritura debe reflejar los empleados para el pago del precio (metálico, cheque, transferencia) con indicación de las cuentas de cargo y abono.
+La escritura de **compraventa** documenta la transmisión de un inmueble por la parte vendedora a cambio de un precio que satisface la parte compradora. La escritura debe reflejar los medios de pago empleados para el pago del precio (metálico, cheque, transferencia) con indicación de las cuentas de cargo y abono.
 
 ## Documentación a aportar:
 
@@ -38,5 +38,5 @@ La escritura de **compraventa** documenta la transmisión de un inmueble por la 
 
 **Parte vendedora:**
 
-* Impuesto sobre el Incremento del Valor del Suelo de los Terrenos de Naturaleza Urbana (Plusvalía Municipal), en función del valor catastral del suelo del recibo de Ibi y los años de tenencia del inmueble urbano, con un máximo de 20 años
+* Impuesto sobre el Incremento del Valor de los Terrenos de Naturaleza Urbana (Plusvalía Municipal), en función del valor catastral del suelo del recibo de Ibi y los años de tenencia del inmueble urbano, con un máximo de 20 años
 * Ganancia patrimonial en renta: Solo cuando a consecuencia de la compraventa se produzca una ganancia patrimonial para el vendedor, por ser superior el precio de su transmisión, al valor de adquisición de ese mismo bien cuando el vendedor lo adquirió, éste deberá tributar por esa diferencia de precio (ganancia patrimonial) en su IRPF a pagar en el siguiente año. No habrá lugar a su pago si no existe tal ganancia patrimonial (el precio de venta del inmueble es inferior o igual al precio de su adquisición) o aun cuando existiendo la ganancia, el bien transmitido sea la vivienda habitual del vendedor y éste es mayor de 65 años

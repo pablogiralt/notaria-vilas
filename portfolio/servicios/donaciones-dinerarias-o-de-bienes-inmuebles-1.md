@@ -4,8 +4,8 @@ title: Donación dineraria o de bien inmueble
 description: ''
 sidebar:
   title: "¿Necesita realizar una donación?"
-  text: "<p>En Notaría Vilas le ayudamos a gestionar y firmar su donación, sea dineraria
-    o de bienes inmuebles.</p>"
+  text: "<p>En Notaría Vilas le ayudamos a gestionar paso a paso la firma de su escritura
+    de donación, sea dineraria o de bienes inmuebles.</p>"
   btn_text: Contactar
 link_service: true
 
@@ -47,7 +47,7 @@ En los casos en los que el grado de parentesco de donante y donatarios es de pad
   * Impuesto de Donaciones: la escritura de donación de bien inmueble está sujeta y liquida por el Impuesto de donaciones al tipo vigente en la **Comunidad Autónoma en la que radique el/los inmuebles donado/s.** En algunas Comunidades Autónomas, existen bonificaciones fiscales de la cuota del Impuesto cuando las donaciones se realizan entre padres e hijos, abuelos o nietos, o entre cónyuges. En la Comunidad de Madrid, la bonificación fiscal para estos casos es del **99%** de la cuota, lo que permite un importante ahorro impositivo. Entre los parientes de segundo grado (hermanos y/o tíos y sobrinos) existen también ciertas ventajas fiscales. Por ejemplo en la Comunidad de Madrid se ha establecido una reducción del 15% para las donaciones entre hermanos y de un 10% entre tíos y sobrinos.
 
     Si **hay varios donantes y donatarios**, se ha de **presentar una liquidación por cada uno de ellos**, por lo que si dona un matrimonio en régimen de gananciales a favor de un hijo, se liquida por el donatario en impresos diferentes la parte del bien inmueble por él recibida de cada cónyuge donante.
-  * Impuesto sobre el Incremento del Valor del Suelo de los Terrenos de Naturaleza Urbana (Plusvalía Municipal). El donatario (receptor) ha de liquidar dicho Impuesto en el Ayuntamiento donde radique el bien donado, en función del valor catastral del suelo del recibo de IBI y los años de tenencia del inmueble urbano, con un máximo de 20 años.
+  * Impuesto sobre el Incremento del Valor de los Terrenos de Naturaleza Urbana (Plusvalía Municipal). El donatario (receptor) ha de liquidar dicho Impuesto en el Ayuntamiento donde radique el bien donado, en función del valor catastral del suelo del recibo de IBI y los años de tenencia del inmueble urbano, con un máximo de 20 años.
 
   **Impuesto a cargo del donante (no aplica siempre)**:
   * Ganancia patrimonial en renta: Solo cuando a consecuencia de la donación se produzca una ganancia patrimonial para quien la realiza (donante), por ser superior el valor del bien inmueble donado en el momento de la donación, al valor de adquisición de ese mismo bien cuando el donante lo adquirió, éste deberá tributar por esa diferencia de valores (ganancia patrimonial) en el IRPF del donante, a pagar en el siguiente año.
@@ -62,4 +62,4 @@ En los casos en los que el grado de parentesco de donante y donatarios es de pad
     Existe una **reducción fiscal del 100%** y por tanto, no **paga Impuesto de Donaciones,** la **donación de dinero hasta el importe de 250.000€,** entre padres e hijos, cónyuges e incluso entre hermanos, cuyo destino sea la **adquisición de la vivienda habitual del donatario** que la habite en el plazo máximo de 1 año desde la donación.
 
     Si **hay varios donantes y donatarios**, se ha de **presentar una liquidación por cada uno de ellos**, por lo que si dona un matrimonio en régimen de gananciales a favor de un hijo, se liquida por el donatario en impresos diferentes la parte del bien inmueble por él recibida de cada cónyuge donante.
-  * Ganancia patrimonial en renta: Solo cuando a consecuencia de la donación de bienes muebles (por ejemplo si se donan fondos de inversión, acciones, carteras de valores etc), se produzca una ganancia patrimonial para quien la realiza la donación (donante), por ser superior el valor del bien donado en el momento de la donación, al valor de adquisición para el donante de ese mismo bien, éste deberá tributar por esa diferencia de valores (ganancia patrimonial) en el IRPF del donante a pagar en el siguiente año
+  * Ganancia patrimonial en renta: Solo cuando a consecuencia de la donación de bienes muebles (por ejemplo si se donan fondos de inversión, acciones, carteras de valores etc.), se produzca una ganancia patrimonial para quien la realiza la donación (donante), por ser superior el valor del bien donado en el momento de la donación, al valor de adquisición para el donante de ese mismo bien, éste deberá tributar por esa diferencia de valores (ganancia patrimonial) en el IRPF del donante a pagar en el siguiente año

@@ -4,8 +4,8 @@ title: Declaración de Herederos
 description: ''
 sidebar:
   title: "¿Necesita realizar una declaración de herederos?"
-  text: "<p>En Notaría Vilas le asesoramos y ayudamos a realizar la declaración de
-    herederos de cualquier herencia.</p>"
+  text: "<p>En Notaría Vilas le ayudamos a tramitar la declaración de herederos de
+    cualquier familiar fallecido sin testamento.</p>"
   btn_text: Contactar
 link_service: true
 
@@ -19,7 +19,7 @@ El acta de notoriedad de declaración de herederos es el documento que ha de fir
 * Si la persona fallecida **carece de descendientes y no le sobreviven sus ascendentes**, heredará el **cónyuge sobreviviente**, y en su defecto, le heredarán **parientes colaterales (hermanos y/o sobrinos),** que heredan con preferencia a los demás parientes. Si existen hermanos y sobrinos, los primeros heredarán por cabezas y los segundos por estirpes
 * En defecto de hermanos y sobrinos, podrían heredar **primos hermanos**, si hubiere y en defecto de parientes del difunto, la herencia pasaría al **Estado**
 
-El Notario tiene competencia territorial para firmar actas declaraciones de herederos y podrá firmar las de **personas fallecidas, cuyo último domicilio estuviera en la Comunidad de Madrid, excepto** en el municipio de **Navalcarnero.**
+El Notario tiene competencia territorial para firmar actas declaraciones de herederos y podrá firmar las de **personas fallecidas, cuyo último domicilio estuviera en la Comunidad de Madrid, excepto** en el distrito de **Navalcarnero.**
 
 Una vez firmada el acta de declaración de herederos ante el Notario por al menos uno de los herederos y los dos testigos, deberá transcurrir el **plazo mínimo de un mes,** para que los herederos declarados puedan firmar la escritura de aceptación de herencia y repartirse los bienes del fallecido.
 

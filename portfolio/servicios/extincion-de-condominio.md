@@ -2,7 +2,8 @@
 title: Extinción de condominio
 sidebar:
   title: "¿Necesita realizar una extinción de condominio?"
-  text: "<p>En Notaría Vilas le asesoramos y ayudamos a firmar la extinción del condominio.</p>"
+  text: "<p>En Notaría Vilas le asesoramos y ayudamos a firmar su escritura de extinción
+    de condominio maximizando su ahorro fiscal.</p>"
   btn_text: Contactar
 service_type: portfolio/tipo-de-servicio/propiedad.md
 link_service: true
@@ -36,5 +37,5 @@ Al igual que en una compraventa, la extinción de condominio debe reflejar los *
 
 **Parte transmitente: No hay impuestos a su cargo**
 
-* No sujeto al Impuesto sobre el Incremento del Valor del Suelo de los Terrenos de Naturaleza Urbana (Plusvalía Municipal).
+* No sujeto al Impuesto sobre el Incremento del Valor de los Terrenos de Naturaleza Urbana (Plusvalía Municipal).
 * En su caso, estaría solo sujeto a la posible ganancia patrimonial en renta de la parte transmitente en los mismos supuestos aplicables a la compraventa (ver [Compraventa](/servicios/compraventa.html)).

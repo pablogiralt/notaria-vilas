@@ -4,7 +4,8 @@ title: Matrimonio
 description: ''
 sidebar:
   title: "¿Quiere casarse?"
-  text: "<p>En Notaría Vilas le asesoramos y podemos celebrar su matrimonio.</p>"
+  text: <p>En Notaría Vilas le asesoramos y podemos celebrar su matrimonio en "tiempo
+    récord" desde que obtenga su expediente favorable.</p>
   btn_text: Contactar
 link_service: true
 

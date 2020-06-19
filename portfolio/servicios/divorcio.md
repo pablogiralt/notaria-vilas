@@ -3,7 +3,7 @@ title: Divorcio
 sidebar:
   title: "¿Quiere divorciarse?"
   text: "<p>En Notaría Vilas le asesoramos y le ayudamos a celebrar su divorcio de
-    mutuo acuerdo.</p>"
+    mutuo acuerdo sin más dilaciones.</p>"
   btn_text: Contactar
 service_type: portfolio/tipo-de-servicio/familia.md
 link_service: true
@@ -28,7 +28,7 @@ La notaría expedirá dos copias autorizadas de la escritura de divorcio, una pa
 * D.N.I., Pasaporte o Tarjeta de Residencia de los cónyuges y del/los letrado/s, que han de estar colegiados necesariamente (carnet de colegiado)
 * D.N.I., Pasaporte o Tarjeta de Residencia de los hijos mayores de edad que hubieran de firmar la escritura.
 * Libro de Familia para acreditar la celebración del matrimonio, y la existencia o no de hijos, o en su defecto, certificado literal de matrimonio y/o de nacimiento de los hijos.
-* Convenio regulador del divorcio elaborado por el/los letrado/s , que prevé las consecuencias del divorcio y contiene las medidas relativas a los bienes del matrimonio, disposiciones sobre la vivienda familiar, pensiones compensatorias entre so cónyuges o pensiones de alimentos ara el sustento de los hijos menores, u otras.
+* Convenio regulador del divorcio elaborado por el/los letrado/s , que prevé las consecuencias del divorcio y contiene las medidas relativas a los bienes del matrimonio, disposiciones sobre la vivienda familiar, pensiones compensatorias entre los cónyuges o pensiones de alimentos para el sustento de los hijos menores, u otras.
 
 ## **Impuestos aplicables**:
 

@@ -4,21 +4,22 @@ description: Notaría en Madrid en la zona de barrio de Retiro.  Se realizan pod
   testamentos...
 about_pre_title: Notaría en Madrid
 about_title: Somos un despacho notarial con amplia experiencia que ofrece soluciones
-  ágiles y eficaces a sus clientes
+  ágiles y eficaces a sus clientes. Conózcanos.
 about_list:
 - about_list_title: Quiénes Somos
   about_list_text: Notaría Vilas ofrece un <strong>servicio jurídico integral</strong>
     en la firma de escrituras y actas notariales, asesorando sobre las opciones más
-    idóneas para el cliente. <br>Ofrecemos un servicio de <strong>gestión ágil y profesional</strong>,
-    tramitando cualquier tipo de Impuestos que afecten a las escrituras firmadas en
-    cualquier Comunidad Autónoma de España e inscribiéndolas en cualquier Registro
-    de la Propiedad o Mercantil.
+    idóneas para el cliente. <br>Ofrecemos un servicio <strong>ágil y profesional
+    </strong>en todo tipo de asuntos notariales, tramitando el pago de cualquier Impuesto
+    que afecte a las escrituras firmadas en cualquier Comunidad Autónoma de España
+    e inscribiéndolas en cualquier Registro de la Propiedad o Mercantil.
 - about_list_title: Experiencia y disponibilidad
   about_list_text: Notaría Vilas, establecida en Madrid desde 1996, cuenta con un
     equipo de profesionales muy cualificado con <strong>amplia experiencia</strong>.
-    Ofrecemos soluciones a todas sus iniciativas y tenemos disponibilidad para atenderle
-    y resolver sus dudas, <strong>incluso en el ámbito internacional</strong>, pues
-    El Notario y varios empleados hablan inglés, francés y catalán.
+    Ofrecemos soluciones a todas sus iniciativas que requieran del servicio notarial
+    y nuestro equipo está disponible para atenderle y resolver sus dudas, <strong>incluso
+    en el ámbito internacional</strong>, pues el Notario y varios empleados hablan
+    inglés, francés y catalán.
 - about_list_title: Gestión integral
   about_list_text: Disponemos de un servicio de gestión que comprende el pago de cualesquiera
     de los <strong>impuestos</strong> derivados de las escrituras firmadas y su <strong>inscripción</strong>
@@ -28,15 +29,19 @@ about_list:
     Lunes a Jueves de 16:30 a 19:00 de la tarde. ¡Un lujo en Madrid!
   about_list_title: Horario de atención
 - about_list_title: Ubicación e Instalaciones
-  about_list_text: Notaría Vilas está ubicada entre los barrios de Retiro y Pacífico,
+  about_list_text: 'Notaría Vilas está ubicada entre los barrios de Retiro y Pacífico,
     en una <strong>zona céntrica </strong>que está rodeada de sucursales de los principales
-    bancos, lo cual es muy práctico para la firma de ciertos documentos.<br><br>Notaría
-    Vilas cuenta con unas <strong>modernas instalaciones</strong> en un chalet situado
-    a nivel de calle, <strong>sin barreras arquitectónicas</strong>, que permite el
-    acceso en silla de ruedas o a personas de movilidad reducida. Posee jardín interior,
-    cuatro salas de firma y amplios espacios diáfanos de espera, que se adaptan a
-    las medidas de protección sanitarias y de seguridad establecidas por la Legislación
-    vigente (ver <a href="/covid-19.html" title="">sección Covid-19</a>)
+    bancos, lo cual es muy práctico para la firma de ciertos documentos. El acceso
+    es fácil desde cualquier punto de la ciudad, y además, para clientes que nos visiten
+    desde fuera de Madrid, estamos muy próximos a la salida de la A-3 y a 5 minutos
+    de la estación de tren de Atocha.<br><br>Notaría Vilas cuenta con unas <strong>modernas
+    instalaciones</strong> en un chalet situado a nivel de calle, <strong>sin barreras
+    arquitectónicas</strong>, que permite el acceso en silla de ruedas o a personas
+    de movilidad reducida. Su diseño exclusivo y moderno hacen de ella una Notaría
+    única en Madrid con jardín interior, cuatro salas de firma y amplios espacios
+    diáfanos de espera, que se adaptan a las medidas de protección sanitarias y de
+    seguridad establecidas por la Legislación vigente (ver <a href="/covid-19.html"
+    title="">sección Covid-19</a>). '
 main_image:
   mobile: "/upload/notaria-en-madrid-edificio-xs.jpg"
   tablet: "/upload/notaria-en-madrid-edificio-md.jpg"
