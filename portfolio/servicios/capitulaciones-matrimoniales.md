@@ -8,6 +8,8 @@ sidebar:
   btn_text: Contactar
 service_type: portfolio/tipo-de-servicio/familia.md
 link_service: true
+description: En Notaría Vilas le asesoramos sobre la firma de capitulaciones matrimoniales,
+  antes o después del matrimonio, y su posterior inscripción en el Registro Civil.
 
 ---
 # Capitulaciones matrimoniales
