@@ -7,8 +7,8 @@ sidebar:
   btn_text: Contactar
 service_type: portfolio/tipo-de-servicio/propiedad.md
 link_service: true
-description: En Notaría Vilas le asesoramos y ayudamos a firmar su escritura de compraventa,
-  sea vendedor o comprador.
+description: En Notaría Vilas le asesoramos y ayudamos a firmar su escritura de compraventa
+  con las máximas garantías, sea vendedor o comprador.
 
 ---
 # Compraventa
