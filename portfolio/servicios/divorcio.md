@@ -1,5 +1,6 @@
 ---
 title: Divorcio
+description: En Notaría Vilas le asesoramos y le ayudamos a celebrar su divorcio de mutuo acuerdo sin más dilaciones.
 sidebar:
   title: "¿Quiere divorciarse?"
   text: "<p>En Notaría Vilas le asesoramos y le ayudamos a celebrar su divorcio de

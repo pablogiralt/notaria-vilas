@@ -1,6 +1,7 @@
 ---
 services_index: true
-title: Servicios de La Notaría
+title: Servicios notariales
+descripcion: Realizamos con eficacia Testamentos, Declaraciones de Herederos, Herencias, Compraventas, Hipotecas, Constitución de Sociedad y todos los servicios notariales
 intro: <h2>A. Escrituras, actas y pólizas</h2><p>En Notaría Vilas le ofrecemos la
   posibilidad de firmar todo tipo de escrituras, actas y pólizas. A continuación verá
   una lista (no exhaustiva) de los <strong>documentos notariales más habituales</strong>,

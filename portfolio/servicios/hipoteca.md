@@ -1,5 +1,6 @@
 ---
 title: Hipoteca
+descripcion: En Notaría Vilas le ofrecemos un asesoramiento eficaz sobre la firma de su Hipoteca.
 sidebar:
   title: "¿Necesita formalizar una Hipoteca?"
   text: "<p>En Notaría Vilas le ofrecemos un asesoramiento eficaz sobre la firma de

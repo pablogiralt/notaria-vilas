@@ -7,7 +7,7 @@ sidebar:
     legales.</p>"
   btn_text: Contactar
 service_type: portfolio/tipo-de-servicio/familia.md
-description: This is the meta description
+description: En Notaría Vilas le asesoramos y ayudamos a realizar su testamento de forma que quede reflejada la voluntad del testador y se ajuste a los requisitos legales.
 link_service: true
 
 ---

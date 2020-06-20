@@ -1,7 +1,7 @@
 ---
 service_type: portfolio/tipo-de-servicio/familia.md
 title: Matrimonio
-description: ''
+description: En Notaría Vilas le asesoramos y podemos celebrar su matrimonio en "tiempo récord" desde que obtenga su expediente favorable.
 sidebar:
   title: "¿Quiere casarse?"
   text: <p>En Notaría Vilas le asesoramos y podemos celebrar su matrimonio en "tiempo
