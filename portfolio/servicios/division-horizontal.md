@@ -8,6 +8,8 @@ sidebar:
   btn_text: Contactar
 service_type: portfolio/tipo-de-servicio/propiedad.md
 link_service: true
+description: En Notaría Vilas le asesoramos y ayudamos a gestionar escrituras de división
+  horizontal, obra nueva, etc. adaptándonos a la complejidad de la operación.
 
 ---
 # División Horizontal, Obra nueva, Agrupación y Segregación
