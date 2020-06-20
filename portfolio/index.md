@@ -1,7 +1,7 @@
 ---
 title: Notaría en Madrid
-description: Notaría en Madrid en la zona de barrio de Retiro.  Se realizan poderes,
-  testamentos...
+description: Notaría en Madrid en zonas de Retiro y Pacífico.  Se realizan herencias,
+  testamentos,  compraventa, hipotecas,  poderes y todo tipo de servicios notariales
 about_pre_title: Notaría en Madrid
 about_title: Somos un despacho notarial con amplia experiencia que ofrece soluciones
   ágiles y eficaces a sus clientes. Conózcanos.
