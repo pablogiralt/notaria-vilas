@@ -1,7 +1,8 @@
 ---
 service_type: portfolio/tipo-de-servicio/familia.md
 title: Declaración de Herederos
-description: ''
+description: En Notaría Vilas le ayudamos a tramitar la declaración de herederos de
+  cualquier familiar fallecido sin testamento.
 sidebar:
   title: "¿Necesita realizar una declaración de herederos?"
   text: "<p>En Notaría Vilas le ayudamos a tramitar la declaración de herederos de
